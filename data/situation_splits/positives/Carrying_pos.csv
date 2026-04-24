@@ -1,0 +1,51 @@
+sentence,verb_lemma,verb_token_idx,on_sense,wn_synsets,vn_class,situation,match_path,source_file,sentence_idx,situation_count,needs_review
+"However, I 'm not sure I can hoist him long enough to get him out of the house, and get him into the SUV.",hoist,8,2,,carry-11.4,Carrying,VN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/wb/sel/61/sel_6176.sense,0,1,False
+He just carried him like that without saying a word.,carry,2,1,carry.v.01;carry.v.03;carry.v.08;carry.v.09;carry.v.16;carry.v.17;carry.v.19;carry.v.28;carry.v.29;carry.v.30;carry.v.32;carry.v.35;carry.v.36,carry-11.4,Carrying,VN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/bc/phoenix/00/phoenix_0003.sense,106,1,False
+"For the past million years, clouds rolling in on northeasterly monsoon fronts in winter and southwesterly airflows in summer have carried their moisture into the mountain valleys, to slowly condense onto the slopes where the false cypresses grow.",carry,21,1,carry.v.01;carry.v.03;carry.v.08;carry.v.09;carry.v.16;carry.v.17;carry.v.19;carry.v.28;carry.v.29;carry.v.30;carry.v.32;carry.v.35;carry.v.36,carry-11.4,Carrying,VN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/mz/sinorama/10/ectb_1070.sense,38,1,False
+I remember the first day we took Chien - chien to Martine 's place.,take,6,4,take.v.03;take.v.07;take.v.27;take.v.30,bring-11.3,Carrying,VN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/mz/sinorama/10/ectb_1027.sense,18,1,False
+Students wishing to carry passengers must undergo additional training and pass the exam for a Sports Pilot 's license.,carry,3,1,carry.v.01;carry.v.03;carry.v.08;carry.v.09;carry.v.16;carry.v.17;carry.v.19;carry.v.28;carry.v.29;carry.v.30;carry.v.32;carry.v.35;carry.v.36,carry-11.4,Carrying,VN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/wb/sel/03/sel_0320.sense,0,1,False
+"He takes his wash to the laundromat, where he meets a punky French girl who dupes him into providing a home for her pet piranha and then promptly steals his car and dumps it in Dieppe.",take,1,4,take.v.03;take.v.07;take.v.27;take.v.30,bring-11.3,Carrying,VN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/nw/wsj/24/wsj_2402.sense,33,1,False
+"As soon as the captain received the order of the governor, everyone coordinated with Lieutenant Colonel 'Id Matar al - Nafi'i to bring his relative, the aforementioned person who filed the report.",bring,23,1,bring.v.01;bring.v.02;bring.v.03;bring.v.04;bring.v.05;bring.v.06;bring.v.10,bring-11.3,Carrying,WN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/wb/a2e/00/a2e_0015.sense,30,1,False
+"Grace Energy just two weeks ago hauled a rig here 500 miles from Caspar, Wyo., to drill the Bilbrey well, a 15,000 - foot, $ 1 - million - plus natural gas well.",haul,6,1,haul.v.01,carry-11.4,Carrying,VN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/nw/wsj/07/wsj_0725.sense,114,1,False
+"He added that the trucks carried 108 tons of various food supplies, like flour, baby formula, canned food, powdered milk, nutrition packages, tea, and medicine.",carry,5,1,carry.v.01;carry.v.03;carry.v.08;carry.v.09;carry.v.16;carry.v.17;carry.v.19;carry.v.28;carry.v.29;carry.v.30;carry.v.32;carry.v.35;carry.v.36,carry-11.4,Carrying,VN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/nw/p2.5_a2e/00/p2.5_a2e_0048.sense,2,1,False
+"Harry fondly remembers the ""old"" days of the early '70s, when people like his friend Travis would take a psychiatrist on a date to analyze what Travis was doing wrong.",take,20,4,take.v.03;take.v.07;take.v.27;take.v.30,bring-11.3,Carrying,VN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/nw/wsj/23/wsj_2343.sense,30,1,False
+"The visit to the mausoleum of the founder of modern Turkey, Kemal Ataturk, was a stance on the proposition of secularism, and words with religious significance written by the Pope in the mausoleum 's golden visitors ' book and a stamp that the Pope insisted on displaying in the plane that carried him to Turkey.",carry,54,1,carry.v.01;carry.v.03;carry.v.08;carry.v.09;carry.v.16;carry.v.17;carry.v.19;carry.v.28;carry.v.29;carry.v.30;carry.v.32;carry.v.35;carry.v.36,carry-11.4,Carrying,VN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/bn/p2.5_a2e/00/p2.5_a2e_0017.sense,9,1,False
+"Right now he takes people out to fish in the bays behind the barrier islands that curve for hundreds of miles along the eastern coast of Texas, enclosing milky green lagoons behind ridges of sand and grassy scrub that rim the deep blue of the Gulf beyond.",take,3,4,take.v.03;take.v.07;take.v.27;take.v.30,bring-11.3,Carrying,VN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/nw/wsj/13/wsj_1323.sense,6,1,False
+Please bring your own parts and tools.,bring,1,1,bring.v.01;bring.v.02;bring.v.03;bring.v.04;bring.v.05;bring.v.06;bring.v.10,bring-11.3,Carrying,WN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/wb/sel/01/sel_0153.sense,0,1,False
+A huge Norwegian transport vessel is to carry the Cole across the Atlantic Ocean.,carry,7,1,carry.v.01;carry.v.03;carry.v.08;carry.v.09;carry.v.16;carry.v.17;carry.v.19;carry.v.28;carry.v.29;carry.v.30;carry.v.32;carry.v.35;carry.v.36,carry-11.4,Carrying,VN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/bn/voa/00/voa_0047.sense,1,1,False
+That 's the first step in bringing the remains of the crewmembers back to shore.,bring,6,1,bring.v.01;bring.v.02;bring.v.03;bring.v.04;bring.v.05;bring.v.06;bring.v.10,bring-11.3,Carrying,WN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/bn/pri/00/pri_0038.sense,3,1,False
+Cops say he allegedly kidnapped her in his car and threatened her but eventually brought her back to her home.,bring,14,1,bring.v.01;bring.v.02;bring.v.03;bring.v.04;bring.v.05;bring.v.06;bring.v.10,bring-11.3,Carrying,WN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/bn/cnn/02/cnn_0242.sense,13,1,False
+"Then the day after I took a kitchen knife and ran over to their home, that research institute, the doorway and vowed that I 'd hack the guy up.",take,5,4,take.v.03;take.v.07;take.v.27;take.v.30,bring-11.3,Carrying,VN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/bc/phoenix/00/phoenix_0000.sense,159,1,False
+Who was the first guy in supply to have uttered that or more coloful descriptives as they hoisted them onto 6x6 trucks some place in the pacific.,hoist,17,2,,carry-11.4,Carrying,VN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/wb/sel/62/sel_6214.sense,0,1,False
+"When they take their sons out for some exercise, they do n't even have the strength to do a single pull - up!",take,2,4,take.v.03;take.v.07;take.v.27;take.v.30,bring-11.3,Carrying,VN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/mz/sinorama/10/ectb_1068.sense,58,1,False
+I can't carry all these bags into the house at once.,carry,,,,,Carrying,,ontonotes,,,
+That player can really carry the ball!,carry,,,,,Carrying,,ontonotes,,,
+Small plankton and shrimp are carried by the ocean currents.,carry,,,,,Carrying,,ontonotes,,,
+The ambulance carried the injured athlete away this morning.,carry,,,,,Carrying,,ontonotes,,,
+While traveling with her husband she was carried off by the centaur Nessus.,carry,,,,,Carrying,,ontonotes,,,
+The dog was taught to fetch and carry.,carry,,,,,Carrying,,ontonotes,,,
+Karl carried the books across the campus to the library.,carry,,,,,Carrying,,framenet,,,
+The boat ferried the troops across the river.,ferry,,,,,Carrying,,framenet,,,
+Karl carried the books to the library.,carry,,,,,Carrying,,framenet,,,
+Karl carried the books across the campus.,carry,,,,,Carrying,,framenet,,,
+Karl hauled the books from the library to the office.,haul,,,,,Carrying,,framenet,,,
+Karl toted the books to the car.,tote,,,,,Carrying,,framenet,,,
+Karl took the books to the library in his car.,take,,,,,Carrying,,framenet,,,
+Karl carried the books to the library in his arms.,carry,,,,,Carrying,,framenet,,,
+The books were taken to the library by helicopter deliveries.,take,,,,,Carrying,,framenet,,,
+I haul books by putting them on top of my head.,haul,,,,,Carrying,,framenet,,,
+"Even in such a small port, these boats would transport many tons of trade-goods in to shore annually.",transport,,,,,Carrying,,framenet,,,
+We had to carry the heavy weights all the way to the top of the hill to show our strength.,carry,,,,,Carrying,,framenet,,,
+He transported the instruments in the van.,transport,1,,,,Carrying,synthetic,,,,False
+She brought the dishes into the kitchen.,bring,1,,,,Carrying,synthetic,,,,False
+Workers hauled the lumber to the site.,haul,1,,,,Carrying,synthetic,,,,False
+He toted his gear through the airport.,tote,1,,,,Carrying,synthetic,,,,False
+He hauled the cooler to the picnic table.,haul,1,,,,Carrying,synthetic,,,,False
+They hauled the nets back to the dock.,haul,1,,,,Carrying,synthetic,,,,False
+He brought the wine from the cellar.,bring,1,,,,Carrying,synthetic,,,,False
+The nurse hoisted the tools.,hoist,2,,,,Carrying,synthetic,,,,False
+The driver hoisted the equipment.,hoist,2,,,,Carrying,synthetic,,,,False
+The children hoisted her daughter.,hoist,2,,,,Carrying,synthetic,,,,False
+My neighbor hoisted the tools.,hoist,2,,,,Carrying,synthetic,,,,False
+She carried the groceries in from the car.,carry,1,,,,Carrying,synthetic,,,,False
+He brought the mail up to the third floor.,bring,1,,,,Carrying,synthetic,,,,False

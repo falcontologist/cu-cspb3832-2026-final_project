@@ -1,0 +1,7 @@
+{
+  "target_per_situation": 50,
+  "tier_ratios": { "T1": 0.50, "T2": 0.30, "T3": 0.20 },
+  "t1_closest_neighbor_share": 0.35,
+  "t1_second_neighbor_share": 0.25,
+  "verb_cap_pct": 0.15
+}

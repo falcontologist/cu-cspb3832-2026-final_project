@@ -1,0 +1,1213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Fine-Tuning a Bidirectional Cross-Encoder for Verbal Clause Construction Classification</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reset.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reveal.css">
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,ital,wght@8..60,0,400;8..60,0,700;8..60,1,400&family=Source+Sans+3:ital,wght@0,300;0,400;0,600;1,400&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --size-display: 3.0em;
+    --size-title:   2.0em;
+    --size-body:    1.0em;
+    --size-caption: 0.8em;
+
+    --color-body:    #2D3436;
+    --color-heading: #36454F;
+    --color-accent:  #B85042;
+    --color-green:   #2e7d4f;
+    --color-gold:    #C5952B;
+    --color-caption: #888888;
+    --color-bg:      #FAFAF2;
+    --color-row-alt: #F2F0E8;
+
+    --dark-bg:       #36454F;
+    --dark-text:     #FFFFFF;
+    --dark-second:   #C8CED3;
+    --dark-tertiary: #8E9AA5;
+    --dark-accent:   #E8856F;
+  }
+
+  html, body { background: var(--color-bg); }
+  .reveal-viewport { background: var(--color-bg) !important; }
+
+  .reveal {
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 1.5;
+    color: var(--color-body);
+    background: var(--color-bg);
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .reveal .slides section:not(.dark) {
+    background: var(--color-bg);
+  }
+
+  /* Standardized arrow — used everywhere in the deck */
+  .arrow {
+    font-size: 2.2em;
+    color: var(--color-caption);
+    text-align: center;
+    line-height: 1;
+    user-select: none;
+  }
+
+  .green-bold { color: var(--color-green); font-weight: 700; }
+  .gold { color: var(--color-gold); }
+  .gold-bold { color: var(--color-gold); font-weight: 700; }
+
+  .source-dot-gold {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    flex-shrink: 0;
+    background: #C5952B;
+  }
+
+  .reveal .slides { text-align: left; }
+
+  .reveal .slides section {
+    padding: 90px 0 40px;
+    height: 100%;
+    top: 0 !important;
+  }
+
+  .slide-content {
+    max-width: 68%;
+    margin: 0 auto;
+  }
+
+  .reveal h1, .reveal h2 {
+    font-family: 'Source Serif 4', serif;
+    font-weight: 700;
+    color: var(--color-heading);
+    font-size: var(--size-title);
+    line-height: 1.5;
+    margin: 0 0 0.9em;
+    text-transform: none;
+    letter-spacing: 0;
+  }
+
+  .reveal p, .reveal li, .reveal td, .reveal th {
+    font-size: var(--size-body);
+    line-height: 1.5;
+    color: var(--color-body);
+  }
+
+  .reveal p { margin: 0 0 0.9em; }
+
+  .caption {
+    font-size: var(--size-caption);
+    color: var(--color-caption);
+    font-weight: 300;
+  }
+
+  .display {
+    font-size: var(--size-display);
+    line-height: 1.1;
+    color: var(--color-accent);
+    font-family: 'Source Serif 4', serif;
+    font-weight: 700;
+  }
+
+  .accent { color: var(--color-accent); }
+  .accent-bold { color: var(--color-accent); font-weight: 700; }
+  .heading-color { color: var(--color-heading); }
+  .muted { color: var(--color-caption); }
+  .italic { font-style: italic; }
+
+  .reveal table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0;
+    font-size: var(--size-body);
+  }
+  .reveal table th {
+    font-weight: 600;
+    color: var(--color-heading);
+    text-align: left;
+    padding: 10px 14px;
+    border-bottom: 1px solid var(--color-heading);
+  }
+  .reveal table td {
+    padding: 10px 14px;
+    border: none;
+    color: var(--color-body);
+  }
+  .reveal table tbody tr:nth-child(even) {
+    background: var(--color-row-alt);
+  }
+
+  .reveal .dark {
+    background: var(--dark-bg);
+    color: var(--dark-text);
+  }
+  .reveal .dark h1, .reveal .dark h2 {
+    color: var(--dark-text);
+    text-align: center;
+  }
+  .reveal .dark p { color: var(--dark-text); }
+  .reveal .dark .secondary { color: var(--dark-second); }
+  .reveal .dark .tertiary { color: var(--dark-tertiary); }
+  .reveal .dark .accent,
+  .reveal .dark .accent-bold { color: var(--dark-accent); }
+  .reveal .dark .caption { color: var(--dark-tertiary); }
+
+  /* Title slide */
+  .title-slide {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    padding: 0 10% !important;
+  }
+  .title-slide .title {
+    font-family: 'Source Serif 4', serif;
+    font-weight: 700;
+    font-size: var(--size-title);
+    line-height: 1.2;
+    color: var(--dark-text);
+    margin-bottom: 0.5em;
+    max-width: 80%;
+  }
+  .title-slide .subtitle {
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 300;
+    font-size: var(--size-body);
+    color: var(--dark-second);
+    margin-bottom: 3em;
+    max-width: 70%;
+  }
+  .title-slide .author {
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 400;
+    font-size: var(--size-body);
+    color: var(--dark-text);
+    margin-bottom: 0.4em;
+  }
+  .title-slide .course {
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 300;
+    font-size: var(--size-caption);
+    color: var(--dark-tertiary);
+  }
+
+  /* Slide 2 */
+  .problem-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+    margin-bottom: 60px;
+  }
+  .example .sentence {
+    font-family: 'Source Serif 4', serif;
+    font-style: italic;
+    font-size: var(--size-body);
+    color: var(--color-body);
+    margin-bottom: 30px;
+    line-height: 1.5;
+  }
+  .example .sentence .accent-bold,
+  .example .sentence .green-bold { font-style: normal; }
+  .example .arrow {
+    margin-bottom: 16px;
+  }
+  .example .situation {
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 600;
+    color: var(--color-green);
+    text-align: center;
+    font-size: var(--size-body);
+    margin-bottom: 8px;
+  }
+  .example .gloss { text-align: center; }
+  .problem-coda {
+    text-align: center;
+    font-family: 'Source Serif 4', serif;
+    font-weight: 400;
+  }
+
+  /* Slide 3 */
+  .pipeline-row {
+    display: grid;
+    grid-template-columns: 1fr 80px 1fr 80px 1fr;
+    align-items: center;
+    margin: 40px 0 60px;
+    text-align: center;
+  }
+  .pipeline-row .stage-label {
+    font-weight: 600;
+    color: var(--color-heading);
+    margin-top: 20px;
+  }
+  .icon-box {
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .doc-icon {
+    width: 90px;
+    height: 110px;
+    border: 1.5px solid var(--color-heading);
+    padding: 14px 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    justify-content: flex-start;
+  }
+  .doc-icon span {
+    display: block;
+    height: 4px;
+    background: #D8D8D8;
+  }
+  .doc-icon span:nth-child(1) { width: 100%; }
+  .doc-icon span:nth-child(2) { width: 80%; }
+  .doc-icon span:nth-child(3) { width: 100%; }
+  .doc-icon span:nth-child(4) { width: 65%; }
+  .doc-icon span:nth-child(5) { width: 90%; }
+  .doc-icon span:nth-child(6) { width: 50%; }
+  .parser-svg { width: 150px; height: 120px; }
+  .kg-svg { width: 180px; height: 120px; }
+
+  /* Slide 4 */
+  .funnel {
+    display: grid;
+    grid-template-columns: 1.1fr 80px 1fr 80px 1.2fr;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  .funnel .sources { line-height: 1.8; }
+  .funnel .sources-heading {
+    font-weight: 600;
+    color: var(--color-heading);
+    margin-bottom: 8px;
+  }
+  .funnel .source-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .source-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    flex-shrink: 0;
+  }
+  .funnel-box { text-align: center; }
+  .funnel-box .num {
+    font-family: 'Source Serif 4', serif;
+    font-weight: 700;
+    color: var(--color-heading);
+  }
+  .funnel-box .label {
+    color: var(--color-caption);
+    font-size: var(--size-caption);
+  }
+  .funnel-box .plus {
+    font-family: 'Source Sans 3', sans-serif;
+    color: var(--color-heading);
+    margin-top: 14px;
+  }
+  .funnel-box .plus-num {
+    font-family: 'Source Serif 4', serif;
+    color: var(--color-heading);
+  }
+  .funnel-box .count-line {
+    font-size: var(--size-body);
+    margin-bottom: 10px;
+  }
+  .funnel-box .count-line:last-child { margin-bottom: 0; }
+  .funnel-box .count-num {
+    font-family: 'Source Serif 4', serif;
+    font-weight: 700;
+    color: var(--color-heading);
+  }
+  .funnel-box .count-label {
+    color: var(--color-body);
+    font-weight: 400;
+  }
+
+  .pair-examples {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    margin: 30px 0 20px;
+  }
+  .pair-example {
+    padding: 20px 24px;
+    background: var(--color-row-alt);
+  }
+  .pair-label {
+    font-size: var(--size-caption);
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+  }
+  .pair-sentence {
+    font-family: 'Source Serif 4', serif;
+    font-style: italic;
+    color: var(--color-body);
+    margin-bottom: 10px;
+  }
+  .pair-def {
+    margin-bottom: 14px;
+  }
+  .pair-verdict {
+    font-size: var(--size-body);
+  }
+
+  /* Slide 5 */
+  .theory-apex {
+    text-align: center;
+    margin-bottom: 18px;
+  }
+  .theory-apex-title {
+    font-family: 'Source Serif 4', serif;
+    font-weight: 700;
+    color: var(--color-heading);
+    font-size: var(--size-body);
+    margin-bottom: 18px;
+  }
+  .theory-apex-body {
+    color: var(--color-body);
+    margin: 0;
+  }
+  .theory-up-arrow {
+    font-size: 2.2em;
+    color: var(--color-caption);
+    text-align: center;
+    line-height: 1;
+    user-select: none;
+    margin: 14px 0 18px;
+  }
+  .citation-box {
+    background: #FFFFFF;
+    border: 1px solid #E8E4D8;
+    padding: 24px 32px;
+  }
+  .citation {
+    padding: 6px 0;
+    font-size: var(--size-body);
+    line-height: 1.5;
+  }
+  .citation .cite {
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 600;
+    color: var(--color-heading);
+    margin-right: 8px;
+  }
+  .citation .desc {
+    font-weight: 400;
+    color: var(--color-body);
+  }
+
+  .lineage {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 40px;
+  }
+  .lineage-item { padding: 8px 0; }
+  .lineage-item .cite {
+    font-family: 'Source Serif 4', serif;
+    font-weight: 700;
+    color: var(--color-heading);
+  }
+  .lineage-item .desc { color: var(--color-body); }
+  .lineage-arrow {
+    text-align: left;
+    padding-left: 4px;
+    font-size: 2.2em;
+    color: var(--color-caption);
+    line-height: 1;
+    user-select: none;
+  }
+  .lineage-final {
+    color: var(--color-accent);
+    font-weight: 600;
+  }
+
+  /* Slide 6 */
+  .tiers {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    margin-bottom: 40px;
+  }
+  .tier-bar {
+    padding: 22px 30px;
+    background: var(--color-row-alt);
+  }
+  .tier-bar.t1 { width: 100%; }
+  .tier-bar.t2 { width: 78%; }
+  .tier-bar.t3 { width: 52%; }
+  .tier-bar .label {
+    font-family: 'Source Serif 4', serif;
+    font-weight: 700;
+    color: var(--color-accent);
+    margin-bottom: 8px;
+  }
+  .tier-bar .desc {
+    color: var(--color-body);
+    margin: 0;
+  }
+
+  /* Slide 7 */
+  .stages {
+    display: grid;
+    grid-template-columns: repeat(9, auto);
+    align-items: stretch;
+    margin: 30px 0 40px;
+  }
+  .stage {
+    text-align: center;
+    padding: 20px 12px;
+    background: var(--color-row-alt);
+    min-width: 150px;
+  }
+  .stage-arrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 12px;
+    font-size: 2.2em;
+    color: var(--color-caption);
+    line-height: 1;
+    user-select: none;
+  }
+  .stage .name {
+    font-family: 'Source Serif 4', serif;
+    font-weight: 700;
+    color: var(--color-heading);
+    margin-bottom: 10px;
+    line-height: 1.3;
+  }
+  .stage .tool {
+    font-size: var(--size-caption);
+    color: var(--color-caption);
+    line-height: 1.4;
+  }
+
+  /* Slide 8 */
+  .stages3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    margin-bottom: 36px;
+  }
+  .stage3 {
+    padding: 24px;
+    background: var(--color-row-alt);
+  }
+  .stage3 .stage-num {
+    font-family: 'Source Serif 4', serif;
+    font-weight: 700;
+    color: var(--color-heading);
+    margin-bottom: 8px;
+  }
+  .stage3 .stage-label {
+    font-weight: 600;
+    color: var(--color-heading);
+    margin-bottom: 6px;
+  }
+  .stage3 .stage-brief {
+    color: var(--color-body);
+    margin-bottom: 10px;
+  }
+  .stage3 .stage-sub {
+    color: var(--color-caption);
+    font-size: var(--size-caption);
+    margin-bottom: 12px;
+  }
+  .stage3 .stage-result {
+    font-weight: 600;
+    color: var(--color-accent);
+  }
+  .stage3 .stage-result.gold { color: var(--color-gold); }
+  .stage3 .stage-result.positive { color: var(--color-green); }
+
+  /* Slide 9 */
+  .callouts {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  .callout .num {
+    font-size: var(--size-display);
+    line-height: 1.1;
+    color: var(--color-green);
+    font-family: 'Source Serif 4', serif;
+    font-weight: 700;
+  }
+  .callout .label {
+    color: var(--color-heading);
+    font-weight: 600;
+    margin-top: 6px;
+  }
+  .results-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+  }
+  .results-grid-3 {
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+  }
+  .results-grid td[style*="right"] {
+    color: var(--color-green);
+    font-weight: 600;
+  }
+
+  /* Demo slides */
+  .demo-card {
+    max-width: 900px;
+    margin: 0 auto 30px;
+    padding: 40px 48px;
+    background: #FFFFFF;
+    border: 1px solid #E8E8E8;
+  }
+  .demo-header {
+    font-size: var(--size-caption);
+    font-weight: 600;
+    color: var(--color-heading);
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    margin-bottom: 28px;
+  }
+  .demo-input {
+    font-size: var(--size-body);
+    color: var(--color-body);
+    padding-bottom: 8px;
+    border-bottom: 2px solid var(--color-heading);
+    margin-bottom: 24px;
+  }
+  .demo-verb {
+    font-size: var(--size-caption);
+    color: var(--color-caption);
+    font-weight: 300;
+    margin-bottom: 20px;
+  }
+  .demo-verb strong {
+    font-weight: 600;
+    color: var(--color-heading);
+  }
+  .score-row {
+    display: grid;
+    grid-template-columns: 280px 1fr 60px;
+    align-items: center;
+    gap: 14px;
+    margin-bottom: 10px;
+  }
+  .score-name {
+    font-size: var(--size-body);
+    text-align: right;
+    color: var(--color-body);
+    white-space: nowrap;
+  }
+  .score-track {
+    height: 22px;
+    background: #F5F5F5;
+    position: relative;
+  }
+  .score-fill { height: 100%; }
+  .score-fill.winner { background: var(--color-green); }
+  .score-fill.other  { background: var(--color-green); }
+  .score-value {
+    font-size: var(--size-caption);
+    font-weight: 600;
+    color: var(--color-heading);
+    text-align: right;
+  }
+  .demo-caption {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+  }
+
+  /* Slide 13 */
+  .challenges {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .challenge {
+    display: grid;
+    grid-template-columns: 60px 1fr;
+    gap: 20px;
+    align-items: baseline;
+  }
+  .challenge .num {
+    font-family: 'Source Serif 4', serif;
+    font-weight: 700;
+    color: var(--color-accent);
+    font-size: var(--size-body);
+  }
+  .challenge .ctitle {
+    font-weight: 600;
+    color: var(--color-heading);
+    margin-bottom: 6px;
+  }
+  .challenge .cbody {
+    color: var(--color-body);
+    margin: 0;
+  }
+
+  /* Slide 14 */
+  .conclusion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    padding: 0 12% !important;
+    gap: 60px;
+  }
+  .conclusion .primary {
+    font-family: 'Source Serif 4', serif;
+    font-weight: 400;
+    color: var(--dark-text);
+    max-width: 80%;
+  }
+  .conclusion .secondary-block {
+    color: var(--dark-second);
+    max-width: 70%;
+  }
+  .conclusion .future {
+    color: var(--dark-second);
+    max-width: 80%;
+  }
+  .conclusion .future-label {
+    color: var(--dark-accent);
+    font-weight: 600;
+    margin-bottom: 10px;
+    display: block;
+  }
+  .closing-header {
+    color: var(--dark-accent);
+    font-family: 'Source Serif 4', serif;
+    font-weight: 700;
+    font-size: var(--size-title);
+    margin: 0;
+  }
+  .reveal .closing-body,
+  .reveal .closing-body p {
+    font-family: 'Source Serif 4', serif;
+    font-weight: 400;
+    color: var(--dark-text);
+    font-size: 1.3em;
+    line-height: 1.5;
+  }
+  .reveal .closing-body { max-width: 90%; margin: 0; }
+  .reveal .closing-body p { margin: 0 0 0.9em; font-size: 1em; }
+  .reveal .closing-body p:last-child { margin-bottom: 0; }
+  .inline-arrow {
+    color: var(--dark-accent);
+    font-weight: 400;
+  }
+
+  .reveal .slide-number {
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 14px;
+    background: transparent;
+    color: var(--color-caption);
+  }
+</style>
+</head>
+<body>
+
+<div class="reveal">
+  <div class="slides">
+
+    <!-- Slide 1 — Title -->
+    <section class="dark" data-background-color="#36454F">
+      <div class="title-slide">
+        <div class="title">Fine-Tuning a Bidirectional Cross-Encoder <br> for Verbal Clause Construction Classification</div>
+        <div>&nbsp;</div>
+        <div class="author">Josh Falconer</div>
+        <div class="course">CSPB 3823 NLP &middot; Prof. Curry Guinn &middot; April 20, 2026</div>
+      </div>
+    </section>
+
+    <!-- Slide 2 — The Problem -->
+    <section>
+      <div class="slide-content">
+        <h2>The Problem</h2>
+
+        <div class="problem-grid">
+          <div class="example">
+            <p class="sentence">&ldquo;Unilever is <span class="green-bold">looking</span> for sustainable palm oil suppliers in Southeast Asia.&rdquo;</p>
+            <p class="arrow">&darr;</p>
+            <p class="situation">Intention</p>
+            <p class="gloss caption">intender attends to a future, as yet unrealized outcome</p>
+          </div>
+          <div class="example">
+            <p class="sentence">&ldquo;Traders are <span class="green-bold">looking</span> at unusual options activity ahead of earnings reports.&rdquo;</p>
+            <p class="arrow">&darr;</p>
+            <p class="situation">Perception (exp. subj.)</p>
+            <p class="gloss caption">perceiver directs attention to a stimulus</p>
+          </div>
+        </div>
+
+        <p class="problem-coda italic">Same verb, different construction, different participants, different meaning.</p>
+      </div>
+    </section>
+
+    <!-- Slide 3 — Motivation -->
+    <section>
+      <div class="slide-content">
+        <h2>Why This Matters</h2>
+
+        <div class="pipeline-row">
+          <div>
+            <div class="icon-box">
+              <div class="doc-icon">
+                <span></span><span></span><span></span><span></span><span></span><span></span>
+              </div>
+            </div>
+            <div class="stage-label">Unstructured text</div>
+          </div>
+          <div class="arrow">&rarr;</div>
+          <div>
+            <div class="icon-box">
+              <svg class="parser-svg" viewBox="0 0 150 120">
+                <!-- Big gear centered at (52, 52), outer r=32, inner hole r=10 -->
+                <g fill="#888888" fill-rule="evenodd">
+                  <!-- teeth as rotated rectangles -->
+                  <g transform="translate(52 52)">
+                    <rect x="-5" y="-36" width="10" height="10"/>
+                    <rect x="-5" y="-36" width="10" height="10" transform="rotate(45)"/>
+                    <rect x="-5" y="-36" width="10" height="10" transform="rotate(90)"/>
+                    <rect x="-5" y="-36" width="10" height="10" transform="rotate(135)"/>
+                    <rect x="-5" y="-36" width="10" height="10" transform="rotate(180)"/>
+                    <rect x="-5" y="-36" width="10" height="10" transform="rotate(225)"/>
+                    <rect x="-5" y="-36" width="10" height="10" transform="rotate(270)"/>
+                    <rect x="-5" y="-36" width="10" height="10" transform="rotate(315)"/>
+                  </g>
+                  <!-- body with center hole -->
+                  <path d="M 52 22 a 30 30 0 1 0 0.001 0 Z M 52 42 a 10 10 0 1 1 -0.001 0 Z"/>
+                </g>
+                <!-- Small gear centered at (108, 82), outer r=19, inner hole r=5 -->
+                <g fill="#888888" fill-rule="evenodd">
+                  <g transform="translate(108 82)">
+                    <rect x="-4" y="-22" width="8" height="8"/>
+                    <rect x="-4" y="-22" width="8" height="8" transform="rotate(60)"/>
+                    <rect x="-4" y="-22" width="8" height="8" transform="rotate(120)"/>
+                    <rect x="-4" y="-22" width="8" height="8" transform="rotate(180)"/>
+                    <rect x="-4" y="-22" width="8" height="8" transform="rotate(240)"/>
+                    <rect x="-4" y="-22" width="8" height="8" transform="rotate(300)"/>
+                  </g>
+                  <path d="M 108 64 a 18 18 0 1 0 0.001 0 Z M 108 77 a 5 5 0 1 1 -0.001 0 Z"/>
+                </g>
+              </svg>
+            </div>
+            <div class="stage-label">ASC Parser</div>
+          </div>
+          <div class="arrow">&rarr;</div>
+          <div>
+            <div class="icon-box">
+              <svg class="kg-svg" viewBox="0 0 180 120">
+                <line x1="35" y1="30" x2="90" y2="60" stroke="#888" stroke-width="1.4"/>
+                <line x1="90" y1="60" x2="150" y2="30" stroke="#888" stroke-width="1.4"/>
+                <line x1="90" y1="60" x2="60" y2="100" stroke="#888" stroke-width="1.4"/>
+                <line x1="90" y1="60" x2="145" y2="95" stroke="#888" stroke-width="1.4"/>
+                <circle cx="35"  cy="30"  r="9" fill="#36454F"/>
+                <circle cx="90"  cy="60"  r="10" fill="#B85042"/>
+                <circle cx="150" cy="30"  r="9" fill="#36454F"/>
+                <circle cx="60"  cy="100" r="9" fill="#36454F"/>
+                <circle cx="145" cy="95"  r="9" fill="#36454F"/>
+              </svg>
+            </div>
+            <div class="stage-label">Knowledge graph</div>
+          </div>
+        </div>
+
+        <p style="text-align:center;">Can a fine-tuned encoder reliably disambiguate between closely related verbal clause constructions,<br>
+as a first step toward automated parsing of argument structure for knowledge graph construction?</p>
+      </div>
+    </section>
+
+    <!-- Slide 4a — Dataset (flow) -->
+    <section>
+      <div class="slide-content">
+        <h2>Gold Dataset</h2>
+
+        <div class="funnel">
+          <div class="sources">
+            <div class="sources-heading">Manual Curation</div>
+            <div class="source-item"><span class="source-dot-gold"></span>OntoNotes 5.0</div>
+            <div class="source-item"><span class="source-dot-gold"></span>VerbNet</div>
+            <div class="source-item"><span class="source-dot-gold"></span>FrameNet</div>
+            <div class="source-item"><span class="source-dot-gold"></span>Croft et al. (2021)</div>
+            <div class="source-item"><span class="source-dot-gold"></span>Kalm (2022)</div>
+          </div>
+          <div class="arrow">&rarr;</div>
+          <div class="funnel-box">
+            <div class="count-line"><span class="count-num">11,672</span> <span class="count-label">curated examples</span></div>
+            <div class="count-line"><span class="count-num">1,514</span> <span class="count-label">synthetic examples</span></div>
+          </div>
+          <div class="arrow">&rarr;</div>
+          <div>
+            <table>
+              <tbody>
+                <tr><td>Situations</td><td style="text-align:right">62</td></tr>
+                <tr><td>Total examples</td><td style="text-align:right">13,186</td></tr>
+                <tr><td>Verb lemmas</td><td style="text-align:right">4,189</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Slide 4b — Dataset (training pairs) -->
+    <section>
+      <div class="slide-content">
+        <h2>Gold Dataset</h2>
+
+        <div class="pair-examples">
+          <div class="pair-example">
+            <div class="pair-label green-bold">&#10003; Positive pair (Constrain)</div>
+            <div class="pair-sentence">&ldquo;Fort Knox holds the United States' official gold reserves.&rdquo;</div>
+            <div class="pair-def caption">An entity physically constrains the motion of a theme by being spatially co-located with it; the constraining entity can be inanimate or animate.</div>
+          </div>
+          <div class="pair-example">
+            <div class="pair-label accent-bold">&#10007; Negative pair (Capacity)</div>
+            <div class="pair-sentence">&ldquo;Fort Knox holds the United States' official gold reserves.&rdquo;</div>
+            <div class="pair-def caption">Capacity refers to the fit verbs, where oblique arguments are locations, describing the capacity of the location with respect to the action named by the verb (e.g. sleeps, seats, fits, serves).</div>
+          </div>
+        </div>
+
+        <p class="caption">Same sentence, different construction. The Capacity construction requires a specified quantity.</p>
+      </div>
+    </section>
+
+    <!-- Slide 5 — Theoretical Foundation -->
+    <section>
+      <div class="slide-content">
+        <h2>Theoretical Foundation</h2>
+
+        <div class="theory-apex">
+          <div class="theory-apex-title">62 Situation ASCs, computationally applied and extended</div>
+          <p class="theory-apex-body">Each Situation is a constructional pattern pairing<br>
+a syntactic form with a force-dynamic event structure,<br>
+grounded in decades of cross-linguistic typological analysis.</p>
+        </div>
+
+        <div class="theory-up-arrow">&uarr;</div>
+
+        <div class="citation-box">
+          <div class="citation"><span class="cite">Kalm (2022)</span> <span class="desc"><em>Social Verbs: A Force-Dynamic Analysis</em></span></div>
+          <div class="citation"><span class="cite">Croft (2022)</span> <span class="desc"><em>Morphosyntax: Constructions of the World's Languages</em></span></div>
+          <div class="citation"><span class="cite">Croft et al. (2021)</span> <span class="desc"><em>Developing Language-Independent Event Representations</em></span></div>
+          <div class="citation"><span class="cite">Croft (2012)</span> <span class="desc"><em>Verbs: Aspect and Causal Structure</em></span></div>
+          <div class="citation"><span class="cite">Goldberg (1995)</span> <span class="desc"><em>Constructions: A Construction Grammar Approach to Argument Structure</em></span></div>
+          <div class="citation"><span class="cite">Levin (1993)</span> <span class="desc"><em>English Verb Classes and Alternations</em></span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Slide 6 — Training Design -->
+    <section>
+      <div class="slide-content">
+        <h2>Tiered Training Data</h2>
+
+        <div class="tiers">
+          <div class="tier-bar t1">
+            <div class="label">T1 &middot; 50% &middot; Hard</div>
+            <p class="desc">Same semantic cluster. Shared verbs, adjacent event types. The classifier must learn the finest distinctions.</p>
+          </div>
+          <div class="tier-bar t2">
+            <div class="label">T2 &middot; 30% &middot; Medium</div>
+            <p class="desc">Same broad domain, different cluster. Structurally distinct but lexically overlapping.</p>
+          </div>
+          <div class="tier-bar t3">
+            <div class="label">T3 &middot; 20% &middot; Easy</div>
+            <p class="desc">Different domain. Confirms basic differences.</p>
+          </div>
+        </div>
+
+        <p>Applied consistently to both positive and negative examples.</p>
+      </div>
+    </section>
+
+    <!-- Slide 7 — Pipeline -->
+    <section>
+      <div class="slide-content" style="max-width: 88%;">
+        <h2>Pipeline</h2>
+
+        <div class="stages">
+          <div class="stage">
+            <div class="name">Dependency<br>Parse</div>
+            <div class="tool">spaCy<br>en_core_web_sm</div>
+          </div>
+          <div class="stage-arrow">&rarr;</div>
+          <div class="stage">
+            <div class="name">Verb<br>Lemma</div>
+            <div class="tool">NLTK<br>WordNet</div>
+          </div>
+          <div class="stage-arrow">&rarr;</div>
+          <div class="stage">
+            <div class="name">Candidate<br>Retrieval</div>
+            <div class="tool">curated<br>pos files</div>
+          </div>
+          <div class="stage-arrow">&rarr;</div>
+          <div class="stage">
+            <div class="name">Cross-Encoder<br>Scoring</div>
+            <div class="tool">DeBERTa-v3-base<br>HuggingFace<br>PyTorch &middot; MPS</div>
+          </div>
+          <div class="stage-arrow">&rarr;</div>
+          <div class="stage">
+            <div class="name">Situation<br>&nbsp;</div>
+            <div class="tool">Croft et al. (2021)<br>Kalm (2022)<br>+ my extensions</div>
+          </div>
+        </div>
+
+        <p class="caption">Training: 5-fold CV &middot; AdamW lr=2e-5 &middot; batch 32 &middot; early stopping</p>
+        <p class="caption">Training time: ~17 hours (5 folds)</p>
+        <p class="caption">Hardware: Apple M4 Mac Mini, 24 GB unified memory</p>
+      </div>
+    </section>
+
+    <!-- Slide 8 — Experiments -->
+    <section>
+      <div class="slide-content" style="max-width: 82%;">
+        <h2>Experiments &amp; Analysis</h2>
+
+        <div class="stages3">
+          <div class="stage3">
+            <div class="stage-num">Stage 1</div>
+            <div class="stage-label">Automated extraction</div>
+            <p class="stage-brief">OntoNotes via VerbNet class mapping</p>
+            <div class="stage-result">Polysemy contamination</div>
+          </div>
+          <div class="stage3">
+            <div class="stage-num">Stage 2</div>
+            <div class="stage-label">Pivot</div>
+            <p class="stage-brief">Inductive scope maps defined</p>
+            <div class="stage-result gold">Clean boundary definitions</div>
+          </div>
+          <div class="stage3">
+            <div class="stage-num">Stage 3</div>
+            <div class="stage-label">Synthetic generation</div>
+            <p class="stage-brief">Pattern-based, scope-map-validated</p>
+            <div class="stage-result positive">95.9% audit pass rate</div>
+          </div>
+        </div>
+
+        <p class="caption">Methodology: Claude (prompt design) &rarr; Claude Code (execution) &rarr; human validation &rarr; iterate</p>
+      </div>
+    </section>
+
+    <!-- Slide 9 — Results -->
+    <section>
+      <div class="slide-content">
+        <h2>Results</h2>
+
+        <div class="callouts">
+          <div class="callout">
+            <div class="num">94.4%</div>
+            <div class="label">Macro F1</div>
+          </div>
+          <div class="callout">
+            <div class="num">96.7%</div>
+            <div class="label">Constrained Accuracy</div>
+          </div>
+          <div class="callout">
+            <div class="num">+5.9pp</div>
+            <div class="label">Lift over Random Baseline</div>
+          </div>
+        </div>
+
+        <div class="results-grid results-grid-3">
+          <div>
+            <table>
+              <tbody>
+                <tr><td>Accuracy</td><td style="text-align:right">0.953</td></tr>
+                <tr><td>Precision</td><td style="text-align:right">0.944</td></tr>
+                <tr><td>Recall</td><td style="text-align:right">0.944</td></tr>
+                <tr><td>F1 (macro)</td><td style="text-align:right">0.944</td></tr>
+                <tr><td>F1 (weighted)</td><td style="text-align:right">0.953</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <div>
+            <table>
+              <tbody>
+                <tr><td>T1 &nbsp; hard negatives</td><td style="text-align:right">94.4%</td></tr>
+                <tr><td>T2 &nbsp; medium</td><td style="text-align:right">97.4%</td></tr>
+                <tr><td>T3 &nbsp; easy</td><td style="text-align:right">93.0%</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <div>
+            <table>
+              <tbody>
+                <tr><td>Corpus F1</td><td style="text-align:right">0.91</td></tr>
+                <tr><td>Synthetic F1</td><td style="text-align:right">0.97</td></tr>
+                <tr><td>All 62 Situations</td><td style="text-align:right">above 0.70</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Slide 10 — Demo: Capacity -->
+    <section>
+      <div class="slide-content">
+        <h2>Demo: Capacity</h2>
+        <div class="demo-card">
+          <div class="demo-header">ASC Classifier &middot; Event Structure Disambiguation</div>
+          <div class="demo-input">The old barn holds about forty head of cattle.</div>
+          <div class="demo-verb">verb: <strong>hold</strong> &middot; 1 candidate</div>
+          <div class="score-row">
+            <div class="score-name">Capacity</div>
+            <div class="score-track"><div class="score-fill winner" style="width: 99.4%"></div></div>
+            <div class="score-value">0.994</div>
+          </div>
+        </div>
+        <div class="demo-caption">
+          <p class="caption"><span class="italic">&ldquo;hold&rdquo;</span> &rarr; Capacity: the barn has capacity for a given quantity of cattle.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Slide 11 — Demo: Emotion -->
+    <section>
+      <div class="slide-content">
+        <h2>Demo: Emotion (stim. subj.)</h2>
+        <div class="demo-card">
+          <div class="demo-header">ASC Classifier &middot; Event Structure Disambiguation</div>
+          <div class="demo-input">The news worried the investors.</div>
+          <div class="demo-verb">verb: <strong>worry</strong> &middot; 2 candidates</div>
+          <div class="score-row">
+            <div class="score-name">Emotion (stim. subj.)</div>
+            <div class="score-track"><div class="score-fill winner" style="width: 99.5%"></div></div>
+            <div class="score-value">0.995</div>
+          </div>
+          <div class="score-row">
+            <div class="score-name">Emotion (exp. subj.)</div>
+            <div class="score-track"><div class="score-fill other" style="width: 11.2%"></div></div>
+            <div class="score-value">0.112</div>
+          </div>
+        </div>
+        <div class="demo-caption">
+          <p class="caption"><span class="italic">&ldquo;worry&rdquo;</span> &rarr; stimulus-subject (not experiencer-subject). The news causes the emotion; the investors undergo it.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Slide 12 — Demo: Intention -->
+    <section>
+      <div class="slide-content">
+        <h2>Demo: Intention</h2>
+        <div class="demo-card">
+          <div class="demo-header">ASC Classifier &middot; Event Structure Disambiguation</div>
+          <div class="demo-input">She looked for her keys everywhere.</div>
+          <div class="demo-verb">verb: <strong>look</strong> &middot; 3 candidates</div>
+          <div class="score-row">
+            <div class="score-name">Intention</div>
+            <div class="score-track"><div class="score-fill winner" style="width: 99.1%"></div></div>
+            <div class="score-value">0.991</div>
+          </div>
+          <div class="score-row">
+            <div class="score-name">Perception (exp. subj.)</div>
+            <div class="score-track"><div class="score-fill other" style="width: 8.7%"></div></div>
+            <div class="score-value">0.087</div>
+          </div>
+          <div class="score-row">
+            <div class="score-name">Pursuit</div>
+            <div class="score-track"><div class="score-fill other" style="width: 3.4%"></div></div>
+            <div class="score-value">0.034</div>
+          </div>
+        </div>
+        <div class="demo-caption">
+          <p class="caption"><span class="italic">&ldquo;look for&rdquo;</span> &rarr; Intention (not Perception). Directed effort toward an unrealized goal &mdash; same contrast as Slide 2.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Slide 13 — Challenges -->
+    <section>
+      <div class="slide-content">
+        <h2>Challenges &amp; Lessons</h2>
+        <div class="challenges">
+          <div class="challenge">
+            <div class="num">1</div>
+            <div>
+              <div class="ctitle">Scale vs. quality</div>
+              <p class="cbody">62 Situations, thousands of examples, limited time.<br>
+Hybrid approach: curated seeds &rarr; synthetic generation.</p>
+            </div>
+          </div>
+          <div class="challenge">
+            <div class="num">2</div>
+            <div>
+              <div class="ctitle">Scope discipline</div>
+              <p class="cbody">Constant temptation to expand or refine boundaries.<br>
+All scopes must be learned in one phase before proceeding.</p>
+            </div>
+          </div>
+          <div class="challenge">
+            <div class="num">3</div>
+            <div>
+              <div class="ctitle">Methodology coherence</div>
+              <p class="cbody">Same tiered design for positives and negatives, across<br>
+extraction, generation, and validation.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Slide 14 — Conclusion -->
+    <section class="dark" data-background-color="#36454F">
+      <div class="conclusion">
+        <div class="closing-header">Conclusion</div>
+        <p class="closing-body">A fine-tuned cross-encoder can learn how to distinguish<br>
+among verbal clause constructions, but only when <br>the training data is built with sufficient
+quantity, quality,<br>and balanced difficulty tiers across the full set<br>of constructions simultaneously.</p>
+      </div>
+    </section>
+
+    <!-- Slide 15 — Future Work -->
+    <section class="dark" data-background-color="#36454F">
+      <div class="conclusion">
+        <div class="closing-header">Future Work</div>
+        <div class="closing-body">
+          <p>Document understanding broken down
+into manageable<br>classification tasks by the divide and conquer approach:</p>
+
+          <p style="margin: 1.5em 0;">discourse <span class="inline-arrow">&rarr;</span> predication <span class="inline-arrow">&rarr;</span> reference <span class="inline-arrow">&rarr;</span> modification</p>
+
+          <p>Classify each functional and formal parameter as<br>fully interpretable features, one dimension at a time.</p>
+        </div>
+      </div>
+    </section>
+
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reveal.js"></script>
+<script>
+  Reveal.initialize({
+    width: 1920,
+    height: 1080,
+    center: false,
+    transition: 'fade',
+    hash: true,
+    slideNumber: true
+  });
+</script>
+</body>
+</html>

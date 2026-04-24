@@ -1,0 +1,51 @@
+sentence,verb_lemma,verb_token_idx,on_sense,wn_synsets,vn_class,situation,match_path,source_file,sentence_idx,situation_count,needs_review
+Five years probation for killing her 4 - year - old by scalding it to death in the bathtub.,scald,12,1,scald.v.02;scald.v.03;scald.v.04,hurt-40.8.3,Hurt,WN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/bn/cnn/02/cnn_0247.sense,21,2,True
+and so nursing home owners know that in a lot of cases it 's less expensive to break the rules and to hurt people than it is to provide the level of care that /-,hurt,22,1,hurt.v.01;hurt.v.02;hurt.v.06;hurt.v.07,hurt-40.8.3,Hurt,WN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/bc/cnn/00/cnn_0000.sense,224,1,False
+"Basically, most people 's idea of an operation is nothing but that you give the patient an anesthetic, ah, cut him open, take out the bad bits, sew him up, and it 's over.",cut,22,1,cut.v.01;cut.v.04;cut.v.16;cut.v.24;cut.v.25;cut.v.26;cut.v.28;cut.v.29;cut.v.30;cut.v.32;cut.v.41,hurt-40.8.3,Hurt,WN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/wb/p2.5_c2e/00/p2.5_c2e_0049.sense,1,5,True
+"I was waiting for them to set me on fire, because UPGA was burning many people alive.",burn,14,1,burn.v.01;burn.v.05;burn.v.07;burn.v.08;burn.v.11,hurt-40.8.3,Hurt,WN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/wb/eng/00/eng_0017.sense,292,2,True
+because here they burn people in benzene:,burn,3,1,burn.v.01;burn.v.05;burn.v.07;burn.v.08;burn.v.11,hurt-40.8.3,Hurt,WN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/wb/eng/00/eng_0017.sense,297,2,True
+An Israeli soldier was slightly hurt.,hurt,5,1,hurt.v.01;hurt.v.02;hurt.v.06;hurt.v.07,hurt-40.8.3,Hurt,WN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/bn/voa/00/voa_0055.sense,2,1,False
+and we would promptly be burned at the stake.,burn,5,1,burn.v.01;burn.v.05;burn.v.07;burn.v.08;burn.v.11,hurt-40.8.3,Hurt,WN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/wb/eng/00/eng_0010.sense,474,2,True
+""" People over 50 or under 16 can easily hurt themselves lifting heavy weights, so I tell people not to be foolhardy, "" she says.",hurt,9,1,hurt.v.01;hurt.v.02;hurt.v.06;hurt.v.07,hurt-40.8.3,Hurt,WN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/mz/sinorama/10/ectb_1055.sense,91,1,False
+The pilot also was able to make a safe landing and neither of those pilots were hurt.,hurt,16,1,hurt.v.01;hurt.v.02;hurt.v.06;hurt.v.07,hurt-40.8.3,Hurt,WN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/bn/cnn/02/cnn_0278.sense,25,1,False
+In the fields the bodies burning As the war machine keeps turning,burn,5,1,burn.v.01;burn.v.05;burn.v.07;burn.v.08;burn.v.11,hurt-40.8.3,Hurt,WN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/wb/eng/00/eng_0010.sense,73,2,True
+Ashes where the bodies burning,burn,4,1,burn.v.01;burn.v.05;burn.v.07;burn.v.08;burn.v.11,hurt-40.8.3,Hurt,WN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/wb/eng/00/eng_0010.sense,84,2,True
+"Most of the 34 sailors hurt, are being reunited with family in Norfolk, Virginia, before moving on to a naval hospital for further treatment.",hurt,5,1,hurt.v.01;hurt.v.02;hurt.v.06;hurt.v.07,hurt-40.8.3,Hurt,WN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/bn/cnn/00/cnn_0036.sense,2,1,False
+No one was hurt in the shooting but eyewitnesses reported that the UN Human Rights Chief was visibly upset following the incident.,hurt,3,1,hurt.v.01;hurt.v.02;hurt.v.06;hurt.v.07,hurt-40.8.3,Hurt,WN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/bn/voa/00/voa_0096.sense,3,1,False
+One Israeli soldier was slightly hurt.,hurt,5,1,hurt.v.01;hurt.v.02;hurt.v.06;hurt.v.07,hurt-40.8.3,Hurt,WN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/bn/cnn/00/cnn_0071.sense,3,1,False
+"I think that it has to be tried and of course there is always a danger that somebody might get hurt in this, but that is a danger that every attempt at remedying criminal activity has to face.",hurt,20,1,hurt.v.01;hurt.v.02;hurt.v.06;hurt.v.07,hurt-40.8.3,Hurt,WN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/bn/pri/00/pri_0060.sense,30,1,False
+Embassy officials say no one was hurt.,hurt,6,1,hurt.v.01;hurt.v.02;hurt.v.06;hurt.v.07,hurt-40.8.3,Hurt,WN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/bn/cnn/00/cnn_0032.sense,2,1,False
+"The nurse on the line last night pulled up the records they have of me up there, got updates on meds and current treatments, and said they did likely eitther bruise or nick a nerve, and she also told me more warning signs to look for, and which ones should get me to the hospital in an ambulance if necessary.",nick,34,1,nick.v.01;nick.v.02,hurt-40.8.3,Hurt,WN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/wb/sel/72/sel_7269.sense,0,2,True
+I also pray that your suffering caused by gang violence will soon come to an end as more gang members wake up and stop hurting themselves and others /.,hurt,24,1,hurt.v.01;hurt.v.02;hurt.v.06;hurt.v.07,hurt-40.8.3,Hurt,WN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/bc/cnn/00/cnn_0001.sense,547,1,False
+Not only does it take a goodly portion of luck for a snake hunter to find a hundred - pacer - the number of people unfortunate enough to be bitten by one is also very small.,bite,29,1,bite.v.01;bite.v.04,hurt-40.8.3,Hurt,WN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/mz/sinorama/10/ectb_1066.sense,49,1,False
+Cut off his head /.,cut,0,1,cut.v.01;cut.v.04;cut.v.16;cut.v.24;cut.v.25;cut.v.26;cut.v.28;cut.v.29;cut.v.30;cut.v.32;cut.v.41,hurt-40.8.3,Hurt,WN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/bc/msnbc/00/msnbc_0002.sense,636,5,True
+"It 's designed to counter the kind of thing that I found in the New York newspaper this morning where a Brooklyn woman who scalded her 4 - year - old to death in a bathtub, walked out of court a free woman yesterday sentenced to five years probation.",scald,24,1,scald.v.02;scald.v.03;scald.v.04,hurt-40.8.3,Hurt,WN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/bn/cnn/02/cnn_0247.sense,19,2,True
+"Laboring in blue and gray overalls, they are supposed to concentrate on cleaning out crevices, and not strain their eyes looking for diamonds.",strain,19,1,strain.v.02;strain.v.03;strain.v.05;strain.v.06;strain.v.09,hurt-40.8.3,Hurt,WN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/nw/wsj/11/wsj_1121.sense,39,1,False
+"Three people plus the bomber were killed, and at least 30 others were hurt.",hurt,14,1,hurt.v.01;hurt.v.02;hurt.v.06;hurt.v.07,hurt-40.8.3,Hurt,WN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/bn/cnn/02/cnn_0224.sense,2,1,False
+"The consequence of injuring or hurting someone who is friendly or nonparticipant in combat is very difficult to deal with, and we go to extreme details in -- and do a lot of training as well to make sure that does n't happen.",hurt,5,1,hurt.v.01;hurt.v.02;hurt.v.06;hurt.v.07,hurt-40.8.3,Hurt,WN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/bn/cnn/03/cnn_0362.sense,16,1,False
+17 U.S. sailors were killed and 39 others hurt.,hurt,8,1,hurt.v.01;hurt.v.02;hurt.v.06;hurt.v.07,hurt-40.8.3,Hurt,WN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/bn/cnn/01/cnn_0151.sense,1,1,False
+"The harder he tried to push them into large piles, the closer he came to breaking the rake and straining his back.",strain,20,1,strain.v.02;strain.v.03;strain.v.05;strain.v.06;strain.v.09,hurt-40.8.3,Hurt,WN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/nw/wsj/21/wsj_2111.sense,34,1,False
+Tessa sprained her ankle.,sprain,,,,,Hurt,,"Croft et al 2021, p. 65f",,,
+Tessa hurt herself.,hurt,,,,,Hurt,,"Croft et al 2021, p. 65f",,,
+Tessa hurt her ankle.,hurt,,,,,Hurt,,"Croft et al 2021, p. 65f",,,
+Tessa cut herself.,cut,,,,,Hurt,,"Croft et al 2021, p. 65f",,,
+Tessa hurt her brother's hand.,hurt,,,,,Hurt,,"Croft et al 2021, p. 65f",,,
+My ankle twisted.,twist,,,,,Hurt,,"Croft et al 2021, p. 65f",,,
+I cut my finger on the envelope.,cut,,,,,Hurt,,framenet,,,
+The squirrel abraded its tail as it twitched nervously in the confined space.,abrade,,,,,Hurt,,framenet,,,
+Then I cut myself on an envelope.,cut,,,,,Hurt,,framenet,,,
+Smithers stubbed his toe on the couch for several months before he got used to its new location.,stub,,,,,Hurt,,framenet,,,
+"He punched me, but he hurt his fist on my nose.",hurt,,,,,Hurt,,framenet,,,
+She fell and hit her head out in the playground.,hit,,,,,Hurt,,framenet,,,
+The suspect injured his leg severely climbing the fence.,injure,,,,,Hurt,,framenet,,,
+"So you cut your leg on the window frame at six o'clock, correct?",cut,,,,,Hurt,,framenet,,,
+I broke my arm in the accident.,break,,,,,Hurt,,framenet,,,
+Sue stubbed her toe three times today.,stub,,,,,Hurt,,framenet,,,
+I jammed my pinky on these juggling clubs three times in the last hour.,jam,,,,,Hurt,,framenet,,,
+She hurt her ankle on the hiking trail.,hurt,1,,,,Hurt,synthetic,,,,False
+He cut his thumb slicing onions.,cut,1,,,,Hurt,synthetic,,,,False
+The fire burned the hiker's arm.,burn,2,,,,Hurt,synthetic,,,,False
+She scalded herself with the teapot.,scald,1,,,,Hurt,synthetic,,,,False
+He stubbed his toe on the doorframe.,stub,1,,,,Hurt,synthetic,,,,False
+She strained her back lifting boxes.,strain,1,,,,Hurt,synthetic,,,,False
+He nicked his chin while shaving.,nick,1,,,,Hurt,synthetic,,,,False

@@ -1,0 +1,1698 @@
+{
+  "goad": [
+    "Aggression",
+    "Induction"
+  ],
+  "abuse": [
+    "Aggression"
+  ],
+  "hustle": [
+    "Aggression"
+  ],
+  "assail": [
+    "Aggression"
+  ],
+  "jump": [
+    "Aggression",
+    "Motion"
+  ],
+  "harass": [
+    "Aggression"
+  ],
+  "strike": [
+    "Aggression"
+  ],
+  "bully": [
+    "Aggression",
+    "Induction"
+  ],
+  "tease": [
+    "Aggression"
+  ],
+  "buy": [
+    "Buying"
+  ],
+  "order": [
+    "Buying",
+    "Request"
+  ],
+  "hire": [
+    "Buying",
+    "Cause_Membership"
+  ],
+  "purchase": [
+    "Buying"
+  ],
+  "book": [
+    "Buying"
+  ],
+  "charter": [
+    "Buying"
+  ],
+  "store": [
+    "Capacity"
+  ],
+  "seat": [
+    "Capacity"
+  ],
+  "sleep": [
+    "Capacity"
+  ],
+  "lodge": [
+    "Capacity",
+    "Cause_Incremental"
+  ],
+  "hold": [
+    "Capacity",
+    "Constrain"
+  ],
+  "hoist": [
+    "Carrying"
+  ],
+  "carry": [
+    "Carrying"
+  ],
+  "take": [
+    "Carrying",
+    "Measurement"
+  ],
+  "bring": [
+    "Carrying"
+  ],
+  "haul": [
+    "Carrying"
+  ],
+  "ferry": [
+    "Carrying",
+    "Vehicular_Motion"
+  ],
+  "tote": [
+    "Carrying"
+  ],
+  "transport": [
+    "Carrying",
+    "Sending"
+  ],
+  "damage": [
+    "Cause_Change_of_State"
+  ],
+  "boil": [
+    "Cause_Change_of_State"
+  ],
+  "crack": [
+    "Cause_Change_of_State",
+    "Change_of_State"
+  ],
+  "melt": [
+    "Cause_Change_of_State",
+    "Change_of_State"
+  ],
+  "sink": [
+    "Cause_Change_of_State",
+    "Change_of_State"
+  ],
+  "paint": [
+    "Cause_Change_of_State",
+    "Cause_Creation"
+  ],
+  "cut": [
+    "Cause_Change_of_State",
+    "Cause_Creation",
+    "Hurt",
+    "Motion"
+  ],
+  "bake": [
+    "Cause_Change_of_State",
+    "Cause_Creation",
+    "Change_of_State"
+  ],
+  "murder": [
+    "Cause_Change_of_State"
+  ],
+  "destroy": [
+    "Cause_Change_of_State"
+  ],
+  "chop": [
+    "Cause_Change_of_State"
+  ],
+  "slice": [
+    "Cause_Change_of_State"
+  ],
+  "dice": [
+    "Cause_Change_of_State"
+  ],
+  "construct": [
+    "Cause_Creation"
+  ],
+  "play": [
+    "Cause_Creation"
+  ],
+  "make": [
+    "Cause_Creation"
+  ],
+  "design": [
+    "Cause_Creation"
+  ],
+  "manufacture": [
+    "Cause_Creation"
+  ],
+  "forge": [
+    "Cause_Creation",
+    "Image_Creation"
+  ],
+  "form": [
+    "Cause_Creation"
+  ],
+  "develop": [
+    "Cause_Creation"
+  ],
+  "rebuild": [
+    "Cause_Creation"
+  ],
+  "publish": [
+    "Cause_Creation"
+  ],
+  "shape": [
+    "Cause_Creation"
+  ],
+  "arrange": [
+    "Cause_Creation"
+  ],
+  "compile": [
+    "Cause_Creation"
+  ],
+  "fabricate": [
+    "Cause_Creation"
+  ],
+  "invent": [
+    "Cause_Creation"
+  ],
+  "coin": [
+    "Cause_Creation"
+  ],
+  "weave": [
+    "Cause_Creation"
+  ],
+  "assemble": [
+    "Cause_Creation"
+  ],
+  "draft": [
+    "Cause_Creation"
+  ],
+  "produce": [
+    "Cause_Creation"
+  ],
+  "siphon": [
+    "Cause_Incremental"
+  ],
+  "put": [
+    "Cause_Incremental",
+    "Cause_Membership",
+    "Emotion_(stim. subj.)",
+    "Ingestion"
+  ],
+  "bury": [
+    "Cause_Incremental"
+  ],
+  "stuff": [
+    "Cause_Incremental"
+  ],
+  "jam": [
+    "Cause_Incremental",
+    "Hurt"
+  ],
+  "pack": [
+    "Cause_Incremental"
+  ],
+  "wedge": [
+    "Cause_Incremental"
+  ],
+  "insert": [
+    "Cause_Incremental"
+  ],
+  "cram": [
+    "Cause_Incremental"
+  ],
+  "tuck": [
+    "Cause_Incremental"
+  ],
+  "slot": [
+    "Cause_Incremental"
+  ],
+  "embed": [
+    "Cause_Incremental"
+  ],
+  "plant": [
+    "Cause_Incremental"
+  ],
+  "thread": [
+    "Cause_Incremental"
+  ],
+  "poke": [
+    "Cause_Incremental"
+  ],
+  "ram": [
+    "Cause_Incremental"
+  ],
+  "remove": [
+    "Cause_Membership"
+  ],
+  "recall": [
+    "Cause_Membership"
+  ],
+  "discharge": [
+    "Cause_Membership"
+  ],
+  "commission": [
+    "Cause_Membership"
+  ],
+  "expel": [
+    "Cause_Membership"
+  ],
+  "enlist": [
+    "Cause_Membership"
+  ],
+  "deport": [
+    "Cause_Membership"
+  ],
+  "oust": [
+    "Cause_Membership"
+  ],
+  "recruit": [
+    "Cause_Participation"
+  ],
+  "nominate": [
+    "Cause_Participation"
+  ],
+  "designate": [
+    "Cause_Participation"
+  ],
+  "appoint": [
+    "Cause_Participation"
+  ],
+  "elect": [
+    "Cause_Participation"
+  ],
+  "outlaw": [
+    "Cause_Participation"
+  ],
+  "cause": [
+    "Cause_and_Effect"
+  ],
+  "provoke": [
+    "Cause_and_Effect"
+  ],
+  "raise": [
+    "Cause_and_Effect",
+    "Form",
+    "Pick_Up_and_Drop_Off"
+  ],
+  "generate": [
+    "Cause_and_Effect"
+  ],
+  "incite": [
+    "Cause_and_Effect"
+  ],
+  "grow": [
+    "Change_of_State",
+    "Form"
+  ],
+  "change": [
+    "Change_of_State"
+  ],
+  "darken": [
+    "Change_of_State"
+  ],
+  "flex": [
+    "Change_of_State",
+    "Existence"
+  ],
+  "break": [
+    "Change_of_State",
+    "Hurt"
+  ],
+  "heal": [
+    "Change_of_State"
+  ],
+  "rise": [
+    "Change_of_State"
+  ],
+  "freeze": [
+    "Change_of_State"
+  ],
+  "charge": [
+    "Charge"
+  ],
+  "bill": [
+    "Charge"
+  ],
+  "join": [
+    "Collective"
+  ],
+  "participate": [
+    "Collective"
+  ],
+  "ask": [
+    "Communicate",
+    "Request"
+  ],
+  "tell": [
+    "Communicate"
+  ],
+  "warn": [
+    "Communicate"
+  ],
+  "reach": [
+    "Communicate",
+    "Motion"
+  ],
+  "teach": [
+    "Communicate"
+  ],
+  "inquire": [
+    "Communicate"
+  ],
+  "quote": [
+    "Communicate"
+  ],
+  "instruct": [
+    "Communicate"
+  ],
+  "question": [
+    "Communicate"
+  ],
+  "hide": [
+    "Concealment"
+  ],
+  "block": [
+    "Concealment"
+  ],
+  "screen": [
+    "Concealment"
+  ],
+  "conceal": [
+    "Concealment"
+  ],
+  "sequester": [
+    "Concealment"
+  ],
+  "wear": [
+    "Constrain"
+  ],
+  "punch": [
+    "Contact"
+  ],
+  "prick": [
+    "Contact"
+  ],
+  "beat": [
+    "Contact"
+  ],
+  "whack": [
+    "Contact"
+  ],
+  "touch": [
+    "Contact",
+    "Location"
+  ],
+  "knock": [
+    "Contact"
+  ],
+  "peck": [
+    "Contact"
+  ],
+  "slap": [
+    "Contact"
+  ],
+  "gouge": [
+    "Contact"
+  ],
+  "thrash": [
+    "Contact"
+  ],
+  "massage": [
+    "Contact"
+  ],
+  "press": [
+    "Contact"
+  ],
+  "clobber": [
+    "Contact"
+  ],
+  "collide": [
+    "Contact"
+  ],
+  "stroke": [
+    "Contact"
+  ],
+  "count": [
+    "Counting"
+  ],
+  "add": [
+    "Counting",
+    "Incremental"
+  ],
+  "need": [
+    "Desire"
+  ],
+  "desire": [
+    "Desire"
+  ],
+  "want": [
+    "Desire"
+  ],
+  "guess": [
+    "Discovery"
+  ],
+  "find": [
+    "Discovery"
+  ],
+  "ascertain": [
+    "Discovery"
+  ],
+  "discover": [
+    "Discovery"
+  ],
+  "discern": [
+    "Discovery"
+  ],
+  "detect": [
+    "Discovery",
+    "Perception_(exp._subj.)"
+  ],
+  "notice": [
+    "Discovery",
+    "Perception_(exp._subj.)"
+  ],
+  "learn": [
+    "Discovery",
+    "Learning"
+  ],
+  "read": [
+    "Discovery",
+    "Learning"
+  ],
+  "recognize": [
+    "Discovery"
+  ],
+  "distribute": [
+    "Dynamic_Possession"
+  ],
+  "use": [
+    "Dynamic_Possession",
+    "Manipulation"
+  ],
+  "collect": [
+    "Dynamic_Possession"
+  ],
+  "borrow": [
+    "Dynamic_Possession"
+  ],
+  "recover": [
+    "Dynamic_Possession"
+  ],
+  "donate": [
+    "Dynamic_Possession"
+  ],
+  "consume": [
+    "Dynamic_Possession"
+  ],
+  "accept": [
+    "Dynamic_Possession"
+  ],
+  "receive": [
+    "Dynamic_Possession"
+  ],
+  "retrieve": [
+    "Dynamic_Possession"
+  ],
+  "gleam": [
+    "Emission"
+  ],
+  "ring": [
+    "Emission"
+  ],
+  "flicker": [
+    "Emission",
+    "Existence"
+  ],
+  "bleed": [
+    "Emission"
+  ],
+  "shine": [
+    "Emission"
+  ],
+  "breathe": [
+    "Emission"
+  ],
+  "leak": [
+    "Emission"
+  ],
+  "sizzle": [
+    "Emission"
+  ],
+  "blare": [
+    "Emission"
+  ],
+  "reek": [
+    "Emission"
+  ],
+  "glow": [
+    "Emission"
+  ],
+  "regret": [
+    "Emotion_(exp. subj.)"
+  ],
+  "support": [
+    "Emotion_(exp. subj.)"
+  ],
+  "tolerate": [
+    "Emotion_(exp. subj.)"
+  ],
+  "enjoy": [
+    "Emotion_(exp. subj.)"
+  ],
+  "trust": [
+    "Emotion_(exp. subj.)"
+  ],
+  "fear": [
+    "Emotion_(exp. subj.)"
+  ],
+  "respect": [
+    "Emotion_(exp. subj.)"
+  ],
+  "admire": [
+    "Emotion_(exp. subj.)"
+  ],
+  "like": [
+    "Emotion_(exp. subj.)"
+  ],
+  "miss": [
+    "Emotion_(exp. subj.)"
+  ],
+  "hate": [
+    "Emotion_(exp. subj.)"
+  ],
+  "appreciate": [
+    "Emotion_(exp. subj.)"
+  ],
+  "favor": [
+    "Emotion_(exp. subj.)"
+  ],
+  "stand": [
+    "Emotion_(exp. subj.)",
+    "Existence"
+  ],
+  "worry": [
+    "Emotion_(exp. subj.)",
+    "Emotion_(stim. subj.)"
+  ],
+  "care": [
+    "Emotion_(exp. subj.)",
+    "Intention"
+  ],
+  "chafe": [
+    "Emotion_(exp. subj.)"
+  ],
+  "fret": [
+    "Emotion_(exp. subj.)"
+  ],
+  "obsess": [
+    "Emotion_(exp. subj.)"
+  ],
+  "reassure": [
+    "Emotion_(stim. subj.)"
+  ],
+  "bother": [
+    "Emotion_(stim. subj.)"
+  ],
+  "concern": [
+    "Emotion_(stim. subj.)"
+  ],
+  "rag": [
+    "Emotion_(stim. subj.)"
+  ],
+  "move": [
+    "Emotion_(stim. subj.)",
+    "Motion"
+  ],
+  "demoralize": [
+    "Emotion_(stim. subj.)"
+  ],
+  "excite": [
+    "Emotion_(stim. subj.)"
+  ],
+  "lull": [
+    "Emotion_(stim. subj.)"
+  ],
+  "shame": [
+    "Emotion_(stim. subj.)"
+  ],
+  "alarm": [
+    "Emotion_(stim. subj.)"
+  ],
+  "confuse": [
+    "Emotion_(stim. subj.)"
+  ],
+  "offend": [
+    "Emotion_(stim. subj.)"
+  ],
+  "convince": [
+    "Emotion_(stim. subj.)"
+  ],
+  "jolt": [
+    "Emotion_(stim. subj.)"
+  ],
+  "electrify": [
+    "Emotion_(stim. subj.)"
+  ],
+  "surprise": [
+    "Emotion_(stim. subj.)"
+  ],
+  "embarrass": [
+    "Emotion_(stim. subj.)"
+  ],
+  "comfort": [
+    "Emotion_(stim. subj.)"
+  ],
+  "please": [
+    "Emotion_(stim. subj.)"
+  ],
+  "jar": [
+    "Emotion_(stim. subj.)"
+  ],
+  "dishonour": [
+    "Emotion_(stim. subj.)"
+  ],
+  "amaze": [
+    "Emotion_(stim. subj.)"
+  ],
+  "interest": [
+    "Emotion_(stim. subj.)"
+  ],
+  "ruffle": [
+    "Emotion_(stim. subj.)"
+  ],
+  "galvanize": [
+    "Emotion_(stim. subj.)"
+  ],
+  "impress": [
+    "Emotion_(stim. subj.)"
+  ],
+  "repulse": [
+    "Emotion_(stim. subj.)"
+  ],
+  "control": [
+    "Enforcement"
+  ],
+  "enforce": [
+    "Enforcement"
+  ],
+  "estimate": [
+    "Evaluation"
+  ],
+  "judge": [
+    "Evaluation"
+  ],
+  "analyze": [
+    "Evaluation"
+  ],
+  "evaluate": [
+    "Evaluation"
+  ],
+  "rate": [
+    "Evaluation",
+    "Measurement"
+  ],
+  "weigh": [
+    "Evaluation",
+    "Measurement"
+  ],
+  "grade": [
+    "Evaluation"
+  ],
+  "assess": [
+    "Evaluation"
+  ],
+  "consider": [
+    "Evaluation"
+  ],
+  "deem": [
+    "Evaluation"
+  ],
+  "wait": [
+    "Existence"
+  ],
+  "be": [
+    "Existence"
+  ],
+  "abound": [
+    "Existence"
+  ],
+  "remain": [
+    "Existence"
+  ],
+  "happen": [
+    "Existence"
+  ],
+  "exist": [
+    "Existence"
+  ],
+  "stretch": [
+    "Existence"
+  ],
+  "rock": [
+    "Existence"
+  ],
+  "laugh": [
+    "Existence"
+  ],
+  "persist": [
+    "Existence"
+  ],
+  "hang": [
+    "Existence",
+    "Incremental"
+  ],
+  "bottle-feed": [
+    "Feeding"
+  ],
+  "feed": [
+    "Feeding"
+  ],
+  "nurse": [
+    "Feeding"
+  ],
+  "wean": [
+    "Feeding"
+  ],
+  "sustain": [
+    "Feeding"
+  ],
+  "breast-feed": [
+    "Feeding"
+  ],
+  "nourish": [
+    "Feeding"
+  ],
+  "spoon-feed": [
+    "Feeding"
+  ],
+  "suckle": [
+    "Feeding"
+  ],
+  "force-feed": [
+    "Feeding"
+  ],
+  "rear": [
+    "Form"
+  ],
+  "farm": [
+    "Form"
+  ],
+  "cultivate": [
+    "Form"
+  ],
+  "hatch": [
+    "Form"
+  ],
+  "offer": [
+    "Future_Having"
+  ],
+  "issue": [
+    "Future_Having"
+  ],
+  "concede": [
+    "Future_Having"
+  ],
+  "allocate": [
+    "Future_Having"
+  ],
+  "leave": [
+    "Future_Having",
+    "Motion"
+  ],
+  "owe": [
+    "Future_Having"
+  ],
+  "award": [
+    "Future_Having"
+  ],
+  "guarantee": [
+    "Future_Having"
+  ],
+  "assign": [
+    "Future_Having"
+  ],
+  "cede": [
+    "Future_Having"
+  ],
+  "scald": [
+    "Hurt"
+  ],
+  "hurt": [
+    "Hurt"
+  ],
+  "burn": [
+    "Hurt"
+  ],
+  "nick": [
+    "Hurt"
+  ],
+  "bite": [
+    "Hurt"
+  ],
+  "strain": [
+    "Hurt"
+  ],
+  "sprain": [
+    "Hurt"
+  ],
+  "twist": [
+    "Hurt"
+  ],
+  "abrade": [
+    "Hurt"
+  ],
+  "stub": [
+    "Hurt"
+  ],
+  "hit": [
+    "Hurt",
+    "Reciprocal"
+  ],
+  "injure": [
+    "Hurt"
+  ],
+  "write": [
+    "Image_Creation"
+  ],
+  "document": [
+    "Image_Creation"
+  ],
+  "record": [
+    "Image_Creation"
+  ],
+  "print": [
+    "Image_Creation"
+  ],
+  "tape": [
+    "Image_Creation",
+    "Incremental"
+  ],
+  "copy": [
+    "Image_Creation"
+  ],
+  "photograph": [
+    "Image_Creation"
+  ],
+  "engrave": [
+    "Image_Creation"
+  ],
+  "film": [
+    "Image_Creation"
+  ],
+  "sign": [
+    "Image_Creation"
+  ],
+  "transcribe": [
+    "Image_Creation"
+  ],
+  "televise": [
+    "Image_Creation"
+  ],
+  "stamp": [
+    "Image_Creation"
+  ],
+  "underline": [
+    "Image_Creation"
+  ],
+  "trace": [
+    "Image_Creation"
+  ],
+  "inscribe": [
+    "Image_Creation"
+  ],
+  "jot": [
+    "Image_Creation"
+  ],
+  "scribble": [
+    "Image_Creation"
+  ],
+  "decorate": [
+    "Image_Creation"
+  ],
+  "plaster": [
+    "Incremental"
+  ],
+  "spray": [
+    "Incremental"
+  ],
+  "sheathe": [
+    "Incremental"
+  ],
+  "seal": [
+    "Incremental"
+  ],
+  "sow": [
+    "Incremental"
+  ],
+  "rivet": [
+    "Incremental"
+  ],
+  "cling": [
+    "Incremental"
+  ],
+  "dump": [
+    "Incremental"
+  ],
+  "scoop": [
+    "Incremental"
+  ],
+  "trap": [
+    "Incremental",
+    "Induction"
+  ],
+  "herd": [
+    "Incremental"
+  ],
+  "overload": [
+    "Incremental"
+  ],
+  "crowd": [
+    "Incremental"
+  ],
+  "segregate": [
+    "Incremental"
+  ],
+  "funnel": [
+    "Incremental"
+  ],
+  "cover": [
+    "Incremental",
+    "Location"
+  ],
+  "clean": [
+    "Incremental"
+  ],
+  "glue": [
+    "Incremental"
+  ],
+  "blanket": [
+    "Incremental"
+  ],
+  "cheat": [
+    "Induction"
+  ],
+  "persuade": [
+    "Induction"
+  ],
+  "motivate": [
+    "Induction"
+  ],
+  "compel": [
+    "Induction"
+  ],
+  "bribe": [
+    "Induction"
+  ],
+  "seduce": [
+    "Induction"
+  ],
+  "prompt": [
+    "Induction"
+  ],
+  "manipulate": [
+    "Induction"
+  ],
+  "intimidate": [
+    "Induction"
+  ],
+  "blackmail": [
+    "Induction"
+  ],
+  "lure": [
+    "Induction"
+  ],
+  "smoke": [
+    "Ingestion"
+  ],
+  "eat": [
+    "Ingestion"
+  ],
+  "drink": [
+    "Ingestion"
+  ],
+  "graze": [
+    "Ingestion"
+  ],
+  "dine": [
+    "Ingestion"
+  ],
+  "chew": [
+    "Ingestion"
+  ],
+  "devour": [
+    "Ingestion"
+  ],
+  "gobble": [
+    "Ingestion"
+  ],
+  "pray": [
+    "Intention"
+  ],
+  "hope": [
+    "Intention"
+  ],
+  "search": [
+    "Intention"
+  ],
+  "look": [
+    "Intention",
+    "Perception_(exp._subj.)",
+    "Perception_(stim._subj.)"
+  ],
+  "long": [
+    "Intention"
+  ],
+  "lust": [
+    "Intention"
+  ],
+  "listen": [
+    "Intention",
+    "Perception_(exp._subj.)"
+  ],
+  "examine": [
+    "Intention"
+  ],
+  "monitor": [
+    "Intention"
+  ],
+  "analyse": [
+    "Intention"
+  ],
+  "inspect": [
+    "Intention"
+  ],
+  "thirst": [
+    "Intention"
+  ],
+  "hanker": [
+    "Intention"
+  ],
+  "wish": [
+    "Intention"
+  ],
+  "ache": [
+    "Intention"
+  ],
+  "yearn": [
+    "Intention"
+  ],
+  "crave": [
+    "Intention"
+  ],
+  "pine": [
+    "Intention"
+  ],
+  "hunger": [
+    "Intention"
+  ],
+  "nose": [
+    "Intention"
+  ],
+  "seek": [
+    "Intention"
+  ],
+  "explore": [
+    "Intention"
+  ],
+  "leaf": [
+    "Intention"
+  ],
+  "patrol": [
+    "Intention"
+  ],
+  "sift": [
+    "Intention"
+  ],
+  "agree": [
+    "Joint_Statement"
+  ],
+  "disagree": [
+    "Joint_Statement"
+  ],
+  "confer": [
+    "Joint_Statement"
+  ],
+  "cooperate": [
+    "Joint_Statement"
+  ],
+  "settle": [
+    "Joint_Statement"
+  ],
+  "chitchat": [
+    "Joint_Statement"
+  ],
+  "debate": [
+    "Joint_Statement"
+  ],
+  "discuss": [
+    "Joint_Statement"
+  ],
+  "communicate": [
+    "Joint_Statement"
+  ],
+  "chat": [
+    "Joint_Statement"
+  ],
+  "gossip": [
+    "Joint_Statement"
+  ],
+  "yak": [
+    "Joint_Statement"
+  ],
+  "banter": [
+    "Joint_Statement"
+  ],
+  "study": [
+    "Learning"
+  ],
+  "memorize": [
+    "Learning"
+  ],
+  "restrict": [
+    "Limitation"
+  ],
+  "restrain": [
+    "Limitation"
+  ],
+  "reduce": [
+    "Limitation"
+  ],
+  "confine": [
+    "Limitation"
+  ],
+  "limit": [
+    "Limitation"
+  ],
+  "come": [
+    "Location",
+    "Motion"
+  ],
+  "stop": [
+    "Location"
+  ],
+  "appear": [
+    "Location"
+  ],
+  "border": [
+    "Location"
+  ],
+  "adjoin": [
+    "Location"
+  ],
+  "work": [
+    "Manipulation"
+  ],
+  "drive": [
+    "Manipulation",
+    "Vehicular_Motion"
+  ],
+  "total": [
+    "Measurement"
+  ],
+  "cost": [
+    "Measurement"
+  ],
+  "peg": [
+    "Measurement"
+  ],
+  "measure": [
+    "Measurement"
+  ],
+  "gauge": [
+    "Measurement"
+  ],
+  "value": [
+    "Measurement"
+  ],
+  "attend": [
+    "Membership"
+  ],
+  "belong": [
+    "Membership",
+    "Possession"
+  ],
+  "manage": [
+    "Membership"
+  ],
+  "govern": [
+    "Membership"
+  ],
+  "oversee": [
+    "Membership"
+  ],
+  "fall": [
+    "Motion"
+  ],
+  "pass": [
+    "Motion"
+  ],
+  "flee": [
+    "Motion"
+  ],
+  "glide": [
+    "Motion"
+  ],
+  "enter": [
+    "Motion"
+  ],
+  "return": [
+    "Motion",
+    "Sending"
+  ],
+  "travel": [
+    "Motion"
+  ],
+  "go": [
+    "Motion"
+  ],
+  "walk": [
+    "Motion"
+  ],
+  "arrive": [
+    "Motion"
+  ],
+  "climb": [
+    "Motion"
+  ],
+  "dart": [
+    "Motion"
+  ],
+  "bounce": [
+    "Motion"
+  ],
+  "depart": [
+    "Motion"
+  ],
+  "roll": [
+    "Motion"
+  ],
+  "escape": [
+    "Motion"
+  ],
+  "act": [
+    "Participation"
+  ],
+  "host": [
+    "Participation"
+  ],
+  "behave": [
+    "Participation"
+  ],
+  "serve": [
+    "Participation"
+  ],
+  "star": [
+    "Participation"
+  ],
+  "function": [
+    "Participation"
+  ],
+  "volunteer": [
+    "Participation"
+  ],
+  "qualify": [
+    "Participation"
+  ],
+  "pose": [
+    "Participation"
+  ],
+  "masquerade": [
+    "Participation"
+  ],
+  "tutor": [
+    "Participation"
+  ],
+  "clerk": [
+    "Participation"
+  ],
+  "pay": [
+    "Payment"
+  ],
+  "stare": [
+    "Perception_(exp._subj.)"
+  ],
+  "peep": [
+    "Perception_(exp._subj.)"
+  ],
+  "see": [
+    "Perception_(exp._subj.)"
+  ],
+  "sense": [
+    "Perception_(exp._subj.)"
+  ],
+  "hear": [
+    "Perception_(exp._subj.)"
+  ],
+  "spot": [
+    "Perception_(exp._subj.)"
+  ],
+  "peer": [
+    "Perception_(exp._subj.)"
+  ],
+  "check": [
+    "Perception_(exp._subj.)"
+  ],
+  "glare": [
+    "Perception_(exp._subj.)"
+  ],
+  "squint": [
+    "Perception_(exp._subj.)"
+  ],
+  "scent": [
+    "Perception_(exp._subj.)"
+  ],
+  "observe": [
+    "Perception_(exp._subj.)"
+  ],
+  "view": [
+    "Perception_(exp._subj.)"
+  ],
+  "sound": [
+    "Perception_(stim._subj.)"
+  ],
+  "taste": [
+    "Perception_(stim._subj.)"
+  ],
+  "feel": [
+    "Perception_(stim._subj.)"
+  ],
+  "smell": [
+    "Perception_(stim._subj.)"
+  ],
+  "lift": [
+    "Pick_Up_and_Drop_Off"
+  ],
+  "drop": [
+    "Pick_Up_and_Drop_Off"
+  ],
+  "lower": [
+    "Pick_Up_and_Drop_Off"
+  ],
+  "pick": [
+    "Pick_Up_and_Drop_Off"
+  ],
+  "own": [
+    "Possession"
+  ],
+  "have": [
+    "Possession"
+  ],
+  "protect": [
+    "Protection"
+  ],
+  "safeguard": [
+    "Protection"
+  ],
+  "guard": [
+    "Protection"
+  ],
+  "defend": [
+    "Protection"
+  ],
+  "chase": [
+    "Pursuit"
+  ],
+  "steer": [
+    "Pursuit"
+  ],
+  "pursue": [
+    "Pursuit"
+  ],
+  "misdirect": [
+    "Pursuit"
+  ],
+  "guide": [
+    "Pursuit"
+  ],
+  "lead": [
+    "Pursuit"
+  ],
+  "tail": [
+    "Pursuit"
+  ],
+  "accompany": [
+    "Pursuit"
+  ],
+  "shadow": [
+    "Pursuit"
+  ],
+  "compete": [
+    "Reciprocal"
+  ],
+  "fight": [
+    "Reciprocal"
+  ],
+  "meet": [
+    "Reciprocal"
+  ],
+  "date": [
+    "Reciprocal"
+  ],
+  "visit": [
+    "Reciprocal"
+  ],
+  "battle": [
+    "Reciprocal"
+  ],
+  "hug": [
+    "Reciprocal"
+  ],
+  "marry": [
+    "Reciprocal"
+  ],
+  "spar": [
+    "Reciprocal"
+  ],
+  "hook": [
+    "Reciprocal"
+  ],
+  "replace": [
+    "Replacement"
+  ],
+  "substitute": [
+    "Replacement"
+  ],
+  "switch": [
+    "Replacement"
+  ],
+  "swap": [
+    "Replacement"
+  ],
+  "summon": [
+    "Request"
+  ],
+  "urge": [
+    "Request"
+  ],
+  "demand": [
+    "Request"
+  ],
+  "request": [
+    "Request"
+  ],
+  "lobby": [
+    "Request"
+  ],
+  "beg": [
+    "Request"
+  ],
+  "authorize": [
+    "Request"
+  ],
+  "plead": [
+    "Request"
+  ],
+  "face": [
+    "Response"
+  ],
+  "answer": [
+    "Response"
+  ],
+  "respond": [
+    "Response"
+  ],
+  "confront": [
+    "Response"
+  ],
+  "shoot": [
+    "Response"
+  ],
+  "react": [
+    "Response"
+  ],
+  "sell": [
+    "Selling"
+  ],
+  "hawk": [
+    "Selling"
+  ],
+  "transmit": [
+    "Sending"
+  ],
+  "deliver": [
+    "Sending"
+  ],
+  "import": [
+    "Sending"
+  ],
+  "send": [
+    "Sending"
+  ],
+  "dispatch": [
+    "Sending"
+  ],
+  "export": [
+    "Sending"
+  ],
+  "mail": [
+    "Sending"
+  ],
+  "convey": [
+    "Sending"
+  ],
+  "forward": [
+    "Sending"
+  ],
+  "ship": [
+    "Sending"
+  ],
+  "say": [
+    "Statement"
+  ],
+  "complain": [
+    "Statement"
+  ],
+  "claim": [
+    "Statement"
+  ],
+  "acknowledge": [
+    "Statement"
+  ],
+  "talk": [
+    "Statement"
+  ],
+  "comment": [
+    "Statement"
+  ],
+  "scream": [
+    "Statement"
+  ],
+  "declare": [
+    "Statement"
+  ],
+  "describe": [
+    "Statement"
+  ],
+  "state": [
+    "Statement"
+  ],
+  "report": [
+    "Statement"
+  ],
+  "cry": [
+    "Statement"
+  ],
+  "confess": [
+    "Statement"
+  ],
+  "suggest": [
+    "Statement"
+  ],
+  "whisper": [
+    "Statement"
+  ],
+  "explain": [
+    "Statement"
+  ],
+  "speak": [
+    "Statement"
+  ],
+  "throw": [
+    "Throwing"
+  ],
+  "fling": [
+    "Throwing"
+  ],
+  "fire": [
+    "Throwing"
+  ],
+  "launch": [
+    "Throwing"
+  ],
+  "hurl": [
+    "Throwing"
+  ],
+  "discard": [
+    "Throwing"
+  ],
+  "toss": [
+    "Throwing"
+  ],
+  "steal": [
+    "Transfer_of_Possession"
+  ],
+  "extort": [
+    "Transfer_of_Possession"
+  ],
+  "confiscate": [
+    "Transfer_of_Possession"
+  ],
+  "rob": [
+    "Transfer_of_Possession"
+  ],
+  "ply": [
+    "Transfer_of_Possession"
+  ],
+  "reward": [
+    "Transfer_of_Possession"
+  ],
+  "reclaim": [
+    "Transfer_of_Possession"
+  ],
+  "compensate": [
+    "Transfer_of_Possession"
+  ],
+  "divest": [
+    "Transfer_of_Possession"
+  ],
+  "paddle": [
+    "Vehicular_Motion"
+  ],
+  "ride": [
+    "Vehicular_Motion"
+  ],
+  "cruise": [
+    "Vehicular_Motion"
+  ],
+  "navigate": [
+    "Vehicular_Motion"
+  ],
+  "sail": [
+    "Vehicular_Motion"
+  ],
+  "wheel": [
+    "Vehicular_Motion"
+  ],
+  "balloon": [
+    "Vehicular_Motion"
+  ],
+  "row": [
+    "Vehicular_Motion"
+  ],
+  "truck": [
+    "Vehicular_Motion"
+  ]
+}

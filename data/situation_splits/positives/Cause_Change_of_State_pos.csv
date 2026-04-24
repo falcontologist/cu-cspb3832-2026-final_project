@@ -1,0 +1,51 @@
+sentence,verb_lemma,verb_token_idx,on_sense,wn_synsets,vn_class,situation,match_path,source_file,sentence_idx,situation_count,needs_review
+"More than 70 % of the buildings collapsed or were seriously damaged; the power grid, the transport system and mineshaft elevators, ventilation and drainage facilities were severely damaged.",damage,11,1,damage.v.01,destroy-44,Cause Change of State,VN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/bc/phoenix/00/phoenix_0002.sense,154,1,False
+David - who gets really annoyed when the volts drop so low his microwave can hardly boil water Esther & Fester Bestertester wrote: I 've got a 240 v. electric water heater and a need for a 208 v ( single - phase ) one.,boil,16,1,boil.v.01;boil.v.03,cooking-45.3,Cause Change of State,VN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/wb/sel/35/sel_3559.sense,0,1,False
+"Many larger egg producers are also egg processors, who crack, inspect, and sanitize billions of eggs, turning them into powdered, liquified or frozen egg products.",crack,10,1,crack.v.01;crack.v.06;crack.v.07;crack.v.11,break-45.1,Cause Change of State,VN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/nw/wsj/18/wsj_1830.sense,11,1,False
+"In a less glamorous field, Akzo is the world 's biggest producer of industrial salt, used as a raw material for the chemical industry as well as for such tasks as melting ice.",melt,33,1,melt.v.01;melt.v.02,knead-26.5,Cause Change of State,VN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/nw/wsj/05/wsj_0552.sense,26,1,False
+Kennedy entered the Navy earning hero status for saving his ship mates when his boat Pt was sunk by the Japanese.,sink,17,1,sink.v.02;sink.v.04,other_cos-45.4,Cause Change of State,WN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/bn/cnn/03/cnn_0347.sense,15,1,False
+Claire painted the wall.,paint,,,,,Cause Change of State,,"Croft et al 2021, p. 61",,,
+Carol cut the bread.,cut,,,,,Cause Change of State,,"Croft et al 2021, p. 61",,,
+Jennifer baked the potatoes.,bake,,,,,Cause Change of State,,"Croft et al 2021, p. 61",,,
+Brutus murdered Julius Caesar.,murder,,,,,Cause Change of State,,"Croft et al 2021, p. 61",,,
+The bomb destroyed the building.,destroy,,,,,Cause Change of State,,"Croft et al 2021, p. 61",,,
+Carol cut the bread with a knife.,cut,,,,,Cause Change of State,,verbnet,,,
+Carol cut through the bread.,cut,,,,,Cause Change of State,,verbnet,,,
+Carol cut the envelop open.,cut,,,,,Cause Change of State,,verbnet,,,
+Carol cut the envelope open with the knife.,cut,,,,,Cause Change of State,,verbnet,,,
+Carol cut the envelope into pieces.,cut,,,,,Cause Change of State,,verbnet,,,
+Carol cut the envelope into pieces with a knife.,cut,,,,,Cause Change of State,,verbnet,,,
+The knife cut the envelope open.,cut,,,,,Cause Change of State,,verbnet,,,
+The knife cut the envelope into pieces.,cut,,,,,Cause Change of State,,verbnet,,,
+People back then had to chop firewood all day long.,chop,,,,,Cause Change of State,,framenet,,,
+I sliced the cucumber in 1/8th inch slices by marking intervals with a ruler.,slice,,,,,Cause Change of State,,framenet,,,
+Dice up the leaves and feed only as much as the fish will consume in ten minutes.,dice,,,,,Cause Change of State,,framenet,,,
+"""I don't like vegetable soup -- the carrots are diced too neatly.""",dice,,,,,Cause Change of State,,framenet,,,
+"Mark started gingerly dicing the carrots, then the Brussels sprouts, removing the outer layer before cutting a firm cross in the stalk.",dice,,,,,Cause Change of State,,framenet,,,
+"Slice the celery and onions, core, seed and dice the peppers.",slice,,,,,Cause Change of State,,framenet,,,
+Dice the butter and rub into the flour until it resembles fine breadcrumbs.,dice,,,,,Cause Change of State,,framenet,,,
+The sun bakes the valley in the summer.,bake,,,,,Cause Change of State,,ontonotes,,,
+"The heat of the humid, hazy afternoon baked the churchgoers.",bake,,,,,Cause Change of State,,ontonotes,,,
+The town was baking in the sun.,bake,,,,,Cause Change of State,,ontonotes,,,
+He sliced the melon in half.,slice,1,,,,Cause_Change_of_State,synthetic,,,,False
+She sliced the bread into thin pieces.,slice,1,,,,Cause_Change_of_State,synthetic,,,,False
+He baked the clay in a kiln.,bake,1,,,,Cause_Change_of_State,synthetic,,,,False
+The chef diced the onions finely.,dice,2,,,,Cause_Change_of_State,synthetic,,,,False
+The hailstorm damaged the roof tiles.,damage,2,,,,Cause_Change_of_State,synthetic,,,,False
+The blast damaged the wall beyond repair.,damage,2,,,,Cause_Change_of_State,synthetic,,,,False
+She cracked the egg into the bowl.,crack,1,,,,Cause_Change_of_State,synthetic,,,,False
+He melted the wax over a candle.,melt,1,,,,Cause_Change_of_State,synthetic,,,,False
+She boiled the potatoes until soft.,boil,1,,,,Cause_Change_of_State,synthetic,,,,False
+She baked the cargo.,bake,1,,,,Cause_Change_of_State,synthetic,,,,False
+He baked her daughter.,bake,1,,,,Cause_Change_of_State,synthetic,,,,False
+She diced the injured man.,dice,1,,,,Cause_Change_of_State,synthetic,,,,False
+He diced the letter.,dice,1,,,,Cause_Change_of_State,synthetic,,,,False
+She sliced the firewood.,slice,1,,,,Cause_Change_of_State,synthetic,,,,False
+He sliced the package.,slice,1,,,,Cause_Change_of_State,synthetic,,,,False
+The workers sliced the furniture.,slice,2,,,,Cause_Change_of_State,synthetic,,,,False
+She damaged the documents.,damage,1,,,,Cause_Change_of_State,synthetic,,,,False
+He damaged the cargo.,damage,1,,,,Cause_Change_of_State,synthetic,,,,False
+The workers damaged her daughter.,damage,2,,,,Cause_Change_of_State,synthetic,,,,False
+The crew damaged the equipment.,damage,2,,,,Cause_Change_of_State,synthetic,,,,False
+The nurse boiled the documents.,boil,2,,,,Cause_Change_of_State,synthetic,,,,False
+She melted the cheese over the toast.,melt,1,,,,Cause_Change_of_State,synthetic,,,,False

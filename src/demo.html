@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ASC Classifier Demo</title>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,700&family=Source+Sans+3:wght@300;400;600&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: 'Source Sans 3', 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    color: #2D3436;
+    background: #FFFFFF;
+    line-height: 1.5;
+    font-size: 17px;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .container {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 60px 24px 80px;
+  }
+
+  /* Header */
+  .header {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: #36454F;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    margin-bottom: 48px;
+  }
+
+  /* Input area */
+  .input-group {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 16px;
+  }
+
+  .input-field {
+    flex: 1;
+    font-family: inherit;
+    font-size: 1.1rem;
+    color: #2D3436;
+    padding: 10px 0;
+    border: none;
+    border-bottom: 2px solid #E0E0E0;
+    outline: none;
+    background: transparent;
+    transition: border-color 0.2s;
+  }
+
+  .input-field:focus {
+    border-bottom-color: #36454F;
+  }
+
+  .input-field::placeholder {
+    color: #AAAAAA;
+    font-weight: 300;
+  }
+
+  .classify-btn {
+    font-family: inherit;
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: #FFFFFF;
+    background: #36454F;
+    border: none;
+    padding: 10px 28px;
+    cursor: pointer;
+    transition: background 0.15s;
+    flex-shrink: 0;
+  }
+
+  .classify-btn:hover { background: #2a363d; }
+  .classify-btn:active { background: #1e2a30; }
+  .classify-btn:disabled { background: #AAAAAA; cursor: default; }
+
+  /* Examples */
+  .examples {
+    margin-bottom: 48px;
+  }
+
+  .examples-label {
+    font-size: 0.85rem;
+    color: #888888;
+    font-weight: 300;
+    margin-bottom: 6px;
+  }
+
+  .example-sentence {
+    font-size: 0.95rem;
+    color: #36454F;
+    cursor: pointer;
+    padding: 3px 0;
+    transition: color 0.15s;
+  }
+
+  .example-sentence:hover {
+    color: #B85042;
+  }
+
+  /* Status */
+  .status {
+    font-size: 0.85rem;
+    color: #888888;
+    font-weight: 300;
+    margin-bottom: 24px;
+    min-height: 1.3em;
+  }
+
+  /* Results */
+  .results { display: none; }
+  .results.visible { display: block; }
+
+  .verb-line {
+    font-size: 0.85rem;
+    color: #888888;
+    font-weight: 300;
+    margin-bottom: 20px;
+  }
+
+  .verb-line strong {
+    font-weight: 600;
+    color: #36454F;
+  }
+
+  .fallback-note {
+    font-size: 0.85rem;
+    color: #B85042;
+    font-weight: 400;
+    margin-bottom: 16px;
+  }
+
+  /* Score bars */
+  .score-row {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 10px;
+  }
+
+  .score-name {
+    flex: 0 0 240px;
+    font-size: 0.95rem;
+    font-weight: 400;
+    text-align: right;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .score-bar-track {
+    flex: 1;
+    height: 22px;
+    background: #F5F5F5;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .score-bar-fill {
+    height: 100%;
+    width: 0;
+    transition: width 0.5s ease-out;
+  }
+
+  .score-bar-fill.winner { background: #B85042; }
+  .score-bar-fill.other  { background: #D5D5D5; }
+
+  .score-value {
+    flex: 0 0 48px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-align: right;
+    color: #36454F;
+  }
+
+  /* Winner definition */
+  .winner-section {
+    margin-top: 36px;
+    padding-top: 24px;
+    border-top: 1px solid #E8E8E8;
+  }
+
+  .winner-heading {
+    font-family: 'Source Serif 4', 'Source Serif Pro', serif;
+    font-weight: 700;
+    font-size: 1.4rem;
+    color: #36454F;
+    margin-bottom: 8px;
+  }
+
+  .winner-definition {
+    font-size: 1.0rem;
+    color: #444;
+    line-height: 1.6;
+  }
+
+  /* Timing */
+  .timing {
+    font-size: 0.85rem;
+    color: #888888;
+    font-weight: 300;
+    margin-top: 28px;
+  }
+
+  /* Error */
+  .error-msg {
+    font-size: 1.0rem;
+    color: #B85042;
+    margin-top: 8px;
+  }
+
+  /* Responsive */
+  @media (max-width: 600px) {
+    .container { padding: 32px 16px 60px; }
+    .score-name { flex: 0 0 140px; font-size: 0.85rem; }
+    .input-group { flex-direction: column; }
+    .classify-btn { width: 100%; padding: 12px; }
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+  <div class="header">ASC Classifier &middot; Event Structure Disambiguation</div>
+
+  <div class="input-group">
+    <input type="text" class="input-field" id="sentence-input"
+           placeholder="Type a sentence..." autofocus>
+    <button class="classify-btn" id="classify-btn">Classify</button>
+  </div>
+
+  <div class="examples">
+    <div class="examples-label">Try these:</div>
+    <div class="example-sentence">"She sold her car for five thousand dollars."</div>
+    <div class="example-sentence">"She charged him five thousand dollars for the car."</div>
+    <div class="example-sentence">"The ice melted in the afternoon sun."</div>
+    <div class="example-sentence">"He carried the groceries up three flights of stairs."</div>
+    <div class="example-sentence">"The news shocked everyone in the office."</div>
+    <div class="example-sentence">"The stadium seats sixty thousand fans."</div>
+    <div class="example-sentence">"They debated the proposal for three hours."</div>
+    <div class="example-sentence">"She persuaded him to take the job."</div>
+  </div>
+
+  <div class="status" id="status"></div>
+
+  <div class="results" id="results">
+    <div class="verb-line" id="verb-line"></div>
+    <div class="fallback-note" id="fallback-note"></div>
+    <div id="score-bars"></div>
+    <div class="winner-section" id="winner-section">
+      <div class="winner-heading" id="winner-heading"></div>
+      <div class="winner-definition" id="winner-definition"></div>
+    </div>
+    <div class="timing" id="timing"></div>
+  </div>
+
+  <div class="error-msg" id="error-msg"></div>
+</div>
+
+<script>
+const input     = document.getElementById('sentence-input');
+const btn       = document.getElementById('classify-btn');
+const statusEl  = document.getElementById('status');
+const resultsEl = document.getElementById('results');
+const errorEl   = document.getElementById('error-msg');
+
+// Example sentences auto-fill
+document.querySelectorAll('.example-sentence').forEach(el => {
+  el.addEventListener('click', () => {
+    // Strip surrounding quotes for cleaner input display
+    const text = el.textContent.replace(/^\u201c|^\"|\"$|\u201d$/g, '');
+    input.value = text;
+    input.focus();
+    classify();
+  });
+});
+
+// Enter key
+input.addEventListener('keydown', e => {
+  if (e.key === 'Enter') classify();
+});
+
+btn.addEventListener('click', classify);
+
+async function classify() {
+  const sentence = input.value.trim();
+  if (!sentence) return;
+
+  // Reset
+  resultsEl.classList.remove('visible');
+  errorEl.textContent = '';
+  statusEl.textContent = 'Classifying\u2026';
+  btn.disabled = true;
+
+  try {
+    const resp = await fetch('/classify', {
+      method: 'POST',
+      headers: {'Content-Type': 'application/json'},
+      body: JSON.stringify({sentence}),
+    });
+    const data = await resp.json();
+
+    if (data.error) {
+      errorEl.textContent = data.error;
+      statusEl.textContent = '';
+      btn.disabled = false;
+      return;
+    }
+
+    renderResults(data);
+  } catch (err) {
+    errorEl.textContent = 'Could not reach the server. Is demo_server.py running?';
+  }
+
+  statusEl.textContent = '';
+  btn.disabled = false;
+}
+
+function renderResults(data) {
+  // Verb line
+  const verbLine = document.getElementById('verb-line');
+  verbLine.innerHTML = `verb: <strong>${data.lemma}</strong> &middot; ${data.candidate_count} candidate${data.candidate_count !== 1 ? 's' : ''}`;
+
+  // Fallback note
+  const fallbackNote = document.getElementById('fallback-note');
+  fallbackNote.textContent = data.fallback
+    ? `Verb "${data.lemma}" not in lookup \u2014 scored against all ${data.candidate_count} Situations.`
+    : '';
+
+  // Score bars
+  const barsEl = document.getElementById('score-bars');
+  barsEl.innerHTML = '';
+
+  const maxScore = data.results.length > 0 ? data.results[0].score : 1;
+
+  data.results.forEach((r, i) => {
+    const row = document.createElement('div');
+    row.className = 'score-row';
+
+    const name = document.createElement('div');
+    name.className = 'score-name';
+    name.textContent = r.situation.replace(/_/g, ' ');
+
+    const track = document.createElement('div');
+    track.className = 'score-bar-track';
+    const fill = document.createElement('div');
+    fill.className = 'score-bar-fill ' + (i === 0 ? 'winner' : 'other');
+    track.appendChild(fill);
+
+    const value = document.createElement('div');
+    value.className = 'score-value';
+    value.textContent = r.score.toFixed(2);
+
+    row.appendChild(name);
+    row.appendChild(track);
+    row.appendChild(value);
+    barsEl.appendChild(row);
+
+    // Animate after append
+    requestAnimationFrame(() => {
+      requestAnimationFrame(() => {
+        fill.style.width = (r.score * 100) + '%';
+      });
+    });
+  });
+
+  // Winner definition
+  if (data.results.length > 0) {
+    const winner = data.results[0];
+    document.getElementById('winner-heading').textContent = winner.situation.replace(/_/g, ' ');
+    document.getElementById('winner-definition').textContent = winner.definition;
+    document.getElementById('winner-section').style.display = 'block';
+  }
+
+  // Timing
+  document.getElementById('timing').textContent =
+    `Parsed in ${data.parse_time_ms}ms \u00b7 Scored in ${data.score_time_ms}ms`;
+
+  resultsEl.classList.add('visible');
+}
+</script>
+
+</body>
+</html>

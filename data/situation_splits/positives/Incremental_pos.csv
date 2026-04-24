@@ -1,0 +1,51 @@
+sentence,verb_lemma,verb_token_idx,on_sense,wn_synsets,vn_class,situation,match_path,source_file,sentence_idx,situation_count,needs_review
+Look at the leaves plastered to the road.,plaster,4,2,plaster.v.03,spray-9.7,Incremental,WN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/wb/sel/78/sel_7812.sense,0,1,False
+"Suddenly, it is night, and a tarp - covered, skyscraper - sized structure looms over the poor nation as choppers spray spotlights across it.",spray,23,1,spray.v.01;spray.v.02;spray.v.03,spray-9.7,Incremental,WN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/wb/eng/00/eng_0009.sense,289,1,False
+"At these words, the samurai, perceiving the discipline of the master, sheathed his sword and bowed.",sheathe,14,1,sheathe.v.01;sheathe.v.02,pocket-9.10,Incremental,VN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/wb/sel/96/sel_9624.sense,0,1,False
+"Currently, the Ministry of Agriculture and Forestry and the local government of Chungcheongnam - Do had already sealed off and had restricted access to the four major roads surrounding the avian flu - infected duck farm.",seal,18,5,seal.v.02,tape-22.4,Incremental,WN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/nw/p2.5_c2e/00/p2.5_c2e_0085.sense,5,1,False
+"Mr. Fischer plows his own fields, sows his own corn and sunflowers, and feeds his own sheep.",sow,7,1,sow.v.01;sow.v.03,spray-9.7,Incremental,WN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/nw/wsj/17/wsj_1760.sense,25,1,False
+"Close the lid and seal it up, and let it sit for about 5 minutes.",seal,4,1,seal.v.02;seal.v.01,tape-22.4,Incremental,VN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/wb/sel/29/sel_2965.sense,0,1,False
+"If you can only get L-section, you can do this with a center plate and weld or rivet each side to it.",rivet,18,2,rivet.v.02,tape-22.4,Incremental,VN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/wb/sel/91/sel_9156.sense,0,1,False
+"In mountain regions where the rainfall is most abundant, the geology most fragile and erosive forces most powerful, the false cypresses, with their massive trunks and mighty root systems, cling tightly to the frail earth.",cling,33,1,cling.v.01;cling.v.03,cling-22.5,Incremental,VN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/mz/sinorama/10/ectb_1070.sense,30,1,False
+""" Nobody seems to care about our Pali, and we are very remote, so people just dump what they do n't want out here.",dump,18,2,dump.v.01;dump.v.03,funnel-9.3,Incremental,WN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/mz/sinorama/10/ectb_1050.sense,63,1,False
+"Radiation signs plastered all over the door, nobody should have been surprised at any detecto-noises.",plaster,2,2,plaster.v.03,spray-9.7,Incremental,WN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/wb/sel/78/sel_7813.sense,0,1,False
+"Still bleeding, he ran downstairs and scooped up the baby and took the baby to the hospital.",scoop,7,1,scoop.v.01,funnel-9.3,Incremental,VN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/bn/cnn/02/cnn_0242.sense,22,1,False
+"He then hung a rope out a third - floor window and lowered himself to safety, injuring his hands slightly in the process.",hang,2,1,hang.v.01;hang.v.02;hang.v.05;hang.v.10;hang.v.12;hang.v.13;hang.v.14;hang.v.15,put_spatial-9.2,Incremental,WN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/mz/sinorama/10/ectb_1011.sense,16,1,False
+"Also on the way, equipment to lift the ""Cole"" out of the water and specialists to help retrieve the bodies of those trapped and presumed dead.",trap,25,2,trap.v.02;trap.v.03;trap.v.04,pocket-9.10,Incremental,VN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/bn/nbc/00/nbc_0010.sense,7,1,False
+"The Chicago company 's beverage carrier, meant to replace cardboard trays at concession stands and fast - food outlets, resembles the plastic loops used on six - packs of beer, only the loops hang from a web of strings.",hang,36,1,hang.v.01;hang.v.02;hang.v.05;hang.v.10;hang.v.12;hang.v.13;hang.v.14;hang.v.15,put_spatial-9.2,Incremental,WN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/nw/wsj/01/wsj_0102.sense,16,1,False
+"I used to herd sheep with my aunts, and they showed me how to work in clay. & quot;",herd,3,1,herd.v.01;herd.v.02;herd.v.03,herd-47.5.2,Incremental,VN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/wb/sel/60/sel_6092.sense,0,1,False
+"Sources tell ABC News that a suspect who has been in custody for several weeks told Yemeni investigators that his group failed in their attack because their small boat, overloaded with explosives, sank just off the beach.",overload,30,1,overload.v.01;overload.v.02;overload.v.03,spray-9.7,Incremental,WN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/bn/abc/00/abc_0030.sense,5,1,False
+"""Personal Computer"" yearbooks are lined up on nearly every desk, and dog - eared copies of Nikkei Computer crowd magazine racks.",crowd,21,1,crowd.v.02;crowd.v.03,spray-9.7,Incremental,WN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/nw/wsj/04/wsj_0445.sense,22,1,False
+"The Chicago company 's beverage carrier, meant to replace cardboard trays at concession stands and fast - food outlets, resembles the plastic loops used on six - packs of beer, only the loops hang from a web of strings.",hang,36,1,hang.v.01;hang.v.02;hang.v.05;hang.v.10;hang.v.12;hang.v.13;hang.v.14;hang.v.15,spray-9.7,Incremental,WN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/nw/wsj/01/wsj_0102.sense,16,1,False
+The Red Sox used to segregate the bleachers in this fashion -- you could n't get from the bleachers to the rest of the stands.,segregate,5,2,segregate.v.02;segregate.v.03,disassemble-23.3,Incremental,VN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/wb/sel/94/sel_9463.sense,0,1,False
+"add the flowers, and well, to my mind, that 's poetry.",add,0,1,add.v.01;add.v.02;add.v.03;add.v.06,mix-22.1,Incremental,WN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/wb/eng/00/eng_0017.sense,126,1,False
+I funneled the mixture into the bottle.,funnel,,,,,Incremental,,"Croft et al 2021, p. 76f.",,,
+Linda taped the picture to the wall.,tape,,,,,Incremental,,"Croft et al 2021, p. 76f.",,,
+Leslie covered the bed with blankets.,cover,,,,,Incremental,,"Croft et al 2021, p. 76f.",,,
+Paint sprayed onto the wall.,spray,,,,,Incremental,,"Croft et al 2021, p. 76f.",,,
+Doug cleaned the dishes from the table.,clean,,,,,Incremental,,"Croft et al 2021, p. 76f.",,,
+Glue the sign to the window.,glue,,,,,Incremental,,ontonotes,,,
+She hung the injured man.,hang,1,,,,Incremental,synthetic,,,,False
+He hung the merchandise.,hang,1,,,,Incremental,synthetic,,,,False
+The workers hung the merchandise.,hang,2,,,,Incremental,synthetic,,,,False
+The crew hung her daughter.,hang,2,,,,Incremental,synthetic,,,,False
+She plastered the package.,plaster,1,,,,Incremental,synthetic,,,,False
+He plastered the merchandise.,plaster,1,,,,Incremental,synthetic,,,,False
+The workers plastered the injured man.,plaster,2,,,,Incremental,synthetic,,,,False
+The crew plastered the supplies.,plaster,2,,,,Incremental,synthetic,,,,False
+Ivy clung to the old brick wall.,cling,1,,,,Incremental,synthetic,,,,False
+Moss covered the north side of the roof.,cover,1,,,,Incremental,synthetic,,,,False
+Grease sprayed across the stovetop.,spray,1,,,,Incremental,synthetic,,,,False
+Snow blanketed the entire valley.,blanket,1,,,,Incremental,synthetic,,,,False
+The plaster cracked and hung in strips.,hang,4,,,,Incremental,synthetic,,,,False
+Posters plastered the construction fence.,plaster,1,,,,Incremental,synthetic,,,,False
+Frost sealed the edges of the window.,seal,1,,,,Incremental,synthetic,,,,False
+Tar sprayed onto the gravel.,spray,1,,,,Incremental,synthetic,,,,False
+Wallpaper hung in damp strips.,hang,1,,,,Incremental,synthetic,,,,False
+Vines clung to the trellis.,cling,1,,,,Incremental,synthetic,,,,False
+Stickers plastered the guitar case.,plaster,1,,,,Incremental,synthetic,,,,False
+Rivets sheathed the hull in rows.,sheathe,1,,,,Incremental,synthetic,,,,False
+Seeds sowed themselves across the meadow.,sow,1,,,,Incremental,synthetic,,,,False
+Bolts riveted the girders together.,rivet,1,,,,Incremental,synthetic,,,,False
+Wax sealed the envelope shut.,seal,1,,,,Incremental,synthetic,,,,False
+Mud clung to his boots.,cling,1,,,,Incremental,synthetic,,,,False

@@ -1,0 +1,69 @@
+# System
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Model weights and checkpoints — too large for git; see LARGE_FILES.md
+results/checkpoints/fold_*/
+*.safetensors
+*.bin
+*.pt
+*.ckpt
+
+# Legacy scratch directory (pre-reorganization); may still hold untracked
+# model checkpoints, intermediate CSVs, and unrelated prior-project files
+# on the author's machine. Not part of the submission.
+Scripts/
+
+# Auto-generated fold splits — regenerate via src/prepare_splits.py
+data/folds/
+
+# zz-Revisit: curation-stage removed/flagged rows, not part of final splits
+data/situation_splits/zz-Revisit/
+
+# Pre-existing top-level files from unrelated prior work at the author's
+# project root — not part of this submission. Listed explicitly rather
+# than using a whitelist to keep the intent readable.
+/14.csv
+/15.csv
+/16.csv
+/17.csv
+/17_augmented.csv
+/17_augmented_cleaned.csv
+/Codepen/
+/SHACL-API-Docker/
+/ZZ-archive/
+/aspect\ classifiers/
+/aspect classifiers/
+/demo.rtf
+/demo2.rtf
+/generated_shapes.ttl
+/glove.840B.300d.txt
+/lexical.ttl
+/lexical_quality_adjectives.ttl
+/mappings_20260212.csv
+/mappings_final_clean.csv
+/missing_wn_glosses.csv
+/quality_*.tsv
+/quality_*.txt
+/quality_*.json
+/roles_*.ttl
+/semlink/
+/shacl-demo/
+/shape-stubs.csv
+/supersenses_to_domains.csv
+/verbs_to_situations_styled.ttl
+/semantic_compression_*.docx
+
+# Logs
+*.log
+
+# IDE / editors
+.vscode/
+.idea/
+*.swp
+*.swo

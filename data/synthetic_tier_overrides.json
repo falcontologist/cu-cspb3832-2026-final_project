@@ -1,0 +1,2806 @@
+{
+ "Aggression||tease||He teased the newcomer about his accent.": {
+  "tier": "T1",
+  "near_neighbor": "Induction"
+ },
+ "Aggression||hustle||Thugs hustled the shopkeeper for money.": {
+  "tier": "T1",
+  "near_neighbor": "Induction"
+ },
+ "Aggression||hustle||She hustled tourists near the station.": {
+  "tier": "T1",
+  "near_neighbor": "Induction"
+ },
+ "Aggression||harass||Soldiers harassed civilians at the checkpoint.": {
+  "tier": "T1",
+  "near_neighbor": "Induction"
+ },
+ "Aggression||goad||He goaded her into an argument.": {
+  "tier": "T1",
+  "near_neighbor": "Induction"
+ },
+ "Aggression||abuse||The guards abused detainees for months.": {
+  "tier": "T1",
+  "near_neighbor": "Hurt"
+ },
+ "Aggression||abuse||Fans abused the referee for the full ninety minutes.": {
+  "tier": "T1",
+  "near_neighbor": "Hurt"
+ },
+ "Aggression||jump||Two men jumped the courier on the bridge.": {
+  "tier": "T1",
+  "near_neighbor": "Hurt"
+ },
+ "Aggression||jump||The gang jumped a commuter on the platform.": {
+  "tier": "T1",
+  "near_neighbor": "Hurt"
+ },
+ "Aggression||bully||The manager bullied the intern in front of everyone.": {
+  "tier": "T1",
+  "near_neighbor": "Induction"
+ },
+ "Aggression||bully||The older boys bullied him on the playground.": {
+  "tier": "T1",
+  "near_neighbor": "Induction"
+ },
+ "Aggression||assail||The drunk assailed passersby with curses.": {
+  "tier": "T1",
+  "near_neighbor": "Hurt"
+ },
+ "Aggression||harass||Protesters harassed the politician outside the venue.": {
+  "tier": "T1",
+  "near_neighbor": "Induction"
+ },
+ "Aggression||abuse||She abused the cargo.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Aggression||abuse||He abused the paintings.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Aggression||bully||She bullyed the furniture.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Aggression||bully||He bullyed the tools.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Aggression||tease||She teased the supplies.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Aggression||tease||He teased the firewood.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Aggression||tease||The workers teased the paintings.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Aggression||hustle||She hustled the witness.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Aggression||hustle||He hustled the package.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Aggression||hustle||The workers hustled her daughter.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Aggression||assail||The nurse assailed the old books.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Aggression||assail||The driver assailed the letter.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Buying||order||She ordered a dress from the catalog.": {
+  "tier": "T1",
+  "near_neighbor": "Request"
+ },
+ "Buying||order||He ordered supplies from three vendors.": {
+  "tier": "T1",
+  "near_neighbor": "Request"
+ },
+ "Buying||purchase||The government purchased the land for the highway.": {
+  "tier": "T1",
+  "near_neighbor": "Selling"
+ },
+ "Buying||charter||They chartered a bus for the field trip.": {
+  "tier": "T1",
+  "near_neighbor": "Payment"
+ },
+ "Buying||book||She booked a suite at the hotel downtown.": {
+  "tier": "T1",
+  "near_neighbor": "Payment"
+ },
+ "Buying||purchase||He purchased insurance before the trip.": {
+  "tier": "T1",
+  "near_neighbor": "Payment"
+ },
+ "Buying||purchase||She purchased her first car at nineteen.": {
+  "tier": "T1",
+  "near_neighbor": "Dynamic_Possession"
+ },
+ "Buying||charter||They chartered a helicopter to the island.": {
+  "tier": "T1",
+  "near_neighbor": "Payment"
+ },
+ "Buying||hire||The nurse hired the furniture.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Buying||hire||The driver hired the letter.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Buying||hire||The children hired the package.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Capacity||hold||The cargo bay holds twelve tons.": {
+  "tier": "T1",
+  "near_neighbor": "Location"
+ },
+ "Capacity||seat||The stadium seats nearly a hundred thousand.": {
+  "tier": "T1",
+  "near_neighbor": "Constrain"
+ },
+ "Capacity||store||The warehouse stores two thousand pallets.": {
+  "tier": "T1",
+  "near_neighbor": "Possession"
+ },
+ "Capacity||sleep||The hostel sleeps a hundred backpackers.": {
+  "tier": "T1",
+  "near_neighbor": "Constrain"
+ },
+ "Capacity||sleep||The cabin sleeps six comfortably.": {
+  "tier": "T1",
+  "near_neighbor": "Constrain"
+ },
+ "Capacity||sleep||The motel sleeps forty guests.": {
+  "tier": "T1",
+  "near_neighbor": "Constrain"
+ },
+ "Capacity||hold||The lot holds roughly eighty cars.": {
+  "tier": "T1",
+  "near_neighbor": "Location"
+ },
+ "Capacity||store||The cellar stores three hundred bottles.": {
+  "tier": "T1",
+  "near_neighbor": "Possession"
+ },
+ "Capacity||store||The hangar stores four aircraft.": {
+  "tier": "T1",
+  "near_neighbor": "Possession"
+ },
+ "Capacity||sleep||The tent sleeps four.": {
+  "tier": "T1",
+  "near_neighbor": "Constrain"
+ },
+ "Capacity||hold||The tank holds three hundred gallons.": {
+  "tier": "T1",
+  "near_neighbor": "Constrain"
+ },
+ "Capacity||hold||The barge holds a hundred tons of gravel.": {
+  "tier": "T1",
+  "near_neighbor": "Location"
+ },
+ "Capacity||hold||The reservoir holds enough water for the district.": {
+  "tier": "T1",
+  "near_neighbor": "Constrain"
+ },
+ "Capacity||store||The freezer stores enough food for a month.": {
+  "tier": "T1",
+  "near_neighbor": "Possession"
+ },
+ "Capacity||store||The silo stores grain through winter.": {
+  "tier": "T1",
+  "near_neighbor": "Possession"
+ },
+ "Capacity||sleep||She slept the tools.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Capacity||store||She stored the supplies.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Capacity||lodge||She lodged the old books.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Capacity||lodge||He lodged the documents.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Capacity||lodge||The workers lodged the letter.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Capacity||lodge||The crew lodged the supplies.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Capacity||lodge||The team lodged the merchandise.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Capacity||lodge||The nurse lodged the tools.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Carrying||transport||He transported the instruments in the van.": {
+  "tier": "T1",
+  "near_neighbor": "Sending"
+ },
+ "Carrying||bring||She brought the dishes into the kitchen.": {
+  "tier": "T1",
+  "near_neighbor": "Pick_Up_and_Drop_Off"
+ },
+ "Carrying||haul||Workers hauled the lumber to the site.": {
+  "tier": "T1",
+  "near_neighbor": "Sending"
+ },
+ "Carrying||tote||He toted his gear through the airport.": {
+  "tier": "T1",
+  "near_neighbor": "Sending"
+ },
+ "Carrying||haul||He hauled the cooler to the picnic table.": {
+  "tier": "T1",
+  "near_neighbor": "Pick_Up_and_Drop_Off"
+ },
+ "Carrying||haul||They hauled the nets back to the dock.": {
+  "tier": "T1",
+  "near_neighbor": "Pick_Up_and_Drop_Off"
+ },
+ "Carrying||bring||He brought the wine from the cellar.": {
+  "tier": "T1",
+  "near_neighbor": "Pick_Up_and_Drop_Off"
+ },
+ "Carrying||hoist||The nurse hoisted the tools.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Carrying||hoist||The driver hoisted the equipment.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Carrying||hoist||The children hoisted her daughter.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Carrying||hoist||My neighbor hoisted the tools.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Cause_Change_of_State||slice||He sliced the melon in half.": {
+  "tier": "T1",
+  "near_neighbor": "Cause_Creation"
+ },
+ "Cause_Change_of_State||slice||She sliced the bread into thin pieces.": {
+  "tier": "T1",
+  "near_neighbor": "Cause_Creation"
+ },
+ "Cause_Change_of_State||bake||He baked the clay in a kiln.": {
+  "tier": "T1",
+  "near_neighbor": "Change_of_State"
+ },
+ "Cause_Change_of_State||dice||The chef diced the onions finely.": {
+  "tier": "T1",
+  "near_neighbor": "Cause_Creation"
+ },
+ "Cause_Change_of_State||damage||The hailstorm damaged the roof tiles.": {
+  "tier": "T1",
+  "near_neighbor": "Hurt"
+ },
+ "Cause_Change_of_State||damage||The blast damaged the wall beyond repair.": {
+  "tier": "T1",
+  "near_neighbor": "Hurt"
+ },
+ "Cause_Change_of_State||crack||She cracked the egg into the bowl.": {
+  "tier": "T1",
+  "near_neighbor": "Change_of_State"
+ },
+ "Cause_Change_of_State||melt||He melted the wax over a candle.": {
+  "tier": "T1",
+  "near_neighbor": "Change_of_State"
+ },
+ "Cause_Change_of_State||boil||She boiled the potatoes until soft.": {
+  "tier": "T1",
+  "near_neighbor": "Change_of_State"
+ },
+ "Cause_Change_of_State||bake||She baked the cargo.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Cause_Change_of_State||bake||He baked her daughter.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Cause_Change_of_State||dice||She diced the injured man.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Cause_Change_of_State||dice||He diced the letter.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Cause_Change_of_State||slice||She sliced the firewood.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Cause_Change_of_State||slice||He sliced the package.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Cause_Change_of_State||slice||The workers sliced the furniture.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Cause_Change_of_State||damage||She damaged the documents.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Cause_Change_of_State||damage||He damaged the cargo.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Cause_Change_of_State||damage||The workers damaged her daughter.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Cause_Change_of_State||damage||The crew damaged the equipment.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Cause_Change_of_State||boil||The nurse boiled the documents.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Cause_Creation||design||He designed the logo for the startup.": {
+  "tier": "T1",
+  "near_neighbor": "Image_Creation"
+ },
+ "Cause_Creation||form||She formed a nonprofit organization.": {
+  "tier": "T1",
+  "near_neighbor": "Form"
+ },
+ "Cause_Creation||produce||The publisher produced an illustrated edition.": {
+  "tier": "T1",
+  "near_neighbor": "Image_Creation"
+ },
+ "Cause_Creation||construct||He constructed a shed from reclaimed wood.": {
+  "tier": "T1",
+  "near_neighbor": "Cause_Change_of_State"
+ },
+ "Cause_Creation||publish||She published a collection of short stories.": {
+  "tier": "T1",
+  "near_neighbor": "Image_Creation"
+ },
+ "Cause_Creation||manufacture||They manufactured the components at a plant.": {
+  "tier": "T1",
+  "near_neighbor": "Form"
+ },
+ "Cause_Creation||produce||The studio produced a documentary about the reef.": {
+  "tier": "T1",
+  "near_neighbor": "Cause_Change_of_State"
+ },
+ "Cause_Creation||design||He designed a bridge for the competition.": {
+  "tier": "T1",
+  "near_neighbor": "Form"
+ },
+ "Cause_Incremental||siphon||She siphoned the fuel into a jerry can.": {
+  "tier": "T1",
+  "near_neighbor": "Incremental"
+ },
+ "Cause_Incremental||siphon||He siphoned water from the rain barrel.": {
+  "tier": "T1",
+  "near_neighbor": "Incremental"
+ },
+ "Cause_Incremental||siphon||She siphoned the supplies.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Cause_Incremental||siphon||He siphoned the merchandise.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Cause_Incremental||siphon||The workers siphoned the cargo.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Cause_Incremental||siphon||The crew siphoned her daughter.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Cause_Membership||recall||She recalled the cargo.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Cause_Membership||recall||He recalled the firewood.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Cause_Membership||remove||She removed the letter.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Cause_Membership||remove||He removed the injured man.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Cause_Membership||remove||The workers removed the package.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Cause_Membership||expel||She expeled the supplies.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Cause_Membership||discharge||The nurse discharged the paintings.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Cause_Membership||discharge||The driver discharged the supplies.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Cause_Membership||discharge||The children discharged the package.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Cause_Participation||recruit||The party recruited candidates in every district.": {
+  "tier": "T1",
+  "near_neighbor": "Cause_Membership"
+ },
+ "Cause_Participation||recruit||Scouts recruited players from college teams.": {
+  "tier": "T1",
+  "near_neighbor": "Cause_Membership"
+ },
+ "Cause_Participation||outlaw||Authorities outlawed fireworks in the city.": {
+  "tier": "T1",
+  "near_neighbor": "Enforcement"
+ },
+ "Cause_and_Effect||provoke||His arrest provoked a constitutional crisis.": {
+  "tier": "T1",
+  "near_neighbor": "Cause_Change_of_State"
+ },
+ "Cause_and_Effect||incite||The article incited protests in the capital.": {
+  "tier": "T1",
+  "near_neighbor": "Induction"
+ },
+ "Cause_and_Effect||provoke||The ruling provoked a backlash from unions.": {
+  "tier": "T1",
+  "near_neighbor": "Induction"
+ },
+ "Cause_and_Effect||generate||The policy generated thousands of new jobs.": {
+  "tier": "T1",
+  "near_neighbor": "Cause_Creation"
+ },
+ "Cause_and_Effect||generate||The recall generated negative publicity.": {
+  "tier": "T1",
+  "near_neighbor": "Cause_Creation"
+ },
+ "Cause_and_Effect||raise||The nurse raised the firewood.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Cause_and_Effect||raise||The driver raised the supplies.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Cause_and_Effect||raise||The children raised the witness.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Cause_and_Effect||raise||My neighbor raised the merchandise.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Cause_and_Effect||raise||The old man raised the letter.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Cause_and_Effect||generate||The nurse generated the firewood.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Cause_and_Effect||generate||The driver generated her daughter.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Cause_and_Effect||generate||The children generated the witness.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Change_of_State||heal||The wound healed over several weeks.": {
+  "tier": "T1",
+  "near_neighbor": "Cause_Change_of_State"
+ },
+ "Change_of_State||darken||The sky darkened before the storm.": {
+  "tier": "T1",
+  "near_neighbor": "Cause_Change_of_State"
+ },
+ "Change_of_State||change||The leaves changed color in October.": {
+  "tier": "T1",
+  "near_neighbor": "Cause_Change_of_State"
+ },
+ "Change_of_State||melt||The wax melted in the afternoon heat.": {
+  "tier": "T1",
+  "near_neighbor": "Cause_Change_of_State"
+ },
+ "Change_of_State||rise||Prices rose steadily throughout the quarter.": {
+  "tier": "T1",
+  "near_neighbor": "Cause_Change_of_State"
+ },
+ "Change_of_State||change||The situation changed dramatically overnight.": {
+  "tier": "T1",
+  "near_neighbor": "Cause_Change_of_State"
+ },
+ "Change_of_State||freeze||The water froze in the pipes.": {
+  "tier": "T1",
+  "near_neighbor": "Cause_Change_of_State"
+ },
+ "Change_of_State||grow||The economy grew by three percent.": {
+  "tier": "T1",
+  "near_neighbor": "Cause_Change_of_State"
+ },
+ "Change_of_State||bake||The cake baked for forty minutes.": {
+  "tier": "T1",
+  "near_neighbor": "Cause_Change_of_State"
+ },
+ "Change_of_State||crack||The ice cracked under the weight.": {
+  "tier": "T1",
+  "near_neighbor": "Cause_Change_of_State"
+ },
+ "Change_of_State||flex||The metal flexed under pressure.": {
+  "tier": "T1",
+  "near_neighbor": "Cause_Change_of_State"
+ },
+ "Change_of_State||break||The wound broke open again.": {
+  "tier": "T1",
+  "near_neighbor": "Cause_Change_of_State"
+ },
+ "Change_of_State||darken||The bread darkened in the oven.": {
+  "tier": "T1",
+  "near_neighbor": "Cause_Change_of_State"
+ },
+ "Change_of_State||sink||The building sank into the soft ground.": {
+  "tier": "T1",
+  "near_neighbor": "Cause_Change_of_State"
+ },
+ "Change_of_State||crack||The old paint cracked in the sun.": {
+  "tier": "T1",
+  "near_neighbor": "Cause_Change_of_State"
+ },
+ "Change_of_State||grow||The river grew wider after the dam broke.": {
+  "tier": "T1",
+  "near_neighbor": "Cause_Change_of_State"
+ },
+ "Change_of_State||freeze||The lake froze overnight.": {
+  "tier": "T1",
+  "near_neighbor": "Cause_Change_of_State"
+ },
+ "Change_of_State||grow||She grew the package.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Change_of_State||grow||He grew the old books.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Change_of_State||darken||She darkened her daughter.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Change_of_State||darken||He darkened the firewood.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Change_of_State||change||She changed the furniture.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Change_of_State||change||He changed her daughter.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Change_of_State||change||The workers changed the cargo.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Change_of_State||bake||She baked the firewood.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Change_of_State||bake||He baked the equipment.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Change_of_State||bake||The workers baked the supplies.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Change_of_State||flex||The nurse flexed the witness.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Change_of_State||flex||The driver flexed the cargo.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Change_of_State||flex||The children flexed the equipment.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Change_of_State||flex||My neighbor flexed the package.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Change_of_State||flex||The old man flexed the cargo.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Change_of_State||break||The nurse broke the letter.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Change_of_State||break||The driver broke the witness.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Change_of_State||break||The children broke the equipment.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Change_of_State||break||My neighbor broke the letter.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Change_of_State||break||The old man broke the paintings.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Charge||bill||She billed the client for thirty hours.": {
+  "tier": "T1",
+  "near_neighbor": "Payment"
+ },
+ "Charge||bill||The contractor billed monthly for labor.": {
+  "tier": "T1",
+  "near_neighbor": "Payment"
+ },
+ "Charge||bill||He billed the estate for legal services.": {
+  "tier": "T1",
+  "near_neighbor": "Payment"
+ },
+ "Charge||bill||The doctor billed the insurer directly.": {
+  "tier": "T1",
+  "near_neighbor": "Payment"
+ },
+ "Charge||bill||She billed the letter.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Concealment||block||The nurse blocked the equipment.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Concealment||block||The driver blocked the firewood.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Concealment||block||The children blocked the witness.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Concealment||block||My neighbor blocked the cargo.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Concealment||block||The old man blocked the furniture.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Concealment||screen||The nurse screened the documents.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Concealment||screen||The driver screened the paintings.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Concealment||screen||The children screened her daughter.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Constrain||hold||The nurse held the tools.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Constrain||hold||The driver held the cargo.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Constrain||hold||The children held the package.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Constrain||hold||My neighbor held the tools.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Constrain||hold||The old man held the witness.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Desire||desire||The nurse desired the letter.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Desire||desire||The driver desired the furniture.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Desire||desire||The children desired the cargo.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Desire||desire||My neighbor desired the equipment.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Emotion_(stim. subj.)||worry||She worried the documents.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Emotion_(stim. subj.)||worry||He worried the paintings.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Emotion_(stim. subj.)||worry||The workers worried the supplies.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Emotion_(stim. subj.)||worry||The crew worried the furniture.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Emotion_(stim. subj.)||bother||She bothered the supplies.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Emotion_(stim. subj.)||bother||He bothered the tools.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Emotion_(stim. subj.)||bother||The workers bothered the tools.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Emotion_(stim. subj.)||bother||The crew bothered the witness.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Emotion_(stim. subj.)||bother||The team bothered the documents.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Emotion_(stim. subj.)||concern||She concerned the cargo.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Emotion_(stim. subj.)||concern||He concerned the firewood.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Existence||abound||The nurse abounded the package.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Existence||abound||The driver abounded the package.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Existence||abound||The children abounded the injured man.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Form||grow||She grew her daughter.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Form||grow||He grew the equipment.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Form||grow||The workers grew the tools.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Form||cultivate||She cultivated the furniture.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Form||cultivate||He cultivated the firewood.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Form||cultivate||The workers cultivated the cargo.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Form||cultivate||The crew cultivated the furniture.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Form||farm||She farmed the cargo.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Form||farm||He farmed the package.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Form||farm||The workers farmed the letter.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Form||rear||The nurse reared the letter.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Form||rear||The driver reared the merchandise.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Form||rear||The children reared the furniture.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Form||rear||My neighbor reared the merchandise.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Form||rear||The old man reared the equipment.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Form||farm||The nurse farmed the cargo.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Form||farm||The driver farmed the package.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Form||hatch||The nurse hatched the documents.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Incremental||hang||She hung the injured man.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Incremental||hang||He hung the merchandise.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Incremental||hang||The workers hung the merchandise.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Incremental||hang||The crew hung her daughter.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Incremental||plaster||She plastered the package.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Incremental||plaster||He plastered the merchandise.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Incremental||plaster||The workers plastered the injured man.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Incremental||plaster||The crew plastered the supplies.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Induction||persuade||She persuaded her daughter.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Induction||persuade||He persuaded the cargo.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Induction||compel||She compelled the paintings.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Induction||compel||He compelled the furniture.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Induction||compel||The workers compelled the equipment.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Induction||cheat||She cheated the supplies.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Learning||memorize||The nurse memorized her daughter.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Learning||memorize||The driver memorized the tools.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Learning||memorize||The children memorized the witness.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Limitation||restrain||The nurse restrained the supplies.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Limitation||restrain||The driver restrained the documents.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Limitation||restrain||The children restrained the equipment.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Limitation||restrain||My neighbor restrained her daughter.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Limitation||restrain||The old man restrained the furniture.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Limitation||confine||The nurse confined the letter.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Limitation||confine||The driver confined the old books.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Limitation||confine||The children confined the witness.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Location||adjoin||She adjoined the package.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Location||adjoin||He adjoined the witness.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Location||come||She came the witness.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Location||come||He came the merchandise.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Location||come||The workers came the firewood.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Location||appear||She appeared the witness.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Location||appear||He appeared her daughter.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Location||stop||The nurse stopped the witness.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Location||stop||The driver stopped the supplies.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Location||stop||The children stopped the supplies.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Location||stop||My neighbor stopped the package.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Location||stop||The old man stopped the tools.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Location||cover||The nurse covered the supplies.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Manipulation||work||She worked her daughter.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Manipulation||work||He worked the documents.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Manipulation||work||The workers worked the injured man.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Manipulation||work||The crew worked the tools.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Manipulation||work||The team worked the cargo.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Manipulation||drive||She drove the old books.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Manipulation||drive||He drove the tools.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Manipulation||drive||The workers drove the witness.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Manipulation||drive||The crew drove the cargo.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Manipulation||drive||The team drove the injured man.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Manipulation||work||The nurse worked the package.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Manipulation||drive||The nurse drove the paintings.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Membership||belong||The nurse belonged the old books.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Membership||belong||The driver belonged the paintings.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Membership||belong||The children belonged the cargo.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Membership||govern||The nurse governed the furniture.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Membership||govern||The driver governed the old books.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Membership||govern||The children governed the package.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Motion||leave||She leaved the furniture.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Motion||cut||She cut the injured man.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Motion||travel||She traveled the injured man.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Motion||travel||He traveled the paintings.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Motion||travel||The workers traveled the injured man.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Motion||travel||The crew traveled the tools.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Motion||move||She moved the letter.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Motion||move||He moved the furniture.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Motion||move||The workers moved the merchandise.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Motion||move||The crew moved the documents.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Motion||move||The team moved the cargo.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Perception_(stim._subj.)||look||She looked the furniture.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Perception_(stim._subj.)||look||He looked the documents.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Perception_(stim._subj.)||look||The workers looked the cargo.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Perception_(stim._subj.)||look||The crew looked the equipment.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Perception_(stim._subj.)||taste||She tasted the old books.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Perception_(stim._subj.)||taste||He tasted the tools.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Perception_(stim._subj.)||taste||The workers tasted the old books.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Perception_(stim._subj.)||taste||The crew tasted the tools.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Perception_(stim._subj.)||sound||She sounded the merchandise.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Perception_(stim._subj.)||sound||He sounded the equipment.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Perception_(stim._subj.)||sound||The nurse sounded the paintings.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Perception_(stim._subj.)||sound||The driver sounded the paintings.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Perception_(stim._subj.)||sound||The children sounded the documents.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Perception_(stim._subj.)||feel||The nurse felt the injured man.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Perception_(stim._subj.)||feel||The driver felt the firewood.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Perception_(stim._subj.)||feel||The children felt the firewood.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Perception_(stim._subj.)||feel||My neighbor felt the firewood.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Perception_(stim._subj.)||feel||The old man felt the tools.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Pick_Up_and_Drop_Off||lower||The nurse lowered the supplies.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Pick_Up_and_Drop_Off||lower||The driver lowered the cargo.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Pick_Up_and_Drop_Off||lower||The children lowered the firewood.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Pick_Up_and_Drop_Off||lower||My neighbor lowered her daughter.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Pick_Up_and_Drop_Off||pick||The nurse picked her daughter.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Possession||have||The nurse haved the furniture.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Possession||have||The driver haved the equipment.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Possession||have||The children haved the tools.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Possession||have||My neighbor haved the letter.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Possession||have||The old man haved the documents.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Possession||belong||The nurse belonged the cargo.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Possession||belong||The driver belonged the tools.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Possession||belong||The children belonged the tools.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Possession||belong||My neighbor belonged the paintings.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Possession||belong||The old man belonged the injured man.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Protection||safeguard||The nurse safeguarded the letter.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Protection||safeguard||The driver safeguarded the witness.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Protection||safeguard||The children safeguarded her daughter.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Protection||safeguard||My neighbor safeguarded the supplies.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Pursuit||steer||The nurse steered the documents.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Replacement||substitute||The nurse substituted the supplies.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Replacement||substitute||The driver substituted her daughter.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Replacement||substitute||The children substituted the supplies.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Replacement||substitute||My neighbor substituted the equipment.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Replacement||substitute||The old man substituted the package.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Replacement||switch||The nurse switched the package.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Replacement||switch||The driver switched the supplies.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Replacement||switch||The children switched the firewood.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Replacement||switch||My neighbor switched the paintings.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Response||confront||The nurse confronted her daughter.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Response||confront||The driver confronted the old books.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Response||confront||The children confronted the supplies.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Response||confront||My neighbor confronted the equipment.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Response||confront||The old man confronted her daughter.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Response||shoot||The nurse shooted the furniture.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Selling||hawk||The nurse hawked the cargo.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Selling||hawk||The driver hawked the firewood.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Selling||hawk||The children hawked the package.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Selling||hawk||My neighbor hawked the cargo.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Selling||hawk||The old man hawked the supplies.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Throwing||fling||The nurse flinged the merchandise.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Throwing||fling||The driver flinged the witness.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Throwing||fling||The children flinged the letter.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Aggression||tease||The bully teased the younger kids at recess.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Aggression||bully||The sergeant bullied the recruits into silence.": {
+  "tier": "T1",
+  "near_neighbor": "Induction"
+ },
+ "Aggression||hustle||Street gangs hustled travelers near the border.": {
+  "tier": "T1",
+  "near_neighbor": "Induction"
+ },
+ "Capacity||hold||The briefcase holds a laptop and two folders.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Capacity||hold||The parking garage holds five hundred vehicles.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Capacity||seat||The concert hall seats nine hundred.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Capacity||hold||The canteen holds a quart.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Capacity||hold||The drawer holds about twenty files.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Capacity||sleep||The inn sleeps thirty guests in private rooms.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Capacity||hold||This bottle holds a full liter.": {
+  "tier": "T1",
+  "near_neighbor": "Constrain"
+ },
+ "Capacity||sleep||The trailer sleeps two adults.": {
+  "tier": "T1",
+  "near_neighbor": "Constrain"
+ },
+ "Capacity||seat||The auditorium seats three hundred for lectures.": {
+  "tier": "T1",
+  "near_neighbor": "Constrain"
+ },
+ "Capacity||hold||The cooler holds twelve cans.": {
+  "tier": "T1",
+  "near_neighbor": "Constrain"
+ },
+ "Capacity||store||Each rack stores thirty bottles.": {
+  "tier": "T1",
+  "near_neighbor": "Possession"
+ },
+ "Capacity||store||The vault stores the most sensitive documents.": {
+  "tier": "T1",
+  "near_neighbor": "Possession"
+ },
+ "Capacity||store||The closet stores winter coats and boots.": {
+  "tier": "T1",
+  "near_neighbor": "Possession"
+ },
+ "Capacity||seat||The stadium seats eighty thousand fans.": {
+  "tier": "T1",
+  "near_neighbor": "Constrain"
+ },
+ "Capacity||hold||The reservoir holds a billion gallons.": {
+  "tier": "T1",
+  "near_neighbor": "Location"
+ },
+ "Carrying||carry||She carried the groceries in from the car.": {
+  "tier": "T1",
+  "near_neighbor": "Pick_Up_and_Drop_Off"
+ },
+ "Carrying||bring||He brought the mail up to the third floor.": {
+  "tier": "T1",
+  "near_neighbor": "Pick_Up_and_Drop_Off"
+ },
+ "Cause_Change_of_State||melt||She melted the cheese over the toast.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Cause_Incremental||bury||He buried the fence posts along the property line.": {
+  "tier": "T1",
+  "near_neighbor": "Incremental"
+ },
+ "Cause_Incremental||put||She put the dishes in the drying rack.": {
+  "tier": "T1",
+  "near_neighbor": "Pick_Up_and_Drop_Off"
+ },
+ "Cause_Incremental||bury||He buried the irrigation pipe beneath the garden.": {
+  "tier": "T1",
+  "near_neighbor": "Incremental"
+ },
+ "Cause_Incremental||put||She put the spices in the upper cabinet.": {
+  "tier": "T1",
+  "near_neighbor": "Pick_Up_and_Drop_Off"
+ },
+ "Cause_Incremental||bury||He buried the extension cord under the carpet.": {
+  "tier": "T1",
+  "near_neighbor": "Concealment"
+ },
+ "Cause_Incremental||put||She put the folded shirts in the suitcase.": {
+  "tier": "T1",
+  "near_neighbor": "Pick_Up_and_Drop_Off"
+ },
+ "Cause_Incremental||siphon||He siphoned the oil from the engine.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Cause_Incremental||bury||She buried the anchor chain in the sand.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Cause_Incremental||put||He put the keys on the hook.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Cause_Incremental||bury||She buried the tile beneath a layer of mortar.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Cause_Incremental||put||He put the batteries in the remote.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Cause_Incremental||siphon||She siphoned the broth into a jar.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Cause_Incremental||bury||He buried the post in concrete.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Cause_Incremental||stuff||She stuffed the cushion with foam.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Cause_Incremental||jam||He jammed the door open with a wedge.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Cause_Incremental||pack||She packed the earth around the sapling.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Cause_Incremental||wedge||He wedged the shim under the table leg.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Cause_Incremental||insert||She inserted the card into the slot.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Cause_Incremental||cram||He crammed the papers into the drawer.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Cause_Incremental||tuck||She tucked the blanket around the child.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Cause_Incremental||slot||He slotted the cartridge into the printer.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Cause_Incremental||embed||She embedded the screws in the plaster.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Cause_Incremental||plant||He planted the stakes around the perimeter.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Cause_Incremental||thread||She threaded the needle through the fabric.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Cause_Incremental||lodge||He lodged the wedge between the stones.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Cause_Incremental||poke||She poked the thermometer into the roast.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Cause_Incremental||ram||He rammed the post into the frozen ground.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Cause_Incremental||tuck||She tucked the envelope under the door.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Charge||charge||The plumber charged a hundred for the call.": {
+  "tier": "T1",
+  "near_neighbor": "Payment"
+ },
+ "Charge||charge||The hotel charged guests a resort fee.": {
+  "tier": "T1",
+  "near_neighbor": "Payment"
+ },
+ "Charge||charge||The broker charged a commission on each trade.": {
+  "tier": "T1",
+  "near_neighbor": "Payment"
+ },
+ "Charge||charge||The school charged tuition by the credit hour.": {
+  "tier": "T1",
+  "near_neighbor": "Payment"
+ },
+ "Charge||charge||The airline charged for every checked bag.": {
+  "tier": "T1",
+  "near_neighbor": "Payment"
+ },
+ "Charge||charge||The notary charged ten dollars per document.": {
+  "tier": "T1",
+  "near_neighbor": "Payment"
+ },
+ "Charge||bill||The hospital billed the insurer for the procedure.": {
+  "tier": "T1",
+  "near_neighbor": "Payment"
+ },
+ "Charge||charge||The workshop charged an enrollment fee.": {
+  "tier": "T1",
+  "near_neighbor": "Payment"
+ },
+ "Charge||charge||The caterer charged per plate.": {
+  "tier": "T1",
+  "near_neighbor": "Payment"
+ },
+ "Charge||charge||The landlord charged a penalty for late rent.": {
+  "tier": "T1",
+  "near_neighbor": "Payment"
+ },
+ "Charge||charge||The shop charged double for rush orders.": {
+  "tier": "T1",
+  "near_neighbor": "Payment"
+ },
+ "Charge||charge||The gym charged a monthly membership fee.": {
+  "tier": "T1",
+  "near_neighbor": "Payment"
+ },
+ "Charge||charge||The consultant charged by the hour.": {
+  "tier": "T1",
+  "near_neighbor": "Payment"
+ },
+ "Charge||charge||The ferry charged twelve dollars per car.": {
+  "tier": "T1",
+  "near_neighbor": "Payment"
+ },
+ "Charge||charge||The clinic charged a copay at the door.": {
+  "tier": "T1",
+  "near_neighbor": "Payment"
+ },
+ "Charge||charge||The tailor charged extra for alterations.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Charge||bill||She billed the client for fifteen hours of work.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Charge||charge||The salon charged forty dollars for a haircut.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Charge||bill||The lawyer billed the firm for her expenses.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Charge||charge||The restaurant charged a corkage fee.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Charge||charge||The moving company charged by the mile.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Charge||bill||The accountant billed quarterly.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Charge||charge||He charged a flat rate regardless of hours.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Charge||bill||They billed the foundation for the full amount.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Charge||charge||The kennel charged for boarding and grooming.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Charge||charge||The locksmith charged a service call fee.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Charge||charge||The lab charged per sample analyzed.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Charge||charge||The studio charged admission at the door.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Charge||charge||The electrician charged a diagnostic fee.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Charge||bill||She billed the estate for legal representation.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Charge||charge||The tow company charged a flat fee.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Charge||charge||The repair shop charged for parts and labor.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Charge||bill||The editor billed per word.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Charge||charge||The parking lot charged by the hour.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Charge||charge||The tutor charged for cancellations.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Concealment||hide||She hid the money under the mattress.": {
+  "tier": "T1",
+  "near_neighbor": "Incremental"
+ },
+ "Concealment||conceal||He concealed the evidence in the basement.": {
+  "tier": "T1",
+  "near_neighbor": "Incremental"
+ },
+ "Concealment||hide||The fog hid the coastline from the sailors.": {
+  "tier": "T1",
+  "near_neighbor": "Emission"
+ },
+ "Concealment||hide||She hid the gifts in the attic.": {
+  "tier": "T1",
+  "near_neighbor": "Incremental"
+ },
+ "Concealment||hide||He hid behind the curtain.": {
+  "tier": "T1",
+  "near_neighbor": "Location"
+ },
+ "Concealment||screen||The canopy screened the courtyard from view.": {
+  "tier": "T1",
+  "near_neighbor": "Incremental"
+ },
+ "Concealment||sequester||They sequestered the jury in a hotel.": {
+  "tier": "T1",
+  "near_neighbor": "Limitation"
+ },
+ "Concealment||block||She blocked the camera with her hand.": {
+  "tier": "T1",
+  "near_neighbor": "Limitation"
+ },
+ "Concealment||hide||He hid the letter inside a book.": {
+  "tier": "T1",
+  "near_neighbor": "Incremental"
+ },
+ "Concealment||conceal||The wall concealed the garden from the road.": {
+  "tier": "T1",
+  "near_neighbor": "Incremental"
+ },
+ "Concealment||screen||She screened the porch with hanging plants.": {
+  "tier": "T1",
+  "near_neighbor": "Incremental"
+ },
+ "Concealment||hide||He hid the spare key behind the shutter.": {
+  "tier": "T1",
+  "near_neighbor": "Incremental"
+ },
+ "Concealment||sequester||They sequestered the witness during the trial.": {
+  "tier": "T1",
+  "near_neighbor": "Limitation"
+ },
+ "Concealment||conceal||The drapes concealed the broken window.": {
+  "tier": "T1",
+  "near_neighbor": "Incremental"
+ },
+ "Concealment||hide||She hid the diary in a hollowed-out book.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Concealment||conceal||He concealed his face with a scarf.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Concealment||hide||The snow hid the path completely.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Concealment||block||She blocked the doorway with a bookcase.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Concealment||hide||He hid the candy from the children.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Concealment||conceal||The curtain concealed the backstage area.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Concealment||hide||She hid the bruise with makeup.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Concealment||sequester||He sequestered himself in the study.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Desire||need||She needs a new pair of shoes.": {
+  "tier": "T1",
+  "near_neighbor": "Intention"
+ },
+ "Desire||want||He wants to finish the project by Friday.": {
+  "tier": "T1",
+  "near_neighbor": "Intention"
+ },
+ "Desire||need||The patient needs surgery.": {
+  "tier": "T1",
+  "near_neighbor": "Intention"
+ },
+ "Desire||need||They need more volunteers for the event.": {
+  "tier": "T1",
+  "near_neighbor": "Intention"
+ },
+ "Desire||desire||She desires a simpler life.": {
+  "tier": "T1",
+  "near_neighbor": "Intention"
+ },
+ "Desire||want||He wants a raise.": {
+  "tier": "T1",
+  "near_neighbor": "Intention"
+ },
+ "Desire||need||The garden needs water.": {
+  "tier": "T1",
+  "near_neighbor": "Intention"
+ },
+ "Desire||need||She needs time to recover.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Desire||want||He wants to learn French.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Desire||need||The children need a larger classroom.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Desire||need||She needs help with the move.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Desire||desire||He desired nothing but peace.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Desire||want||She wanted the old house back.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Desire||need||He needs the car repaired by tomorrow.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Dynamic_Possession||borrow||She borrowed a ladder from her neighbor.": {
+  "tier": "T1",
+  "near_neighbor": "Transfer_of_Possession"
+ },
+ "Dynamic_Possession||receive||He received the award at the ceremony.": {
+  "tier": "T1",
+  "near_neighbor": "Transfer_of_Possession"
+ },
+ "Dynamic_Possession||donate||They donated blankets to the shelter.": {
+  "tier": "T1",
+  "near_neighbor": "Transfer_of_Possession"
+ },
+ "Dynamic_Possession||collect||She collected stamps from around the world.": {
+  "tier": "T1",
+  "near_neighbor": "Incremental"
+ },
+ "Dynamic_Possession||distribute||He distributed flyers across the neighborhood.": {
+  "tier": "T1",
+  "near_neighbor": "Sending"
+ },
+ "Dynamic_Possession||collect||The charity collected canned goods.": {
+  "tier": "T1",
+  "near_neighbor": "Incremental"
+ },
+ "Dynamic_Possession||receive||She received a scholarship for graduate school.": {
+  "tier": "T1",
+  "near_neighbor": "Transfer_of_Possession"
+ },
+ "Dynamic_Possession||borrow||He borrowed tools from the workshop.": {
+  "tier": "T1",
+  "near_neighbor": "Transfer_of_Possession"
+ },
+ "Dynamic_Possession||donate||They donated their old furniture.": {
+  "tier": "T1",
+  "near_neighbor": "Transfer_of_Possession"
+ },
+ "Dynamic_Possession||distribute||She distributed the pamphlets at the meeting.": {
+  "tier": "T1",
+  "near_neighbor": "Sending"
+ },
+ "Dynamic_Possession||collect||He collected rent from his tenants.": {
+  "tier": "T1",
+  "near_neighbor": "Payment"
+ },
+ "Dynamic_Possession||recover||She recovered the stolen artwork.": {
+  "tier": "T1",
+  "near_neighbor": "Transfer_of_Possession"
+ },
+ "Dynamic_Possession||consume||He consumed the entire meal in minutes.": {
+  "tier": "T1",
+  "near_neighbor": "Ingestion"
+ },
+ "Dynamic_Possession||receive||The museum received a donation of rare coins.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Dynamic_Possession||borrow||She borrowed the car for the weekend.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Dynamic_Possession||donate||He donated blood at the clinic.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Dynamic_Possession||collect||They collected signatures for the petition.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Dynamic_Possession||receive||She received a package in the mail.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Dynamic_Possession||distribute||He distributed the assignments to the class.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Dynamic_Possession||borrow||She borrowed money for the deposit.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Dynamic_Possession||recover||He recovered his luggage from the airline.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Dynamic_Possession||consume||The state consumed most of its reserves.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Dynamic_Possession||collect||She collected rainwater in a barrel.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Dynamic_Possession||use||He used the company credit card for supplies.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Emission||flicker||The lantern flickered in the wind.": {
+  "tier": "T1",
+  "near_neighbor": "Perception_(stim._subj.)"
+ },
+ "Emission||bleed||The wound bled through the bandage.": {
+  "tier": "T1",
+  "near_neighbor": "Hurt"
+ },
+ "Emission||gleam||The stars gleamed above the harbor.": {
+  "tier": "T1",
+  "near_neighbor": "Perception_(stim._subj.)"
+ },
+ "Emission||leak||The pipe leaked water onto the floor.": {
+  "tier": "T1",
+  "near_neighbor": "Change_of_State"
+ },
+ "Emission||gleam||The metal gleamed under the spotlight.": {
+  "tier": "T1",
+  "near_neighbor": "Perception_(stim._subj.)"
+ },
+ "Emission||flicker||The torch flickered and went out.": {
+  "tier": "T1",
+  "near_neighbor": "Perception_(stim._subj.)"
+ },
+ "Emission||ring||The bell rang across the valley.": {
+  "tier": "T1",
+  "near_neighbor": "Perception_(stim._subj.)"
+ },
+ "Emission||breathe||The chimney breathed smoke into the sky.": {
+  "tier": "T1",
+  "near_neighbor": "Ingestion"
+ },
+ "Emission||flicker||The streetlamp flickered above the intersection.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Emission||shine||Sunlight shone through the stained glass.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Emission||bleed||The cut bled for several minutes.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Emission||reek||The old drains reeked in the heat.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Emission||gleam||The copper gleamed after polishing.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Emotion_(stim. subj.)||worry||The verdict worried the entire community.": {
+  "tier": "T1",
+  "near_neighbor": "Emotion_(exp. subj.)"
+ },
+ "Emotion_(stim. subj.)||bother||The clutter bothered her all week.": {
+  "tier": "T1",
+  "near_neighbor": "Emotion_(exp. subj.)"
+ },
+ "Existence||abound||Wildflowers abounded on the hillside.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Existence||stand||The old tower still stands above the village.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Existence||flicker||A faint light flickered in the window.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Existence||persist||The rumor persisted for months.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Existence||hang||A strange silence hung over the square.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Form||cultivate||She cultivated herbs on the kitchen windowsill.": {
+  "tier": "T1",
+  "near_neighbor": "Cause_Creation"
+ },
+ "Form||grow||He grew tomatoes in the backyard.": {
+  "tier": "T1",
+  "near_neighbor": "Change_of_State"
+ },
+ "Form||raise||The farmer raised cattle on the prairie.": {
+  "tier": "T1",
+  "near_neighbor": "Cause_Membership"
+ },
+ "Form||cultivate||She cultivated roses along the garden wall.": {
+  "tier": "T1",
+  "near_neighbor": "Cause_Creation"
+ },
+ "Form||farm||He farmed the land his grandfather had cleared.": {
+  "tier": "T1",
+  "near_neighbor": "Cause_Creation"
+ },
+ "Form||rear||They reared chickens for the local market.": {
+  "tier": "T1",
+  "near_neighbor": "Feeding"
+ },
+ "Form||hatch||The eggs hatched in the incubator.": {
+  "tier": "T1",
+  "near_neighbor": "Change_of_State"
+ },
+ "Form||grow||She grew orchids in a small greenhouse.": {
+  "tier": "T1",
+  "near_neighbor": "Change_of_State"
+ },
+ "Form||farm||He farmed rice in the lowland paddies.": {
+  "tier": "T1",
+  "near_neighbor": "Cause_Creation"
+ },
+ "Form||cultivate||They cultivated the terraces for centuries.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Form||grow||She grew wheat on the upper field.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Form||farm||He farmed organically for twenty years.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Form||rear||They reared sheep in the highlands.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Form||hatch||The chicks hatched after three weeks.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Form||raise||He raised horses on the family ranch.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Form||cultivate||She cultivated a small herb garden.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Form||grow||He grew sunflowers along the fence line.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Form||farm||They farmed oysters in the tidal flats.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Form||raise||She raised bees for honey.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Form||hatch||The fry hatched in the gravel bed.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Future_Having||offer||The bank offered a low-interest mortgage.": {
+  "tier": "T1",
+  "near_neighbor": "Selling"
+ },
+ "Future_Having||issue||The state issued new bonds last quarter.": {
+  "tier": "T1",
+  "near_neighbor": "Payment"
+ },
+ "Future_Having||owe||He owes his brother five hundred dollars.": {
+  "tier": "T1",
+  "near_neighbor": "Payment"
+ },
+ "Future_Having||guarantee||The contract guarantees a minimum wage.": {
+  "tier": "T1",
+  "near_neighbor": "Payment"
+ },
+ "Future_Having||leave||She left the house to her niece in the will.": {
+  "tier": "T1",
+  "near_neighbor": "Dynamic_Possession"
+ },
+ "Future_Having||award||The jury awarded damages to the plaintiff.": {
+  "tier": "T1",
+  "near_neighbor": "Transfer_of_Possession"
+ },
+ "Future_Having||assign||He assigned the project to the new hire.": {
+  "tier": "T1",
+  "near_neighbor": "Cause_Participation"
+ },
+ "Future_Having||offer||The company offered stock options to employees.": {
+  "tier": "T1",
+  "near_neighbor": "Selling"
+ },
+ "Future_Having||issue||The government issued passports at the consulate.": {
+  "tier": "T1",
+  "near_neighbor": "Payment"
+ },
+ "Future_Having||owe||She owes the hospital for the surgery.": {
+  "tier": "T1",
+  "near_neighbor": "Payment"
+ },
+ "Future_Having||guarantee||The warranty guarantees free repairs for a year.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Future_Having||leave||He left his savings to charity.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Future_Having||award||The university awarded her a fellowship.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Future_Having||assign||She assigned seats for the banquet.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Future_Having||concede||He conceded the point during negotiations.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Future_Having||issue||The firm issued a promissory note.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Future_Having||offer||She offered to lend him the money.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Hurt||hurt||She hurt her ankle on the hiking trail.": {
+  "tier": "T1",
+  "near_neighbor": "Contact"
+ },
+ "Hurt||cut||He cut his thumb slicing onions.": {
+  "tier": "T1",
+  "near_neighbor": "Cause_Change_of_State"
+ },
+ "Hurt||burn||The fire burned the hiker's arm.": {
+  "tier": "T1",
+  "near_neighbor": "Cause_Change_of_State"
+ },
+ "Hurt||scald||She scalded herself with the teapot.": {
+  "tier": "T1",
+  "near_neighbor": "Cause_Change_of_State"
+ },
+ "Hurt||stub||He stubbed his toe on the doorframe.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Hurt||strain||She strained her back lifting boxes.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Hurt||nick||He nicked his chin while shaving.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Incremental||cling||Ivy clung to the old brick wall.": {
+  "tier": "T1",
+  "near_neighbor": "Concealment"
+ },
+ "Incremental||cover||Moss covered the north side of the roof.": {
+  "tier": "T1",
+  "near_neighbor": "Concealment"
+ },
+ "Incremental||spray||Grease sprayed across the stovetop.": {
+  "tier": "T1",
+  "near_neighbor": "Emission"
+ },
+ "Incremental||blanket||Snow blanketed the entire valley.": {
+  "tier": "T1",
+  "near_neighbor": "Concealment"
+ },
+ "Incremental||hang||The plaster cracked and hung in strips.": {
+  "tier": "T1",
+  "near_neighbor": "Change_of_State"
+ },
+ "Incremental||plaster||Posters plastered the construction fence.": {
+  "tier": "T1",
+  "near_neighbor": "Concealment"
+ },
+ "Incremental||seal||Frost sealed the edges of the window.": {
+  "tier": "T1",
+  "near_neighbor": "Concealment"
+ },
+ "Incremental||spray||Tar sprayed onto the gravel.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Incremental||hang||Wallpaper hung in damp strips.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Incremental||cling||Vines clung to the trellis.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Incremental||plaster||Stickers plastered the guitar case.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Incremental||sheathe||Rivets sheathed the hull in rows.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Incremental||sow||Seeds sowed themselves across the meadow.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Incremental||rivet||Bolts riveted the girders together.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Incremental||seal||Wax sealed the envelope shut.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Incremental||cling||Mud clung to his boots.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Induction||persuade||She persuaded the landlord to lower the rent.": {
+  "tier": "T1",
+  "near_neighbor": "Request"
+ },
+ "Induction||compel||He compelled the board to release the funds.": {
+  "tier": "T1",
+  "near_neighbor": "Enforcement"
+ },
+ "Induction||cheat||The con man cheated retirees out of their savings.": {
+  "tier": "T1",
+  "near_neighbor": "Transfer_of_Possession"
+ },
+ "Induction||seduce||She seduced him into revealing the code.": {
+  "tier": "T1",
+  "near_neighbor": "Emotion_(stim. subj.)"
+ },
+ "Induction||blackmail||They blackmailed the official into resigning.": {
+  "tier": "T1",
+  "near_neighbor": "Aggression"
+ },
+ "Induction||goad||He goaded the crowd into marching.": {
+  "tier": "T1",
+  "near_neighbor": "Aggression"
+ },
+ "Induction||motivate||She motivated the team with a bonus.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Induction||trap||He trapped her into admitting the truth.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Induction||compel||She compelled the witness to testify.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Limitation||restrict||The quota restricts the number of permits.": {
+  "tier": "T1",
+  "near_neighbor": "Enforcement"
+ },
+ "Limitation||limit||The regulation limits emissions to current levels.": {
+  "tier": "T1",
+  "near_neighbor": "Enforcement"
+ },
+ "Limitation||reduce||Budget cuts reduced the staff by half.": {
+  "tier": "T1",
+  "near_neighbor": "Cause_Change_of_State"
+ },
+ "Limitation||restrict||The embargo restricts fuel imports.": {
+  "tier": "T1",
+  "near_neighbor": "Enforcement"
+ },
+ "Limitation||confine||The curfew confined residents to their homes.": {
+  "tier": "T1",
+  "near_neighbor": "Constrain"
+ },
+ "Limitation||limit||The policy limits class sizes to thirty.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Limitation||restrict||New rules restrict overnight parking.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Location||border||The park borders the river on three sides.": {
+  "tier": "T1",
+  "near_neighbor": "Motion"
+ },
+ "Location||appear||The village appeared through the morning haze.": {
+  "tier": "T1",
+  "near_neighbor": "Perception_(stim._subj.)"
+ },
+ "Location||adjoin||The ridge adjoins the national forest.": {
+  "tier": "T1",
+  "near_neighbor": "Motion"
+ },
+ "Location||stop||Traffic stopped at the intersection.": {
+  "tier": "T1",
+  "near_neighbor": "Motion"
+ },
+ "Location||come||The valley comes into view past the ridge.": {
+  "tier": "T1",
+  "near_neighbor": "Motion"
+ },
+ "Location||cover||Ice covered the lake by December.": {
+  "tier": "T1",
+  "near_neighbor": "Incremental"
+ },
+ "Location||border||The fence borders the schoolyard.": {
+  "tier": "T1",
+  "near_neighbor": "Motion"
+ },
+ "Location||touch||The inlet touches the western edge of the park.": {
+  "tier": "T1",
+  "near_neighbor": "Contact"
+ },
+ "Location||stop||The highway stops at the state line.": {
+  "tier": "T1",
+  "near_neighbor": "Motion"
+ },
+ "Location||appear||The island appears on the horizon at dawn.": {
+  "tier": "T1",
+  "near_neighbor": "Perception_(stim._subj.)"
+ },
+ "Location||adjoin||The garden adjoins the kitchen.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Location||come||The path comes to a clearing.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Location||border||The property borders a creek.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Location||appear||The chapel appeared at the end of the lane.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Location||stop||The trail stops at the cliff edge.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Location||cover||Snow covered the rooftops by noon.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Location||border||The farm borders the railroad.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Location||touch||The ruins touch the edge of the forest.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Manipulation||use||She used the wrench to loosen the bolt.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Participation||serve||He served as treasurer for three years.": {
+  "tier": "T1",
+  "near_neighbor": "Membership"
+ },
+ "Participation||act||She acted as mediator in the dispute.": {
+  "tier": "T1",
+  "near_neighbor": "Membership"
+ },
+ "Participation||host||He hosted the annual charity gala.": {
+  "tier": "T1",
+  "near_neighbor": "Membership"
+ },
+ "Participation||behave||She behaved like a professional throughout.": {
+  "tier": "T1",
+  "near_neighbor": "Membership"
+ },
+ "Participation||star||He starred in the school production.": {
+  "tier": "T1",
+  "near_neighbor": "Membership"
+ },
+ "Participation||serve||She served on the board for a decade.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Participation||act||He acted as chairman of the panel.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Participation||pose||She posed as a journalist to gain access.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Participation||volunteer||He volunteered as a translator.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Perception_(stim._subj.)||smell||The bread smells fresh.": {
+  "tier": "T1",
+  "near_neighbor": "Emission"
+ },
+ "Perception_(stim._subj.)||taste||The medicine tasted bitter.": {
+  "tier": "T1",
+  "near_neighbor": "Ingestion"
+ },
+ "Perception_(stim._subj.)||feel||The cloth feels smooth.": {
+  "tier": "T1",
+  "near_neighbor": "Contact"
+ },
+ "Perception_(stim._subj.)||sound||The alarm sounded too quiet.": {
+  "tier": "T1",
+  "near_neighbor": "Emission"
+ },
+ "Perception_(stim._subj.)||look||The paint looks uneven.": {
+  "tier": "T1",
+  "near_neighbor": "Perception_(exp._subj.)"
+ },
+ "Perception_(stim._subj.)||smell||The milk smells sour.": {
+  "tier": "T1",
+  "near_neighbor": "Emission"
+ },
+ "Perception_(stim._subj.)||feel||The metal feels cold to the touch.": {
+  "tier": "T1",
+  "near_neighbor": "Contact"
+ },
+ "Perception_(stim._subj.)||sound||The plan sounds feasible.": {
+  "tier": "T1",
+  "near_neighbor": "Emission"
+ },
+ "Perception_(stim._subj.)||look||The sky looks threatening.": {
+  "tier": "T1",
+  "near_neighbor": "Perception_(exp._subj.)"
+ },
+ "Perception_(stim._subj.)||taste||The tea tasted like mint.": {
+  "tier": "T1",
+  "near_neighbor": "Ingestion"
+ },
+ "Perception_(stim._subj.)||feel||The leather feels stiff.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Perception_(stim._subj.)||sound||The offer sounds generous.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Perception_(stim._subj.)||taste||The broth tasted rich.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Perception_(stim._subj.)||smell||The room smells of cedar.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Perception_(stim._subj.)||look||The finish looks glossy.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Perception_(stim._subj.)||look||The forecast looks grim.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Perception_(stim._subj.)||sound||The evidence sounds convincing.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Perception_(stim._subj.)||taste||The stew tasted of cumin.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Perception_(stim._subj.)||smell||The air smells of rain.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Perception_(stim._subj.)||sound||The proposal sounds ambitious.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Perception_(stim._subj.)||feel||The carpet feels damp.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Perception_(stim._subj.)||sound||The apology sounds sincere.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Pick_Up_and_Drop_Off||drop||She dropped the coins into the jar.": {
+  "tier": "T1",
+  "near_neighbor": "Cause_Incremental"
+ },
+ "Pick_Up_and_Drop_Off||lift||He lifted the crate onto the truck.": {
+  "tier": "T1",
+  "near_neighbor": "Carrying"
+ },
+ "Pick_Up_and_Drop_Off||pick||She picked up the groceries on her way home.": {
+  "tier": "T1",
+  "near_neighbor": "Carrying"
+ },
+ "Pick_Up_and_Drop_Off||lower||He lowered the bucket into the well.": {
+  "tier": "T1",
+  "near_neighbor": "Cause_Incremental"
+ },
+ "Pick_Up_and_Drop_Off||raise||She raised the flag at sunrise.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Pick_Up_and_Drop_Off||drop||He dropped the anchor in the harbor.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Pick_Up_and_Drop_Off||lift||She lifted the child onto her shoulders.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Pursuit||chase||The detective chased the suspect through the alley.": {
+  "tier": "T1",
+  "near_neighbor": "Motion"
+ },
+ "Pursuit||lead||She led the hikers along the ridge.": {
+  "tier": "T1",
+  "near_neighbor": "Carrying"
+ },
+ "Pursuit||steer||He steered the flock toward the barn.": {
+  "tier": "T1",
+  "near_neighbor": "Carrying"
+ },
+ "Pursuit||chase||The hound chased the rabbit across the field.": {
+  "tier": "T1",
+  "near_neighbor": "Motion"
+ },
+ "Pursuit||guide||She guided the visitors through the gallery.": {
+  "tier": "T1",
+  "near_neighbor": "Carrying"
+ },
+ "Pursuit||pursue||He pursued the thief on foot.": {
+  "tier": "T1",
+  "near_neighbor": "Motion"
+ },
+ "Pursuit||accompany||The patrol accompanied the convoy to the border.": {
+  "tier": "T1",
+  "near_neighbor": "Carrying"
+ },
+ "Pursuit||tail||She tailed the suspect for three blocks.": {
+  "tier": "T1",
+  "near_neighbor": "Motion"
+ },
+ "Pursuit||chase||He chased the ball down the hill.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Pursuit||lead||She led the march down the avenue.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Pursuit||guide||He guided the raft through the rapids.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Pursuit||pursue||The police pursued the stolen vehicle.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Pursuit||steer||He steered the tourists away from the construction.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Pursuit||misdirect||She misdirected the investigators deliberately.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Pursuit||accompany||He accompanied the diplomat to the summit.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Selling||sell||He sold the furniture before moving.": {
+  "tier": "T1",
+  "near_neighbor": "Buying"
+ },
+ "Selling||sell||She sold handmade candles at the fair.": {
+  "tier": "T1",
+  "near_neighbor": "Buying"
+ },
+ "Selling||sell||The dealer sold him a used truck.": {
+  "tier": "T1",
+  "near_neighbor": "Buying"
+ },
+ "Selling||sell||They sold the property at a loss.": {
+  "tier": "T1",
+  "near_neighbor": "Buying"
+ },
+ "Selling||hawk||She hawked newspapers on the corner.": {
+  "tier": "T1",
+  "near_neighbor": "Buying"
+ },
+ "Selling||sell||He sold his shares before the crash.": {
+  "tier": "T1",
+  "near_neighbor": "Payment"
+ },
+ "Selling||sell||The artist sold three paintings that evening.": {
+  "tier": "T1",
+  "near_neighbor": "Buying"
+ },
+ "Selling||sell||She sold the car for less than she paid.": {
+  "tier": "T1",
+  "near_neighbor": "Payment"
+ },
+ "Selling||sell||He sold lumber to the construction company.": {
+  "tier": "T1",
+  "near_neighbor": "Buying"
+ },
+ "Selling||sell||They sold surplus grain to neighboring farms.": {
+  "tier": "T1",
+  "near_neighbor": "Buying"
+ },
+ "Selling||sell||She sold her old textbooks online.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Selling||sell||He sold insurance for thirty years.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Selling||sell||The store sold out of batteries.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Selling||hawk||She hawked her wares at the market.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Selling||sell||He sold the house in under a week.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Selling||sell||The vendor sold hotdogs from a cart.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Selling||sell||She sold copies door to door.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Selling||sell||He sold the idea to the investors.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Selling||sell||The charity sold raffle tickets.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Selling||sell||She sold her story to the tabloids.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Selling||sell||He sold everything at the garage sale.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Selling||sell||The pharmacy sold the medicine at cost.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Selling||sell||She sold lemonade on the sidewalk.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Selling||sell||He sold scrap metal by the ton.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Transfer_of_Possession||steal||Thieves stole the payroll from the armored car.": {
+  "tier": "T1",
+  "near_neighbor": "Dynamic_Possession"
+ },
+ "Transfer_of_Possession||rob||The gang robbed three stores in one night.": {
+  "tier": "T1",
+  "near_neighbor": "Dynamic_Possession"
+ },
+ "Transfer_of_Possession||extort||He extorted money from the business owners.": {
+  "tier": "T1",
+  "near_neighbor": "Dynamic_Possession"
+ },
+ "Transfer_of_Possession||confiscate||Police confiscated the counterfeit goods.": {
+  "tier": "T1",
+  "near_neighbor": "Dynamic_Possession"
+ },
+ "Transfer_of_Possession||steal||She stole glances at the document.": {
+  "tier": "T1",
+  "near_neighbor": "Perception_(exp._subj.)"
+ },
+ "Transfer_of_Possession||ply||Pirates plied the coast for merchant ships.": {
+  "tier": "T1",
+  "near_neighbor": "Pursuit"
+ },
+ "Transfer_of_Possession||compensate||The court compensated the victims of the fraud.": {
+  "tier": "T1",
+  "near_neighbor": "Payment"
+ },
+ "Transfer_of_Possession||reward||The company rewarded employees with bonuses.": {
+  "tier": "T1",
+  "near_neighbor": "Payment"
+ },
+ "Transfer_of_Possession||reclaim||He reclaimed his belongings from storage.": {
+  "tier": "T1",
+  "near_neighbor": "Dynamic_Possession"
+ },
+ "Transfer_of_Possession||steal||She stole the necklace from the display case.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Transfer_of_Possession||rob||They robbed the travelers at gunpoint.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Transfer_of_Possession||extort||He extorted a confession from the suspect.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Transfer_of_Possession||confiscate||Officials confiscated the unlicensed weapons.": {
+  "tier": "T2",
+  "near_neighbor": ""
+ },
+ "Transfer_of_Possession||compensate||She compensated the contractor for the delay.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Transfer_of_Possession||reclaim||He reclaimed the land after the flood receded.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ },
+ "Transfer_of_Possession||reward||They rewarded the informant with a cash payment.": {
+  "tier": "T3",
+  "near_neighbor": ""
+ }
+}

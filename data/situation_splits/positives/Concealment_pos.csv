@@ -1,0 +1,51 @@
+sentence,verb_lemma,verb_token_idx,on_sense,wn_synsets,vn_class,situation,match_path,source_file,sentence_idx,situation_count,needs_review
+"Mr. Iken, it turned out, was a private detective using a hidden tape recorder to gather information for Sony.",hide,13,1,hide.v.01;hide.v.02;hide.v.03;hide.v.04,concealment-16,Concealment,WN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/nw/wsj/24/wsj_2418.sense,6,1,False
+"Detectives were able to track the order to the House, where they found Alvarez hiding in the attic.",hide,15,1,hide.v.01;hide.v.02;hide.v.03;hide.v.04,concealment-16,Concealment,WN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/bn/cnn/02/cnn_0234.sense,6,1,False
+The photos showed active geysers on Io spewing sulfurous material 190 miles into its atmosphere and indicated that Europa may have an ocean hidden under a thick sheet of ice.,hide,23,1,hide.v.01;hide.v.02;hide.v.03;hide.v.04,concealment-16,Concealment,WN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/nw/wsj/18/wsj_1817.sense,11,1,False
+"For example, when the dustup began between the people and the police, "" One policeman took out a camera and photographed me; I used my hand to block it, and another policeman kicked me in the stomach.",block,30,1,block.v.01;block.v.04;block.v.06;block.v.07;block.v.09;block.v.10;block.v.12,concealment-16,Concealment,VN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/wb/c2e/00/c2e_0015.sense,18,1,False
+"Intelligence sources say the correspondence came from the border between Pakistan and Afghanistan, where Osama bin Laden is believed to be hiding.",hide,22,1,hide.v.01;hide.v.02;hide.v.03;hide.v.04,concealment-16,Concealment,WN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/bn/cnn/02/cnn_0244.sense,10,1,False
+"They insist that CFCs are damaging the earth 's stratospheric ozone layer, which screens out some of the sun 's ultraviolet rays.",screen,14,3,screen.v.05;screen.v.07,concealment-16,Concealment,VN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/nw/wsj/12/wsj_1269.sense,13,1,False
+"Maybe they were hidden by all the people.""",hide,3,1,hide.v.01;hide.v.02;hide.v.03;hide.v.04,concealment-16,Concealment,WN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/nw/wsj/14/wsj_1455.sense,51,1,False
+"Just after the men moved in, neighbors say they erected a metal corrugated wall to block the neighbors ' view of the yard.",block,16,1,block.v.01;block.v.04;block.v.06;block.v.07;block.v.09;block.v.10;block.v.12,concealment-16,Concealment,VN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/bn/abc/00/abc_0020.sense,6,1,False
+The family moves to another house at night to conceal shabby belongings from neighbors.,conceal,9,1,conceal.v.01;conceal.v.02,concealment-16,Concealment,VN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/nw/wsj/07/wsj_0790.sense,18,1,False
+"Intelligence sources in Asia say the message was taken by couriers from an area along the Pakistan / Afghanistan border, where Bin Laden is believed to be hiding.",hide,28,1,hide.v.01;hide.v.02;hide.v.03;hide.v.04,concealment-16,Concealment,WN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/bn/cnn/02/cnn_0243.sense,2,1,False
+U.S. officials keep finding cash hidden by Saddam 's regime.,hide,5,1,hide.v.01;hide.v.02;hide.v.03;hide.v.04,concealment-16,Concealment,WN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/bn/cnn/03/cnn_0306.sense,3,1,False
+The seeds hidden in the tiny conelets of the Taiwan red cypress seem blessed with a mysterious power.,hide,2,1,hide.v.01;hide.v.02;hide.v.03;hide.v.04,concealment-16,Concealment,WN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/mz/sinorama/10/ectb_1070.sense,120,1,False
+"That is, the treasure is all hidden underground.",hide,7,1,hide.v.01;hide.v.02;hide.v.03;hide.v.04,concealment-16,Concealment,WN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/bc/cctv/00/cctv_0003.sense,279,1,False
+"First Ang Lee 's Crouching Tiger, Hidden Dragon won Golden Globes for best director and best foreign - language film as well as 10 Oscar nominations, and then Lin Cheng - sheng won the Silver Bear at the Berlin Film Festival for Betelnut Beauty.",hide,7,1,hide.v.01;hide.v.02;hide.v.03;hide.v.04,concealment-16,Concealment,WN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/mz/sinorama/10/ectb_1077.sense,3,1,False
+"I 've also read where you should bring a new cat into the house in a slow process, by keeping them sequestered in their own room for a while, letting the first cat get used to the smells, etc. This could be a problem for me, since I live in an apartment.",sequester,22,3,sequester.v.04;sequester.v.05,concealment-16,Concealment,VN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/wb/sel/94/sel_9471.sense,0,1,False
+He tells CNN he was told to keep the parts hidden so they would be ready when the time came to rebuild Iraq 's program.,hide,10,1,hide.v.01;hide.v.02;hide.v.03;hide.v.04,concealment-16,Concealment,WN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/bn/cnn/02/cnn_0244.sense,6,1,False
+They were hidden under a rosebush in the back yard of an Iraqi scientist in Baghdad.,hide,2,1,hide.v.01;hide.v.02;hide.v.03;hide.v.04,concealment-16,Concealment,WN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/bn/cnn/02/cnn_0244.sense,3,1,False
+So far U.S. soldiers have discovered nearly $ 600 million hidden around Baghdad.,hide,10,1,hide.v.01;hide.v.02;hide.v.03;hide.v.04,concealment-16,Concealment,WN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/bn/cnn/03/cnn_0306.sense,5,1,False
+"On a side note, I understand that the other cats were n't happy that we had to sequester Odessa in the bedroom the night before we took her in.",sequester,18,3,sequester.v.04;sequester.v.05,concealment-16,Concealment,VN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/wb/sel/94/sel_9473.sense,0,1,False
+"Hidden in the dark, damp understorey are a third of Taiwan 's fern species, and the millennia - old false cypresses are also a paradise for epiphytic plants - as many as 80 species have been found growing on a single tree.",hide,0,1,hide.v.01;hide.v.02;hide.v.03;hide.v.04,concealment-16,Concealment,WN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/mz/sinorama/10/ectb_1070.sense,27,1,False
+The nurse blocked the equipment.,block,2,,,,Concealment,synthetic,,,,False
+The driver blocked the firewood.,block,2,,,,Concealment,synthetic,,,,False
+The children blocked the witness.,block,2,,,,Concealment,synthetic,,,,False
+My neighbor blocked the cargo.,block,2,,,,Concealment,synthetic,,,,False
+The old man blocked the furniture.,block,3,,,,Concealment,synthetic,,,,False
+The nurse screened the documents.,screen,2,,,,Concealment,synthetic,,,,False
+The driver screened the paintings.,screen,2,,,,Concealment,synthetic,,,,False
+The children screened her daughter.,screen,2,,,,Concealment,synthetic,,,,False
+She hid the money under the mattress.,hide,1,,,,Concealment,synthetic,,,,False
+He concealed the evidence in the basement.,conceal,1,,,,Concealment,synthetic,,,,False
+The fog hid the coastline from the sailors.,hide,2,,,,Concealment,synthetic,,,,False
+She hid the gifts in the attic.,hide,1,,,,Concealment,synthetic,,,,False
+He hid behind the curtain.,hide,1,,,,Concealment,synthetic,,,,False
+The canopy screened the courtyard from view.,screen,2,,,,Concealment,synthetic,,,,False
+They sequestered the jury in a hotel.,sequester,1,,,,Concealment,synthetic,,,,False
+She blocked the camera with her hand.,block,1,,,,Concealment,synthetic,,,,False
+He hid the letter inside a book.,hide,1,,,,Concealment,synthetic,,,,False
+The wall concealed the garden from the road.,conceal,2,,,,Concealment,synthetic,,,,False
+She screened the porch with hanging plants.,screen,1,,,,Concealment,synthetic,,,,False
+He hid the spare key behind the shutter.,hide,1,,,,Concealment,synthetic,,,,False
+They sequestered the witness during the trial.,sequester,1,,,,Concealment,synthetic,,,,False
+The drapes concealed the broken window.,conceal,2,,,,Concealment,synthetic,,,,False
+She hid the diary in a hollowed-out book.,hide,1,,,,Concealment,synthetic,,,,False
+He concealed his face with a scarf.,conceal,1,,,,Concealment,synthetic,,,,False
+The snow hid the path completely.,hide,2,,,,Concealment,synthetic,,,,False
+She blocked the doorway with a bookcase.,block,1,,,,Concealment,synthetic,,,,False
+He hid the candy from the children.,hide,1,,,,Concealment,synthetic,,,,False
+The curtain concealed the backstage area.,conceal,2,,,,Concealment,synthetic,,,,False
+She hid the bruise with makeup.,hide,1,,,,Concealment,synthetic,,,,False
+He sequestered himself in the study.,sequester,1,,,,Concealment,synthetic,,,,False

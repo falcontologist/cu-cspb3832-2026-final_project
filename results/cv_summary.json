@@ -1,0 +1,56 @@
+{
+  "folds": [
+    {
+      "fold": 0,
+      "best_epoch": 4,
+      "dev_loss": 0.16816,
+      "dev_f1": 0.94676,
+      "wall_time_min": 199.2
+    },
+    {
+      "fold": 1,
+      "best_epoch": 3,
+      "dev_loss": 0.17942,
+      "dev_f1": 0.94231,
+      "wall_time_min": 210.1
+    },
+    {
+      "fold": 2,
+      "best_epoch": 2,
+      "dev_loss": 0.1974,
+      "dev_f1": 0.93683,
+      "wall_time_min": 209.3
+    },
+    {
+      "fold": 3,
+      "best_epoch": 3,
+      "dev_loss": 0.20181,
+      "dev_f1": 0.93781,
+      "wall_time_min": 206.9
+    },
+    {
+      "fold": 4,
+      "best_epoch": 4,
+      "dev_loss": 0.14586,
+      "dev_f1": 0.95617,
+      "wall_time_min": 207.0
+    }
+  ],
+  "mean_dev_f1": 0.94398,
+  "std_dev_f1": 0.00705,
+  "best_fold": 4,
+  "args": {
+    "data_dir": ".",
+    "seed": "42",
+    "epochs": "5",
+    "batch_size": "8",
+    "lr": "2e-05",
+    "weight_decay": "0.01",
+    "grad_accum": "4",
+    "max_length": "384",
+    "patience": "2",
+    "weight_synthetic": "0.7",
+    "weight_t1_override": "1.5",
+    "model_name": "cross-encoder/nli-deberta-v3-base"
+  }
+}

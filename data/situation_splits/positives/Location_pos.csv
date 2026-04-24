@@ -1,0 +1,51 @@
+sentence,verb_lemma,verb_token_idx,on_sense,wn_synsets,vn_class,situation,match_path,source_file,sentence_idx,situation_count,needs_review
+"Maybe God wanted a good end for him, and a good reputation, when He induced one of them to record what America and the government of sects wanted to hide, by means of the video of the last moments, which created a historic turning point that will perhaps shape the history of the region, and the nature of events in it for decades to come.",come,69,2,come.v.03;come.v.13;come.v.15;come.v.17;come.v.19,appear-48.1.1,Location,VN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/wb/a2e/00/a2e_0020.sense,26,1,False
+Here the Lieutenant Colonel has stopped at one of the firm bases one of the areas that Iraqis are manning their own position /.,stop,5,3,stop.v.04,lodge-46,Location,VN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/bc/cnn/00/cnn_0000.sense,460,1,False
+But you are excused since it seems that you do not know where he came from.,come,14,5,come.v.05;come.v.07;come.v.08;come.v.18,appear-48.1.1,Location,VN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/wb/a2e/00/a2e_0022.sense,165,1,False
+"The blast, which occurred just after noon local time in Yemen, ripped a 20 x 40 foot gash in the USS Cole, a state - of - the - art destroyer that had stopped in Aden to refuel before joining the carrier George Washington in the Persian Gulf.",stop,36,3,stop.v.04,lodge-46,Location,VN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/bn/pri/00/pri_0019.sense,3,1,False
+Witnesses say the shots came from the Palestinian international airport.,come,4,5,come.v.05;come.v.07;come.v.08;come.v.18,appear-48.1.1,Location,VN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/bn/cnn/00/cnn_0019.sense,2,1,False
+"At the Atayal village of Chenhsipao in Hsinchu County, by three in the afternoon the clouds rolling in from afar have quietly slipped over the ridges and covered the whole mountainside where the cypress trees grow.",cover,28,1,cover.v.01;cover.v.02;cover.v.16;cover.v.19;cover.v.20;cover.v.22;cover.v.25;cover.v.26,contiguous_location-47.8,Location,VN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/mz/sinorama/10/ectb_1070.sense,111,1,False
+"He appeared late one night in the bedroom of the new defense secretary, Dick Cheney.",appear,1,2,appear.v.02;appear.v.03;appear.v.05,appear-48.1.1,Location,VN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/nw/wsj/21/wsj_2112.sense,55,1,False
+"Some still covered with soot from the explosion wander through darkened passageways, still not sure what hit them.",cover,2,1,cover.v.01;cover.v.02;cover.v.16;cover.v.19;cover.v.20;cover.v.22;cover.v.25;cover.v.26,contiguous_location-47.8,Location,VN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/bn/abc/00/abc_0063.sense,17,1,False
+"Turf was laid, flower beds appeared, and the embankment soon became a 1.2 km - long "" green Great Wall. """,appear,6,2,appear.v.02;appear.v.03;appear.v.05,appear-48.1.1,Location,VN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/mz/sinorama/10/ectb_1059.sense,45,1,False
+Flute player Shamus Eagan comes from Pennsylvania.,come,4,5,come.v.05;come.v.07;come.v.08;come.v.18,appear-48.1.1,Location,VN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/bn/pri/00/pri_0037.sense,11,1,False
+Italy borders France.,border,,,,,Location,,"Croft et al 2021, p. 86f",,,
+Italy and France touch.,touch,,,,,Location,,"Croft et al 2021, p. 86f",,,
+A ship appeared on the horizon.,appear,,,,,Location,,"Croft et al 2021, p. 86f",,,
+"The kitchen, with its breakfast bar, adjoins on one side while the dining area adjoins on the other side.",adjoin,,,,,Location,,framenet (Locative_relation),,,
+The bedroom adjoining hers was much smaller.,adjoin,,,,,Location,,framenet (Locative_relation),,,
+The park borders a very upscale neighborhood.,border,,,,,Location,,framenet (Adjacency),,,
+Post-Soviet Russia adjoins a number of independent states.,adjoin,,,,,Location,,ontonotes,,,
+China adjoins the South Asian region.,adjoin,,,,,Location,,ontonotes,,,
+The tables adjoin the barrels of local whiskey.,adjoin,,,,,Location,,ontonotes,,,
+She adjoined the package.,adjoin,1,,,,Location,synthetic,,,,False
+He adjoined the witness.,adjoin,1,,,,Location,synthetic,,,,False
+She came the witness.,come,1,,,,Location,synthetic,,,,False
+He came the merchandise.,come,1,,,,Location,synthetic,,,,False
+The workers came the firewood.,come,2,,,,Location,synthetic,,,,False
+She appeared the witness.,appear,1,,,,Location,synthetic,,,,False
+He appeared her daughter.,appear,1,,,,Location,synthetic,,,,False
+The nurse stopped the witness.,stop,2,,,,Location,synthetic,,,,False
+The driver stopped the supplies.,stop,2,,,,Location,synthetic,,,,False
+The children stopped the supplies.,stop,2,,,,Location,synthetic,,,,False
+My neighbor stopped the package.,stop,2,,,,Location,synthetic,,,,False
+The old man stopped the tools.,stop,3,,,,Location,synthetic,,,,False
+The nurse covered the supplies.,cover,2,,,,Location,synthetic,,,,False
+The park borders the river on three sides.,border,2,,,,Location,synthetic,,,,False
+The village appeared through the morning haze.,appear,2,,,,Location,synthetic,,,,False
+The ridge adjoins the national forest.,adjoin,2,,,,Location,synthetic,,,,False
+Traffic stopped at the intersection.,stop,1,,,,Location,synthetic,,,,False
+The valley comes into view past the ridge.,come,2,,,,Location,synthetic,,,,False
+Ice covered the lake by December.,cover,1,,,,Location,synthetic,,,,False
+The fence borders the schoolyard.,border,2,,,,Location,synthetic,,,,False
+The inlet touches the western edge of the park.,touch,2,,,,Location,synthetic,,,,False
+The highway stops at the state line.,stop,2,,,,Location,synthetic,,,,False
+The island appears on the horizon at dawn.,appear,2,,,,Location,synthetic,,,,False
+The garden adjoins the kitchen.,adjoin,2,,,,Location,synthetic,,,,False
+The path comes to a clearing.,come,2,,,,Location,synthetic,,,,False
+The property borders a creek.,border,2,,,,Location,synthetic,,,,False
+The chapel appeared at the end of the lane.,appear,2,,,,Location,synthetic,,,,False
+The trail stops at the cliff edge.,stop,2,,,,Location,synthetic,,,,False
+Snow covered the rooftops by noon.,cover,1,,,,Location,synthetic,,,,False
+The farm borders the railroad.,border,2,,,,Location,synthetic,,,,False
+The ruins touch the edge of the forest.,touch,2,,,,Location,synthetic,,,,False

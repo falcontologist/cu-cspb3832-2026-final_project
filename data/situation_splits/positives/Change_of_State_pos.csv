@@ -1,0 +1,51 @@
+sentence,verb_lemma,verb_token_idx,on_sense,wn_synsets,vn_class,situation,match_path,source_file,sentence_idx,situation_count,needs_review
+"However, as Lin grew up, her mother would call her and the other girls to her side to watch and help out.",grow,4,3,grow.v.05;grow.v.09,other_cos-45.4,Change of State,VN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/mz/sinorama/10/ectb_1007.sense,45,1,False
+""" Just as wool grows on a sheep, if the government role expands, it will require ever greater resources, "" says Wu Hui - lin, a researcher at the Chung Hua Institution for Economic Research.",grow,4,2,grow.v.03;grow.v.04;grow.v.07;grow.v.10,other_cos-45.4,Change of State,VN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/mz/sinorama/10/ectb_1013.sense,135,3,True
+"London, sunny changing to cloudy, 1 degree below zero to 8 degrees.",change,3,1,change.v.02;change.v.01;change.v.03;change.v.09,turn-26.6.1,Change of State,WN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/bc/cctv/00/cctv_0002.sense,507,1,False
+"Rather, it is born of frustration with having to combat constantly changing strains of a statist idea that one thought had been eliminated in the early 1970s, along with smallpox.",change,12,1,change.v.02;change.v.01;change.v.03;change.v.09,other_cos-45.4,Change of State,VN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/nw/wsj/24/wsj_2407.sense,2,1,False
+"Ko Ching - ming, a professor of Chinese at National Taiwan University who is in his fifties, says, "" I grew up with compulsory haircuts and school uniforms. """,grow,23,3,grow.v.05;grow.v.09,other_cos-45.4,Change of State,VN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/mz/sinorama/10/ectb_1018.sense,150,1,False
+"As I watched, it seemed to gain substance and to darken perceptibly on the outside.",darken,11,1,,other_cos-45.4,Change of State,VN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/wb/sel/37/sel_3797.sense,0,1,False
+Some of the ones we 've bought have been very solid but the most recent one flexes very badly.,flex,16,2,flex.v.03,bend-45.2,Change of State,VN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/wb/sel/51/sel_5170.sense,0,1,False
+"They say the plane took off, clicking the construction equipment, slamming into the ground and then breaking up.",break,18,16.1,,break-45.1,Change of State,VN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/bn/mnb/00/mnb_0009.sense,11,1,False
+One other thing - remember that the bruise will darken the first few days - this is normal and does n't mean it 's getting worse as some people will think.,darken,9,1,,other_cos-45.4,Change of State,VN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/wb/sel/38/sel_3801.sense,0,1,False
+"As the sky darkens, we 'll see fireflies by the hundreds light up the surrounding fields.",darken,3,1,,other_cos-45.4,Change of State,VN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/wb/sel/38/sel_3814.sense,0,1,False
+"I wo n't tell you whether the ship is going to sink or not sink, but there was considerable damage to the ship.",sink,14,1,sink.v.02;sink.v.04,other_cos-45.4,Change of State,WN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/bn/abc/00/abc_0010.sense,10,1,False
+"My fair, Irish skin will surely bake if I don't use SPF 90!",bake,,,,,Change of State,,ontonotes,,,
+"The churchgoers baked in the heat of the humid, hazy afternoon.",bake,,,,,Change of State,,ontonotes,,,
+The wound healed over several weeks.,heal,2,,,,Change_of_State,synthetic,,,,False
+The sky darkened before the storm.,darken,2,,,,Change_of_State,synthetic,,,,False
+The leaves changed color in October.,change,2,,,,Change_of_State,synthetic,,,,False
+The wax melted in the afternoon heat.,melt,2,,,,Change_of_State,synthetic,,,,False
+Prices rose steadily throughout the quarter.,rise,1,,,,Change_of_State,synthetic,,,,False
+The situation changed dramatically overnight.,change,2,,,,Change_of_State,synthetic,,,,False
+The water froze in the pipes.,freeze,2,,,,Change_of_State,synthetic,,,,False
+The economy grew by three percent.,grow,2,,,,Change_of_State,synthetic,,,,False
+The cake baked for forty minutes.,bake,2,,,,Change_of_State,synthetic,,,,False
+The ice cracked under the weight.,crack,2,,,,Change_of_State,synthetic,,,,False
+The metal flexed under pressure.,flex,2,,,,Change_of_State,synthetic,,,,False
+The wound broke open again.,break,2,,,,Change_of_State,synthetic,,,,False
+The bread darkened in the oven.,darken,2,,,,Change_of_State,synthetic,,,,False
+The building sank into the soft ground.,sink,2,,,,Change_of_State,synthetic,,,,False
+The old paint cracked in the sun.,crack,3,,,,Change_of_State,synthetic,,,,False
+The river grew wider after the dam broke.,grow,2,,,,Change_of_State,synthetic,,,,False
+The lake froze overnight.,freeze,2,,,,Change_of_State,synthetic,,,,False
+She grew the package.,grow,1,,,,Change_of_State,synthetic,,,,False
+He grew the old books.,grow,1,,,,Change_of_State,synthetic,,,,False
+She darkened her daughter.,darken,1,,,,Change_of_State,synthetic,,,,False
+He darkened the firewood.,darken,1,,,,Change_of_State,synthetic,,,,False
+She changed the furniture.,change,1,,,,Change_of_State,synthetic,,,,False
+He changed her daughter.,change,1,,,,Change_of_State,synthetic,,,,False
+The workers changed the cargo.,change,2,,,,Change_of_State,synthetic,,,,False
+She baked the firewood.,bake,1,,,,Change_of_State,synthetic,,,,False
+He baked the equipment.,bake,1,,,,Change_of_State,synthetic,,,,False
+The workers baked the supplies.,bake,2,,,,Change_of_State,synthetic,,,,False
+The nurse flexed the witness.,flex,2,,,,Change_of_State,synthetic,,,,False
+The driver flexed the cargo.,flex,2,,,,Change_of_State,synthetic,,,,False
+The children flexed the equipment.,flex,2,,,,Change_of_State,synthetic,,,,False
+My neighbor flexed the package.,flex,2,,,,Change_of_State,synthetic,,,,False
+The old man flexed the cargo.,flex,3,,,,Change_of_State,synthetic,,,,False
+The nurse broke the letter.,break,2,,,,Change_of_State,synthetic,,,,False
+The driver broke the witness.,break,2,,,,Change_of_State,synthetic,,,,False
+The children broke the equipment.,break,2,,,,Change_of_State,synthetic,,,,False
+My neighbor broke the letter.,break,2,,,,Change_of_State,synthetic,,,,False
+The old man broke the paintings.,break,3,,,,Change_of_State,synthetic,,,,False

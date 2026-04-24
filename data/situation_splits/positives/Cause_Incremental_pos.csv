@@ -1,0 +1,51 @@
+sentence,verb_lemma,verb_token_idx,on_sense,wn_synsets,vn_class,situation,match_path,source_file,sentence_idx,situation_count,needs_review
+Included was the charge that Sindona siphoned $ 45 million of Franklin funds for his other ventures.,siphon,6,2,siphon.v.01,wipe_instr-10.4.2,Cause Incremental,WN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/nw/wsj/12/wsj_1266.sense,9,1,False
+Is it true that some of you got so efficient at flipping that you could actually do it without putting your finger down your throat /.,put,19,1,put.v.01;put.v.02;put.v.09,put-9.1,Cause Incremental,WN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/bc/cnn/00/cnn_0000.sense,269,1,False
+"When Maj. Moises Giroldi, the leader of the abortive coup in Panama, was buried, his body bore several gunshot wounds, a cracked skull and broken legs and ribs.",bury,15,1,bury.v.01;bury.v.02;bury.v.03;bury.v.04,put-9.1,Cause Incremental,VN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/nw/wsj/20/wsj_2013.sense,0,1,False
+Then you also put an incense burner there and every time you celebrate a festival you light incense and pray for happiness.,put,3,1,put.v.01;put.v.02;put.v.09,put-9.1,Cause Incremental,WN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/wb/c2e/00/c2e_0047.sense,17,1,False
+"Back in those days farmers would always put cigarettes in their pockets when they went to the fields, but they would often find that their cigarettes would get crushed before they had a chance to smoke them.",put,7,1,put.v.01;put.v.02;put.v.09,put-9.1,Cause Incremental,WN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/mz/sinorama/10/ectb_1054.sense,36,1,False
+"At the same time, devastated villages began to bury their victims as officials attempted to obtain food and water supplies.",bury,9,1,bury.v.01;bury.v.02;bury.v.03;bury.v.04,put-9.1,Cause Incremental,VN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/bn/p2.5_a2e/00/p2.5_a2e_0019.sense,1,1,False
+She is putting the tray of food on the table.,put,,,,,Cause Incremental,,ontonotes,,,
+Put your things here.,put,,,,,Cause Incremental,,ontonotes,,,
+Put away your toys.,put,,,,,Cause Incremental,,ontonotes,,,
+Just put the books down over there.,put,,,,,Cause Incremental,,ontonotes,,,
+There are many clues that the Vikings buried the treasure here.,bury,,,,,Cause Incremental,,ontonotes,,,
+The growing city of Worcester buried the majority of the Blackstone Canal.,bury,,,,,Cause Incremental,,ontonotes,,,
+The Day They Buried The Lone Ranger was a sad one.,bury,,,,,Cause Incremental,,ontonotes,,,
+The engineers buried the pipes at depths of three to twelve feet.,bury,,,,,Cause Incremental,,ontonotes,,,
+Mount Vesuvius erupted and buried the towns of Pompeii and Herculaneum.,bury,,,,,Cause Incremental,,ontonotes,,,
+"Mac buried himself in his covers, hugging his teddy bear.",bury,,,,,Cause Incremental,,ontonotes,,,
+She siphoned the fuel into a jerry can.,siphon,1,,,,Cause_Incremental,synthetic,,,,False
+He siphoned water from the rain barrel.,siphon,1,,,,Cause_Incremental,synthetic,,,,False
+She siphoned the supplies.,siphon,1,,,,Cause_Incremental,synthetic,,,,False
+He siphoned the merchandise.,siphon,1,,,,Cause_Incremental,synthetic,,,,False
+The workers siphoned the cargo.,siphon,2,,,,Cause_Incremental,synthetic,,,,False
+The crew siphoned her daughter.,siphon,2,,,,Cause_Incremental,synthetic,,,,False
+He buried the fence posts along the property line.,bury,1,,,,Cause_Incremental,synthetic,,,,False
+She put the dishes in the drying rack.,put,1,,,,Cause_Incremental,synthetic,,,,False
+He buried the irrigation pipe beneath the garden.,bury,1,,,,Cause_Incremental,synthetic,,,,False
+She put the spices in the upper cabinet.,put,1,,,,Cause_Incremental,synthetic,,,,False
+He buried the extension cord under the carpet.,bury,1,,,,Cause_Incremental,synthetic,,,,False
+She put the folded shirts in the suitcase.,put,1,,,,Cause_Incremental,synthetic,,,,False
+He siphoned the oil from the engine.,siphon,1,,,,Cause_Incremental,synthetic,,,,False
+She buried the anchor chain in the sand.,bury,1,,,,Cause_Incremental,synthetic,,,,False
+He put the keys on the hook.,put,1,,,,Cause_Incremental,synthetic,,,,False
+She buried the tile beneath a layer of mortar.,bury,1,,,,Cause_Incremental,synthetic,,,,False
+He put the batteries in the remote.,put,1,,,,Cause_Incremental,synthetic,,,,False
+She siphoned the broth into a jar.,siphon,1,,,,Cause_Incremental,synthetic,,,,False
+He buried the post in concrete.,bury,1,,,,Cause_Incremental,synthetic,,,,False
+She stuffed the cushion with foam.,stuff,1,,,,Cause_Incremental,synthetic,,,,False
+He jammed the door open with a wedge.,jam,1,,,,Cause_Incremental,synthetic,,,,False
+She packed the earth around the sapling.,pack,1,,,,Cause_Incremental,synthetic,,,,False
+He wedged the shim under the table leg.,wedge,1,,,,Cause_Incremental,synthetic,,,,False
+She inserted the card into the slot.,insert,1,,,,Cause_Incremental,synthetic,,,,False
+He crammed the papers into the drawer.,cram,1,,,,Cause_Incremental,synthetic,,,,False
+She tucked the blanket around the child.,tuck,1,,,,Cause_Incremental,synthetic,,,,False
+He slotted the cartridge into the printer.,slot,1,,,,Cause_Incremental,synthetic,,,,False
+She embedded the screws in the plaster.,embed,1,,,,Cause_Incremental,synthetic,,,,False
+He planted the stakes around the perimeter.,plant,1,,,,Cause_Incremental,synthetic,,,,False
+She threaded the needle through the fabric.,thread,1,,,,Cause_Incremental,synthetic,,,,False
+He lodged the wedge between the stones.,lodge,1,,,,Cause_Incremental,synthetic,,,,False
+She poked the thermometer into the roast.,poke,1,,,,Cause_Incremental,synthetic,,,,False
+He rammed the post into the frozen ground.,ram,1,,,,Cause_Incremental,synthetic,,,,False
+She tucked the envelope under the door.,tuck,1,,,,Cause_Incremental,synthetic,,,,False

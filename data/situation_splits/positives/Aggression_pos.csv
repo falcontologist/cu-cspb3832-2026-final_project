@@ -1,0 +1,51 @@
+sentence,verb_lemma,verb_token_idx,on_sense,wn_synsets,vn_class,situation,match_path,source_file,sentence_idx,situation_count,needs_review
+"They are n't supporting whatever as much as trying to goad me, but it 's as close as the nutter will ever get to support. The irony of life is that, by the time you 're old enough to know your way around, you 're not going anywhere.",goad,10,1,goad.v.01;goad.v.02;goad.v.03;goad.v.04,bully-59.5,Aggression,WN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/wb/sel/56/sel_5677.sense,0,1,False
+"Most of the people here wo n't let you do that; they 'll goad you until you get angry again, and repeat the cycle.",goad,14,1,goad.v.01;goad.v.02;goad.v.03;goad.v.04,bully-59.5,Aggression,WN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/wb/sel/56/sel_5690.sense,0,1,False
+"Henare goaded Mallard, Mallard gave him a bit of a push or a slap or the like.",goad,1,1,goad.v.01;goad.v.02;goad.v.03;goad.v.04,bully-59.5,Aggression,WN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/wb/sel/56/sel_5678.sense,0,1,False
+Chang Yu - yen ( right ) plays a much - abused daughter - in - law in the series The Astonishing Daughter - in - Law.,abuse,11,1,abuse.v.01;abuse.v.02;abuse.v.03;abuse.v.04,judgment-33.1,Aggression,WN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/mz/sinorama/10/ectb_1006.sense,196,2,True
+"The assistant director, who was Australian, looked aghast, as if Clara was a witch who was abusing a poor child. """,abuse,19,1,abuse.v.01;abuse.v.02;abuse.v.03;abuse.v.04,judgment-33.1,Aggression,WN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/mz/sinorama/10/ectb_1077.sense,13,2,True
+"The daughter - in - law, played by Chang Yu - yen, is mistreated by her mother - in - law, and, with outsiders butting in and causing trouble, she gets abused from beginning to end.",abuse,36,1,abuse.v.01;abuse.v.02;abuse.v.03;abuse.v.04,judgment-33.1,Aggression,WN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/mz/sinorama/10/ectb_1006.sense,75,2,True
+He is trying to hustle you. & quot;,hustle,4,2,hustle.v.03;hustle.v.04;hustle.v.05,bully-59.5,Aggression,WN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/wb/sel/62/sel_6269.sense,0,1,False
+It is obvious from reading about all these events that we find that the American pirate is looking for an exit from these successive defeats and from the blows that assail them from all directions.,assail,30,1,assail.v.01;assail.v.02,attack-60.1,Aggression,WN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/wb/p2.5_a2e/00/p2.5_a2e_0047.sense,1,1,False
+"Since he was n't a gentleman and he could hustle for money like Henslowe, he eventually got enough to buy shares in prostitution.",hustle,9,2,hustle.v.03;hustle.v.04;hustle.v.05,bully-59.5,Aggression,WN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/wb/sel/62/sel_6267.sense,0,1,False
+You you you just jumped on me because I quoted him saying it would be all right if they lost the top ten floors of the UN /.,jump,4,4,jump.v.03,attack-60.1,Aggression,WN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/bc/msnbc/00/msnbc_0003.sense,137,1,False
+"Or, as Mark is known to do, he will goad you with an absuridty such as, I Punce.",goad,11,1,goad.v.01;goad.v.02;goad.v.03;goad.v.04,bully-59.5,Aggression,WN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/wb/sel/56/sel_5680.sense,0,1,False
+But they um you know embraced me and let me know that the- they were beside me and behind me and that possibly I should just look a little further for some answers instead of jumping all over me and condemning me for my bad behavior /.,jump,35,4,jump.v.03,attack-60.1,Aggression,WN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/bc/cnn/00/cnn_0003.sense,390,1,False
+"Sometimes I like to mention myself in the third person, to underscore the attitude of greatness Mostly, though, the self-mockery is too much of a personal joke, so I stick to trying to goad you.",goad,37,1,goad.v.01;goad.v.02;goad.v.03;goad.v.04,bully-59.5,Aggression,WN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/wb/sel/56/sel_5692.sense,0,1,False
+"Cartoonist Garry Trudeau is suing the Writers Guild of America East for $ 11 million, alleging it mounted a ""campaign to harass and punish"" him for crossing a screenwriters ' picket line.",harass,23,2,harass.v.02,bully-59.5,Aggression,WN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/nw/wsj/00/wsj_0049.sense,42,1,False
+The only reason there 's a problem is because you goad him.,goad,10,1,goad.v.01;goad.v.02;goad.v.03;goad.v.04,bully-59.5,Aggression,WN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/wb/sel/56/sel_5681.sense,0,1,False
+The team struck back with vengeance.,strike,,,,,Aggression,,ontonotes,,,
+Her big brother always bullied her when she was young.,bully,,,,,Aggression,,ontonotes,,,
+Don't bully your classmates!,bully,,,,,Aggression,,ontonotes,,,
+It's hard not to bully other students when arguing in class.,bully,,,,,Aggression,,ontonotes,,,
+The children teased the boy because of his stammer.,tease,2,,,,Aggression,,ontonotes,,,False
+The children teased the new teacher.,tease,2,,,,Aggression,,ontonotes,,,False
+The workers teased him when he wore a jacket and tie.,tease,2,,,,Aggression,,ontonotes,,,False
+He teased the newcomer about his accent.,tease,1,,,,Aggression,synthetic,,,,False
+Thugs hustled the shopkeeper for money.,hustle,1,,,,Aggression,synthetic,,,,False
+She hustled tourists near the station.,hustle,1,,,,Aggression,synthetic,,,,False
+Soldiers harassed civilians at the checkpoint.,harass,1,,,,Aggression,synthetic,,,,False
+He goaded her into an argument.,goad,1,,,,Aggression,synthetic,,,,False
+The guards abused detainees for months.,abuse,2,,,,Aggression,synthetic,,,,False
+Fans abused the referee for the full ninety minutes.,abuse,1,,,,Aggression,synthetic,,,,False
+Two men jumped the courier on the bridge.,jump,2,,,,Aggression,synthetic,,,,False
+The gang jumped a commuter on the platform.,jump,2,,,,Aggression,synthetic,,,,False
+The manager bullied the intern in front of everyone.,bully,2,,,,Aggression,synthetic,,,,False
+The older boys bullied him on the playground.,bully,3,,,,Aggression,synthetic,,,,False
+The drunk assailed passersby with curses.,assail,2,,,,Aggression,synthetic,,,,False
+Protesters harassed the politician outside the venue.,harass,1,,,,Aggression,synthetic,,,,False
+She abused the cargo.,abuse,1,,,,Aggression,synthetic,,,,False
+He abused the paintings.,abuse,1,,,,Aggression,synthetic,,,,False
+She bullyed the furniture.,bully,1,,,,Aggression,synthetic,,,,False
+He bullyed the tools.,bully,1,,,,Aggression,synthetic,,,,False
+She teased the supplies.,tease,1,,,,Aggression,synthetic,,,,False
+He teased the firewood.,tease,1,,,,Aggression,synthetic,,,,False
+The workers teased the paintings.,tease,2,,,,Aggression,synthetic,,,,False
+She hustled the witness.,hustle,1,,,,Aggression,synthetic,,,,False
+He hustled the package.,hustle,1,,,,Aggression,synthetic,,,,False
+The workers hustled her daughter.,hustle,2,,,,Aggression,synthetic,,,,False
+The nurse assailed the old books.,assail,2,,,,Aggression,synthetic,,,,False
+The driver assailed the letter.,assail,2,,,,Aggression,synthetic,,,,False
+The bully teased the younger kids at recess.,tease,2,,,,Aggression,synthetic,,,,False
+The sergeant bullied the recruits into silence.,bully,2,,,,Aggression,synthetic,,,,False
+Street gangs hustled travelers near the border.,hustle,2,,,,Aggression,synthetic,,,,False

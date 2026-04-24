@@ -1,0 +1,51 @@
+sentence,verb_lemma,verb_token_idx,on_sense,wn_synsets,vn_class,situation,match_path,source_file,sentence_idx,situation_count,needs_review
+"Priceline.com, the first American company to sell airline tickets directly over the Internet, surpassed the combined market capitalization of the three largest US airlines ( United, American and Delta ) after only two years of operations.",sell,7,1,sell.v.01;sell.v.02;sell.v.04;sell.v.07,give-13.1,Selling,WN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/mz/sinorama/10/ectb_1035.sense,80,2,True
+"The Japanese management guru Matsushita Konosuke has said, "" Do n't sell customers things they find attractive, sell them things they find useful. """,sell,12,1,sell.v.01;sell.v.02;sell.v.04;sell.v.07,give-13.1,Selling,WN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/mz/sinorama/10/ectb_1035.sense,43,2,True
+Both the cases and the machines to make them sold well all over Taiwan.,sell,9,1,sell.v.01;sell.v.02;sell.v.04;sell.v.07,give-13.1,Selling,WN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/mz/sinorama/10/ectb_1054.sense,37,2,True
+Be prepared at all times to sell the company for the highest profit.,sell,6,1,sell.v.01;sell.v.02;sell.v.04;sell.v.07,give-13.1,Selling,WN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/mz/sinorama/10/ectb_1035.sense,185,2,True
+"The Japanese management guru Matsushita Konosuke has said, "" Do n't sell customers things they find attractive, sell them things they find useful. """,sell,19,1,sell.v.01;sell.v.02;sell.v.04;sell.v.07,give-13.1,Selling,WN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/mz/sinorama/10/ectb_1035.sense,43,2,True
+"Currently, the fiber optic connectors being produced by TMT sell for US$ 7 a piece.",sell,10,1,sell.v.01;sell.v.02;sell.v.04;sell.v.07,give-13.1,Selling,WN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/mz/sinorama/10/ectb_1054.sense,87,2,True
+"And when the railways were finally taken out of service, the Taiwan Forestry Bureau ( TFB ) sold off the old sleepers, and from the proceeds not only was able to recoup the cost of dismantling the railways, but was also left with a tidy sum for its own coffers.",sell,18,5,sell.v.01,give-13.1,Selling,WN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/mz/sinorama/10/ectb_1070.sense,74,2,True
+They sold off their property before they moved.,sell,,,,,Selling,,ontonotes,,,
+"I was fed up with this city, so I sold up all my personal property and moved.",sell,,,,,Selling,,ontonotes,,,
+He sold the house in January.,sell,,,,,Selling,,ontonotes,,,
+Harry Potter books have been selling like hotcakes.,sell,,,,,Selling,,ontonotes,,,
+Movies usually help to sell the video games that are based on them.,sell,,,,,Selling,,ontonotes,,,
+His uncle sells produce.,sell,,,,,Selling,,ontonotes,,,
+She didn't want to sell shoes the rest of her life.,sell,,,,,Selling,,ontonotes,,,
+They are selling oil illegally.,sell,,,,,Selling,,ontonotes,,,
+"Others, like broker John Mitchell, hawked a humidor bearing Madoff's name.",hawk,,,,,Selling,,ontonotes,,,
+A peddler surnamed Li hawked a pedicab of withered bananas at half-price.,hawk,,,,,Selling,,ontonotes,,,
+"But this year, our paper was sold to a land developer.",sell,,,,,Selling,,COCA via Croft et al 2021,,,
+"I sold all my belongings, home, auto and invested a lot of money.",sell,,,,,Selling,,COCA via Croft et al 2021,,,
+"Robin sold a car to Abby for $5,000.",sell,,,,,Selling,,framenet (Commerce_sell),,,
+Lee sold a textbook to Abby.,sell,,,,,Selling,,framenet (Commerce_sell),,,
+The nurse hawked the cargo.,hawk,2,,,,Selling,synthetic,,,,False
+The driver hawked the firewood.,hawk,2,,,,Selling,synthetic,,,,False
+The children hawked the package.,hawk,2,,,,Selling,synthetic,,,,False
+My neighbor hawked the cargo.,hawk,2,,,,Selling,synthetic,,,,False
+The old man hawked the supplies.,hawk,3,,,,Selling,synthetic,,,,False
+He sold the furniture before moving.,sell,1,,,,Selling,synthetic,,,,False
+She sold handmade candles at the fair.,sell,1,,,,Selling,synthetic,,,,False
+The dealer sold him a used truck.,sell,2,,,,Selling,synthetic,,,,False
+They sold the property at a loss.,sell,1,,,,Selling,synthetic,,,,False
+She hawked newspapers on the corner.,hawk,1,,,,Selling,synthetic,,,,False
+He sold his shares before the crash.,sell,1,,,,Selling,synthetic,,,,False
+The artist sold three paintings that evening.,sell,2,,,,Selling,synthetic,,,,False
+She sold the car for less than she paid.,sell,1,,,,Selling,synthetic,,,,False
+He sold lumber to the construction company.,sell,1,,,,Selling,synthetic,,,,False
+They sold surplus grain to neighboring farms.,sell,1,,,,Selling,synthetic,,,,False
+She sold her old textbooks online.,sell,1,,,,Selling,synthetic,,,,False
+He sold insurance for thirty years.,sell,1,,,,Selling,synthetic,,,,False
+The store sold out of batteries.,sell,2,,,,Selling,synthetic,,,,False
+She hawked her wares at the market.,hawk,1,,,,Selling,synthetic,,,,False
+He sold the house in under a week.,sell,1,,,,Selling,synthetic,,,,False
+The vendor sold hotdogs from a cart.,sell,2,,,,Selling,synthetic,,,,False
+She sold copies door to door.,sell,1,,,,Selling,synthetic,,,,False
+He sold the idea to the investors.,sell,1,,,,Selling,synthetic,,,,False
+The charity sold raffle tickets.,sell,2,,,,Selling,synthetic,,,,False
+She sold her story to the tabloids.,sell,1,,,,Selling,synthetic,,,,False
+He sold everything at the garage sale.,sell,1,,,,Selling,synthetic,,,,False
+The pharmacy sold the medicine at cost.,sell,2,,,,Selling,synthetic,,,,False
+She sold lemonade on the sidewalk.,sell,1,,,,Selling,synthetic,,,,False
+He sold scrap metal by the ton.,sell,1,,,,Selling,synthetic,,,,False

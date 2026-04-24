@@ -1,0 +1,66 @@
+sentence,verb_lemma,verb_token_idx,on_sense,wn_synsets,vn_class,situation,match_path,source_file,sentence_idx,situation_count,needs_review
+The nurse bottle-fed the premature infant every two hours.,bottle-feed,,,,,Feeding,,synthetic,,,
+Volunteers fed the homeless every Sunday morning.,feed,,,,,Feeding,,synthetic,,,
+"But hardly the only ones: The scams promise -- among other things -- to help save the environment, feed starving families and prevent the disappearance of children.",feed,20,1,feed.v.01;feed.v.02;feed.v.11,feeding-39.7,Feeding,VN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/nw/wsj/15/wsj_1572.sense,50,1,False
+He fed the baby a spoonful of mashed banana.,feed,,,,,Feeding,,synthetic,,,
+"The fact that you really care about a sheep in the way she is fed, in the way she is nurtured, in the way people are looking after it, because it 's a way to ensure that you have something which is genuine on your table up the end.",feed,14,1,feed.v.01;feed.v.02;feed.v.11,feeding-39.7,Feeding,VN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/bn/pri/00/pri_0050.sense,22,1,False
+He was nursed by a wet nurse during his early months.,nurse,,,,,Feeding,,synthetic,,,
+Lin recalls that there were so many mouths to feed at New Year that they had to use two or three large bamboo steamers to make the puddings.,feed,9,1,feed.v.01;feed.v.02;feed.v.11,feeding-39.7,Feeding,VN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/mz/sinorama/10/ectb_1007.sense,42,1,False
+The farmer weaned the lambs by separating them from the ewes.,wean,,,,,Feeding,,synthetic,,,
+Rationed bread sustained the besieged townspeople for months.,sustain,,,,,Feeding,,synthetic,,,
+She gradually weaned the puppies onto solid food.,wean,,,,,Feeding,,synthetic,,,
+"Walt Disney Co. 's Disneyland in Anaheim, Calif., stocks rescue equipment, medical supplies, and enough food and water to feed at least 10,000 visitors for as long as five days in the event that a calamity isolates the theme park.",feed,23,1,feed.v.01;feed.v.02;feed.v.11,feeding-39.7,Feeding,VN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/nw/wsj/16/wsj_1691.sense,37,1,False
+The pediatrician encouraged her to breast-feed if possible.,breast-feed,,,,,Feeding,,synthetic,,,
+The zookeeper bottle-fed the abandoned baby giraffe.,bottle-feed,,,,,Feeding,,synthetic,,,
+She bottle-fed the orphaned lambs throughout the night.,bottle-feed,,,,,Feeding,,synthetic,,,
+"Under the stars and moons of the renovated Indiana Roof ballroom, nine of the hottest chefs in town fed them Indiana duckling mousseline, lobster consomme, veal mignon and chocolate terrine with a raspberry sauce.",feed,19,1,feed.v.01;feed.v.02;feed.v.11,feeding-39.7,Feeding,VN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/nw/wsj/00/wsj_0010.sense,16,1,False
+Aid workers nourished the malnourished refugees with fortified meals.,nourish,,,,,Feeding,,synthetic,,,
+She weaned her daughter onto rice cereal at four months.,wean,,,,,Feeding,,synthetic,,,
+She breast-fed both of her children well into toddlerhood.,breast-feed,,,,,Feeding,,synthetic,,,
+The monks sustained the pilgrims with bowls of rice and lentils.,sustain,,,,,Feeding,,synthetic,,,
+The midwife nursed the newborn through its first difficult night.,nurse,,,,,Feeding,,synthetic,,,
+She spoon-fed her toddler some warm applesauce.,spoon-feed,,,,,Feeding,,synthetic,,,
+She suckled the baby until he fell asleep at her breast.,suckle,,,,,Feeding,,synthetic,,,
+"Mr. Fischer plows his own fields, sows his own corn and sunflowers, and feeds his own sheep.",feed,15,1,feed.v.01;feed.v.02;feed.v.11,feeding-39.7,Feeding,VN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/nw/wsj/17/wsj_1760.sense,25,1,False
+She sustained her elderly father with porridge and broth.,sustain,,,,,Feeding,,synthetic,,,
+Mares suckle their foals for several months after birth.,suckle,,,,,Feeding,,synthetic,,,
+She feeds her cat twice a day.,feed,,,,,Feeding,,synthetic,,,
+The mother weaned her son shortly after his first birthday.,wean,,,,,Feeding,,synthetic,,,
+Calves are usually weaned at around six months of age.,wean,,,,,Feeding,,synthetic,,,
+The shelter has been feeding hundreds of families since the storm.,feed,,,,,Feeding,,synthetic,,,
+"Bailiffs claimed they were required to chauffeur him to and from work, mow his lawn, chop his wood, fix his car and even drop by his house to feed his two grown mutts, Dixie and Husky.",feed,31,1,feed.v.01;feed.v.02;feed.v.11,feeding-39.7,Feeding,VN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/nw/wsj/02/wsj_0267.sense,12,1,False
+She nourished her children on home-grown vegetables.,nourish,,,,,Feeding,,synthetic,,,
+Their grandmother nourished them with hearty soups every winter.,nourish,,,,,Feeding,,synthetic,,,
+Volunteers bottle-fed the rescued kittens at the shelter.,bottle-feed,,,,,Feeding,,synthetic,,,
+The doctor recommended foods that would nourish the recovering patient.,nourish,,,,,Feeding,,synthetic,,,
+The veterinarian had to force-feed the ailing parrot.,force-feed,,,,,Feeding,,synthetic,,,
+The sow suckled her piglets in the warm pen.,suckle,,,,,Feeding,,synthetic,,,
+"Tonight, 20,000 people in shelters, but another 20,000 refuse to leave, worried about their corn harvests who -- or who would feed their animals.",feed,24,1,feed.v.01;feed.v.02;feed.v.11,feeding-39.7,Feeding,VN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/bn/mnb/00/mnb_0025.sense,17,1,False
+The sick calf was force-fed electrolytes through a tube.,force-feed,,,,,Feeding,,synthetic,,,
+The father patiently spoon-fed his recovering wife.,spoon-feed,,,,,Feeding,,synthetic,,,
+The ewe suckled her lamb in the early morning light.,suckle,,,,,Feeding,,synthetic,,,
+"Finally, we find the third circle of so - called religious, educational and welfare organizations, which actually do some good, feed the hungry and provide some schooling, but brainwash a new generation with hatred, lies and ignorance.",feed,24,1,feed.v.01;feed.v.02;feed.v.11,feeding-39.7,Feeding,VN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/wb/eng/00/eng_0000.sense,156,1,False
+The charity has sustained thousands of orphans with daily meals.,sustain,,,,,Feeding,,synthetic,,,
+"The transluscent husk of the seed is removed, sifted and crushed; the seed itself is fed to animals.",feed,17,1,feed.v.01;feed.v.02;feed.v.11,feeding-39.7,Feeding,VN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/nw/wsj/05/wsj_0515.sense,26,1,False
+He nourished the weak puppy back to health with goat's milk.,nourish,,,,,Feeding,,synthetic,,,
+Nurses spoon-fed the elderly patients in the ward.,spoon-feed,,,,,Feeding,,synthetic,,,
+or are they at a different level if your employees come out and say I ca n't feed my kids /.,feed,17,1,feed.v.01;feed.v.02;feed.v.11,feeding-39.7,Feeding,VN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/bc/cnn/00/cnn_0001.sense,148,1,False
+Aid agencies struggled to sustain the displaced population through the winter.,sustain,,,,,Feeding,,synthetic,,,
+Hunger strikers in the prison were force-fed by the guards.,force-feed,,,,,Feeding,,synthetic,,,
+The volunteer spoon-fed pureed vegetables to the bedridden man.,spoon-feed,,,,,Feeding,,synthetic,,,
+She nursed her infant for nearly two years.,nurse,,,,,Feeding,,synthetic,,,
+"At the age of 16, after years of being passed from pillar to post, Hsia joined the army - where at least he knew that he 'd get fed.",feed,30,1,feed.v.01;feed.v.02;feed.v.11,feeding-39.7,Feeding,VN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/mz/sinorama/10/ectb_1048.sense,16,1,False
+They are grateful because we are feeding and helping to train these people to take over the responsibility for their government /.,feed,6,1,feed.v.01;feed.v.02;feed.v.11,feeding-39.7,Feeding,VN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/bc/msnbc/00/msnbc_0003.sense,566,1,False
+The mother cat nursed her kittens in the corner of the barn.,nurse,,,,,Feeding,,synthetic,,,
+She breast-fed her son for the first six months.,breast-feed,,,,,Feeding,,synthetic,,,
+He spoon-fed broth to his sick grandmother.,spoon-feed,,,,,Feeding,,synthetic,,,
+The orphaned cub was suckled by a surrogate mother.,suckle,,,,,Feeding,,synthetic,,,
+Park rangers warn visitors not to feed the bears.,feed,,,,,Feeding,,synthetic,,,
+Many mothers breast-feed their babies in public without hesitation.,breast-feed,,,,,Feeding,,synthetic,,,
+He watched as his wife breast-fed their newborn.,breast-feed,,,,,Feeding,,synthetic,,,
+Geese were once force-fed to produce foie gras on the farm.,force-feed,,,,,Feeding,,synthetic,,,
+Activists protested the practice of force-feeding ducks.,force-feed,,,,,Feeding,,synthetic,,,
+He bottle-fed his daughter while his wife recovered from surgery.,bottle-feed,,,,,Feeding,,synthetic,,,
+"So, all I can do is to feed her and make sure that she is not cold. """,feed,8,1,feed.v.01;feed.v.02;feed.v.11,feeding-39.7,Feeding,VN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/bc/phoenix/00/phoenix_0003.sense,85,1,False
+Hospital staff nursed the premature twins with great care.,nurse,,,,,Feeding,,synthetic,,,
+"Some businesses -- like Disneyland -- claim that even if they became isolated in a crisis, they would be able to feed and care for their people for as long as five days.",feed,22,1,feed.v.01;feed.v.02;feed.v.11,feeding-39.7,Feeding,VN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/nw/wsj/16/wsj_1691.sense,8,1,False

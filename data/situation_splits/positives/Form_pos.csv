@@ -1,0 +1,51 @@
+sentence,verb_lemma,verb_token_idx,on_sense,wn_synsets,vn_class,situation,match_path,source_file,sentence_idx,situation_count,needs_review
+"According to Japanese media reports on December 9, apart from expressing the joys of rearing her daughter, Masako also recalled her experience of visiting some children 's facilities.",rear,15,1,rear.v.02,rear-26.2.2,Form,WN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/nw/p2.5_c2e/00/p2.5_c2e_0043.sense,2,1,False
+"Following World War II, when one family with mechanized equipment could farm crops formerly requiring 20 families, the surplus people were dumped into the mainstream of society with no Social Security, no skills in the workplace, no hope for their future except welfare.",farm,12,1,farm.v.01;farm.v.03,rear-26.2.2,Form,WN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/nw/wsj/06/wsj_0687.sense,6,1,False
+"He farms 12 acres in Grabowiec, two miles from the Soviet border in one of Poland 's poorest places.",farm,1,1,farm.v.01;farm.v.03,rear-26.2.2,Form,WN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/nw/wsj/11/wsj_1146.sense,155,1,False
+"In addition, Chinese raspberries and strawberry pears are now being cultivated, with promising results so far.",cultivate,11,1,cultivate.v.01,rear-26.2.2,Form,WN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/mz/sinorama/10/ectb_1050.sense,102,1,False
+"In August last year, as Taiwan was being buffeted by a typhoon, over 20 eggs hatched out into tiny snakes, which the zoo hopes can grow up safe and sound.",hatch,17,1,hatch.v.01,grow-26.2.1,Form,WN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/mz/sinorama/10/ectb_1066.sense,74,1,False
+"As a young girl she helped with the tea work, and later her husband also cultivated tea.",cultivate,16,1,cultivate.v.01,rear-26.2.2,Form,WN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/mz/sinorama/10/ectb_1076.sense,35,1,False
+That acorn will grow into an oak tree.,grow,,,,,Form,,verbnet,,,
+An oak tree will grow from that acorn.,grow,,,,,Form,,verbnet,,,
+The gardener grew that acorn into an oak tree.,grow,,,,,Form,,verbnet,,,
+The gardener grew an oak tree from that acorn.,grow,,,,,Form,,verbnet,,,
+My neighbor raised fruit trees.,raise,,,,,Form,,verbnet,,,
+The farmer cultivates the land for crops.,cultivate,,,,,Form,,verbnet,,,
+She grew her daughter.,grow,1,,,,Form,synthetic,,,,False
+He grew the equipment.,grow,1,,,,Form,synthetic,,,,False
+The workers grew the tools.,grow,2,,,,Form,synthetic,,,,False
+She cultivated the furniture.,cultivate,1,,,,Form,synthetic,,,,False
+He cultivated the firewood.,cultivate,1,,,,Form,synthetic,,,,False
+The workers cultivated the cargo.,cultivate,2,,,,Form,synthetic,,,,False
+The crew cultivated the furniture.,cultivate,2,,,,Form,synthetic,,,,False
+She farmed the cargo.,farm,1,,,,Form,synthetic,,,,False
+He farmed the package.,farm,1,,,,Form,synthetic,,,,False
+The workers farmed the letter.,farm,2,,,,Form,synthetic,,,,False
+The nurse reared the letter.,rear,2,,,,Form,synthetic,,,,False
+The driver reared the merchandise.,rear,2,,,,Form,synthetic,,,,False
+The children reared the furniture.,rear,2,,,,Form,synthetic,,,,False
+My neighbor reared the merchandise.,rear,2,,,,Form,synthetic,,,,False
+The old man reared the equipment.,rear,3,,,,Form,synthetic,,,,False
+The nurse farmed the cargo.,farm,2,,,,Form,synthetic,,,,False
+The driver farmed the package.,farm,2,,,,Form,synthetic,,,,False
+The nurse hatched the documents.,hatch,2,,,,Form,synthetic,,,,False
+She cultivated herbs on the kitchen windowsill.,cultivate,1,,,,Form,synthetic,,,,False
+He grew tomatoes in the backyard.,grow,1,,,,Form,synthetic,,,,False
+The farmer raised cattle on the prairie.,raise,2,,,,Form,synthetic,,,,False
+She cultivated roses along the garden wall.,cultivate,1,,,,Form,synthetic,,,,False
+He farmed the land his grandfather had cleared.,farm,1,,,,Form,synthetic,,,,False
+They reared chickens for the local market.,rear,1,,,,Form,synthetic,,,,False
+The eggs hatched in the incubator.,hatch,2,,,,Form,synthetic,,,,False
+She grew orchids in a small greenhouse.,grow,1,,,,Form,synthetic,,,,False
+He farmed rice in the lowland paddies.,farm,1,,,,Form,synthetic,,,,False
+They cultivated the terraces for centuries.,cultivate,1,,,,Form,synthetic,,,,False
+She grew wheat on the upper field.,grow,1,,,,Form,synthetic,,,,False
+He farmed organically for twenty years.,farm,1,,,,Form,synthetic,,,,False
+They reared sheep in the highlands.,rear,1,,,,Form,synthetic,,,,False
+The chicks hatched after three weeks.,hatch,2,,,,Form,synthetic,,,,False
+He raised horses on the family ranch.,raise,1,,,,Form,synthetic,,,,False
+She cultivated a small herb garden.,cultivate,1,,,,Form,synthetic,,,,False
+He grew sunflowers along the fence line.,grow,1,,,,Form,synthetic,,,,False
+They farmed oysters in the tidal flats.,farm,1,,,,Form,synthetic,,,,False
+She raised bees for honey.,raise,1,,,,Form,synthetic,,,,False
+The fry hatched in the gravel bed.,hatch,2,,,,Form,synthetic,,,,False

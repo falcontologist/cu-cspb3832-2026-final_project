@@ -1,0 +1,51 @@
+sentence,verb_lemma,verb_token_idx,on_sense,wn_synsets,vn_class,situation,match_path,source_file,sentence_idx,situation_count,needs_review
+Simba Makoni looks and sounds like an opposition politician.,sound,4,1,sound.v.01;sound.v.03,stimulus_subject-30.4,Perception_(stim._subj.),WN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/bn/pri/00/pri_0030.sense,23,1,False
+She seemed startled to see someone that looked so different.,look,7,2,look.v.02;look.v.03;look.v.07;look.v.09,stimulus_subject-30.4,Perception_(stim._subj.),WN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/bn/cnn/04/cnn_0411.sense,80,1,False
+This scar alone makes me not look beautiful.,look,6,2,look.v.02;look.v.03;look.v.07;look.v.09,stimulus_subject-30.4,Perception_(stim._subj.),WN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/bn/pri/01/pri_0103.sense,11,1,False
+That pea soup tasted delicious.,taste,,,,,Perception_(stim._subj.),,"Levin 1993, stimulus_subject-30.4",,,
+That pea soup tasted delicious to me.,taste,,,,,Perception_(stim._subj.),,"Levin 1993, stimulus_subject-30.4",,,
+That pea soup tasted like heaven.,taste,,,,,Perception_(stim._subj.),,"Levin 1993, stimulus_subject-30.4",,,
+He looks tired.,look,,,,,Perception_(stim._subj.),,"Levin 1993, stimulus_subject-30.4",,,
+The fabric feels soft.,feel,,,,,Perception_(stim._subj.),,"Levin 1993, stimulus_subject-30.4",,,
+The music sounds great.,sound,,,,,Perception_(stim._subj.),,"Levin 1993, stimulus_subject-30.4",,,
+The perfume smells sweet.,smell,,,,,Perception_(stim._subj.),,"Levin 1993, stimulus_subject-30.4",,,
+She looked the furniture.,look,1,,,,Perception_(stim._subj.),synthetic,,,,False
+He looked the documents.,look,1,,,,Perception_(stim._subj.),synthetic,,,,False
+The workers looked the cargo.,look,2,,,,Perception_(stim._subj.),synthetic,,,,False
+The crew looked the equipment.,look,2,,,,Perception_(stim._subj.),synthetic,,,,False
+She tasted the old books.,taste,1,,,,Perception_(stim._subj.),synthetic,,,,False
+He tasted the tools.,taste,1,,,,Perception_(stim._subj.),synthetic,,,,False
+The workers tasted the old books.,taste,2,,,,Perception_(stim._subj.),synthetic,,,,False
+The crew tasted the tools.,taste,2,,,,Perception_(stim._subj.),synthetic,,,,False
+She sounded the merchandise.,sound,1,,,,Perception_(stim._subj.),synthetic,,,,False
+He sounded the equipment.,sound,1,,,,Perception_(stim._subj.),synthetic,,,,False
+The nurse sounded the paintings.,sound,2,,,,Perception_(stim._subj.),synthetic,,,,False
+The driver sounded the paintings.,sound,2,,,,Perception_(stim._subj.),synthetic,,,,False
+The children sounded the documents.,sound,2,,,,Perception_(stim._subj.),synthetic,,,,False
+The nurse felt the injured man.,feel,2,,,,Perception_(stim._subj.),synthetic,,,,False
+The driver felt the firewood.,feel,2,,,,Perception_(stim._subj.),synthetic,,,,False
+The children felt the firewood.,feel,2,,,,Perception_(stim._subj.),synthetic,,,,False
+My neighbor felt the firewood.,feel,2,,,,Perception_(stim._subj.),synthetic,,,,False
+The old man felt the tools.,feel,3,,,,Perception_(stim._subj.),synthetic,,,,False
+The bread smells fresh.,smell,2,,,,Perception_(stim._subj.),synthetic,,,,False
+The medicine tasted bitter.,taste,2,,,,Perception_(stim._subj.),synthetic,,,,False
+The cloth feels smooth.,feel,2,,,,Perception_(stim._subj.),synthetic,,,,False
+The alarm sounded too quiet.,sound,2,,,,Perception_(stim._subj.),synthetic,,,,False
+The paint looks uneven.,look,2,,,,Perception_(stim._subj.),synthetic,,,,False
+The milk smells sour.,smell,2,,,,Perception_(stim._subj.),synthetic,,,,False
+The metal feels cold to the touch.,feel,2,,,,Perception_(stim._subj.),synthetic,,,,False
+The plan sounds feasible.,sound,2,,,,Perception_(stim._subj.),synthetic,,,,False
+The sky looks threatening.,look,2,,,,Perception_(stim._subj.),synthetic,,,,False
+The tea tasted like mint.,taste,2,,,,Perception_(stim._subj.),synthetic,,,,False
+The leather feels stiff.,feel,2,,,,Perception_(stim._subj.),synthetic,,,,False
+The offer sounds generous.,sound,2,,,,Perception_(stim._subj.),synthetic,,,,False
+The broth tasted rich.,taste,2,,,,Perception_(stim._subj.),synthetic,,,,False
+The room smells of cedar.,smell,2,,,,Perception_(stim._subj.),synthetic,,,,False
+The finish looks glossy.,look,2,,,,Perception_(stim._subj.),synthetic,,,,False
+The forecast looks grim.,look,2,,,,Perception_(stim._subj.),synthetic,,,,False
+The evidence sounds convincing.,sound,2,,,,Perception_(stim._subj.),synthetic,,,,False
+The stew tasted of cumin.,taste,2,,,,Perception_(stim._subj.),synthetic,,,,False
+The air smells of rain.,smell,2,,,,Perception_(stim._subj.),synthetic,,,,False
+The proposal sounds ambitious.,sound,2,,,,Perception_(stim._subj.),synthetic,,,,False
+The carpet feels damp.,feel,2,,,,Perception_(stim._subj.),synthetic,,,,False
+The apology sounds sincere.,sound,2,,,,Perception_(stim._subj.),synthetic,,,,False

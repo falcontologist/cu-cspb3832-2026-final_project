@@ -1,0 +1,51 @@
+sentence,verb_lemma,verb_token_idx,on_sense,wn_synsets,vn_class,situation,match_path,source_file,sentence_idx,situation_count,needs_review
+"But the new 1977 PCs -- unlike earlier built - from - kit types such as the Altair, Sol and IMSAI -- had keyboards and could store about two pages of data in their memories.",store,27,1,store.v.01;store.v.02,fit-54.3,Capacity,WN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/nw/wsj/00/wsj_0022.sense,9,1,False
+This picnic table comfortably seats 6 or even 8 small kids!!,seat,,,,,Capacity,,ontonotes,,,
+The patio of the 'Flying Dutchman' seats 200 people.,seat,,,,,Capacity,,ontonotes,,,
+This tent sleeps six people.,sleep,,,,,Capacity,,ontonotes,,,
+We can sleep 12 in our bed and breakfast.,sleep,,,,,Capacity,,ontonotes,,,
+The sacrum lodges the sacral nerves.,lodge,,,,,Capacity,,ontonotes,,,
+Our facility seats up to 500 people.,seat,,,,,Capacity,,framenet,,,
+Our facilities seat 500 people seated.,seat,,,,,Capacity,,framenet,,,
+It seats approximately 180 persons for full silver service.,seat,,,,,Capacity,,framenet,,,
+The two small cars seated only 32 inside.,seat,,,,,Capacity,,framenet,,,
+This can holds five gallons.,hold,,,,,Capacity,,ontonotes,,,
+The opera house holds two thousand people.,hold,,,,,Capacity,,ontonotes,,,
+The cargo bay holds twelve tons.,hold,3,,,,Capacity,synthetic,,,,False
+The stadium seats nearly a hundred thousand.,seat,2,,,,Capacity,synthetic,,,,False
+The warehouse stores two thousand pallets.,store,2,,,,Capacity,synthetic,,,,False
+The hostel sleeps a hundred backpackers.,sleep,2,,,,Capacity,synthetic,,,,False
+The cabin sleeps six comfortably.,sleep,2,,,,Capacity,synthetic,,,,False
+The motel sleeps forty guests.,sleep,2,,,,Capacity,synthetic,,,,False
+The lot holds roughly eighty cars.,hold,2,,,,Capacity,synthetic,,,,False
+The cellar stores three hundred bottles.,store,2,,,,Capacity,synthetic,,,,False
+The hangar stores four aircraft.,store,2,,,,Capacity,synthetic,,,,False
+The tent sleeps four.,sleep,2,,,,Capacity,synthetic,,,,False
+The tank holds three hundred gallons.,hold,2,,,,Capacity,synthetic,,,,False
+The barge holds a hundred tons of gravel.,hold,2,,,,Capacity,synthetic,,,,False
+The reservoir holds enough water for the district.,hold,2,,,,Capacity,synthetic,,,,False
+The freezer stores enough food for a month.,store,2,,,,Capacity,synthetic,,,,False
+The silo stores grain through winter.,store,2,,,,Capacity,synthetic,,,,False
+She slept the tools.,sleep,1,,,,Capacity,synthetic,,,,False
+She stored the supplies.,store,1,,,,Capacity,synthetic,,,,False
+She lodged the old books.,lodge,1,,,,Capacity,synthetic,,,,False
+He lodged the documents.,lodge,1,,,,Capacity,synthetic,,,,False
+The workers lodged the letter.,lodge,2,,,,Capacity,synthetic,,,,False
+The crew lodged the supplies.,lodge,2,,,,Capacity,synthetic,,,,False
+The team lodged the merchandise.,lodge,2,,,,Capacity,synthetic,,,,False
+The nurse lodged the tools.,lodge,2,,,,Capacity,synthetic,,,,False
+The briefcase holds a laptop and two folders.,hold,2,,,,Capacity,synthetic,,,,False
+The parking garage holds five hundred vehicles.,hold,3,,,,Capacity,synthetic,,,,False
+The concert hall seats nine hundred.,seat,3,,,,Capacity,synthetic,,,,False
+The canteen holds a quart.,hold,2,,,,Capacity,synthetic,,,,False
+The drawer holds about twenty files.,hold,2,,,,Capacity,synthetic,,,,False
+The inn sleeps thirty guests in private rooms.,sleep,2,,,,Capacity,synthetic,,,,False
+This bottle holds a full liter.,hold,2,,,,Capacity,synthetic,,,,False
+The trailer sleeps two adults.,sleep,2,,,,Capacity,synthetic,,,,False
+The auditorium seats three hundred for lectures.,seat,2,,,,Capacity,synthetic,,,,False
+The cooler holds twelve cans.,hold,2,,,,Capacity,synthetic,,,,False
+Each rack stores thirty bottles.,store,2,,,,Capacity,synthetic,,,,False
+The vault stores the most sensitive documents.,store,2,,,,Capacity,synthetic,,,,False
+The closet stores winter coats and boots.,store,2,,,,Capacity,synthetic,,,,False
+The stadium seats eighty thousand fans.,seat,2,,,,Capacity,synthetic,,,,False
+The reservoir holds a billion gallons.,hold,2,,,,Capacity,synthetic,,,,False

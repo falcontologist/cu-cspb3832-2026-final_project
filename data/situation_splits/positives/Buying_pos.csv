@@ -1,0 +1,55 @@
+sentence,verb_lemma,verb_token_idx,on_sense,wn_synsets,vn_class,situation,match_path,source_file,sentence_idx,situation_count,needs_review
+"Taking hold of the opportunity, he bought a cattle ranch in America.",buy,7,1,buy.v.01;buy.v.04;buy.v.03,get-13.5.1,Buying,VN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/mz/sinorama/10/ectb_1054.sense,95,2,True
+"Spiegel promises a ""Guaranteed Christmas,"" with a pledge to deliver goods before Christmas if ordered by Dec. 20.",order,17,2,order.v.02,get-13.5.1,Buying,WN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/nw/wsj/18/wsj_1825.sense,45,1,False
+"In 1971, after the Shinto gate at the Meiji Shrine in Tokyo was struck by lightning, the Japanese authorities especially came to Taiwan to buy 11 huge, straight Taiwan yellow cypress logs 16 to 24 meters long, cut from trees over 1,500 years old, to create the world 's biggest Shinto gate.",buy,26,1,buy.v.01;buy.v.04;buy.v.03,get-13.5.1,Buying,VN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/mz/sinorama/10/ectb_1070.sense,64,2,True
+Hannah hired a boat to take him to a fishing village where there had been reports of a male elephant /.,hire,1,1,hire.v.01;hire.v.02;hire.v.03,get-13.5.1,Buying,VN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/bc/cnn/00/cnn_0002.sense,299,1,False
+I more often buy aromatic oils and use them at home - just take a fragrant bath or heat the oil to diffuse the fragrance.,buy,3,1,buy.v.01;buy.v.04;buy.v.03,get-13.5.1,Buying,VN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/mz/sinorama/10/ectb_1056.sense,34,2,True
+"Therefore, I practically do n't buy any makeups and never use blush or eyeshadow, apart from buying some lightening makeup base for use as sun screen.",buy,6,1,buy.v.01;buy.v.04;buy.v.03,get-13.5.1,Buying,VN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/wb/c2e/00/c2e_0001.sense,20,1,False
+"Yeh recalls a "" beautiful accident "": He bought a second - hand electroplater from a Japanese and tried to plate various plastic products with chrome so as to make them more resilient.",buy,9,1,buy.v.01;buy.v.04;buy.v.03,get-13.5.1,Buying,VN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/mz/sinorama/10/ectb_1054.sense,43,2,True
+The family bought a new car.,buy,,,,,Buying,,ontonotes,,,
+"According to his official biography, he bought his first bison in 1976.",buy,,,,,Buying,,ontonotes,,,
+Should I fire him because he bought his degree from the internet instead of attending a regular university?,buy,,,,,Buying,,ontonotes,,,
+"Novell, under pressure, will buy back its stock.",buy,,,,,Buying,,ontonotes,,,
+I think my used car was bought back once by the manufacturer and the dealer didn't tell me when I bought it.,buy,,,,,Buying,,ontonotes,,,
+A New Hampshire Poll and Two Dollars Will Buy You a Cup of Coffee.,buy,,,,,Buying,,ontonotes,,,
+The insurance premium you forego will buy you a pretty good road bike.,buy,,,,,Buying,,ontonotes,,,
+He is purchasing that lot for ten thousand dollars.,purchase,,,,,Buying,,ontonotes,,,
+Jess bought a coat.,buy,,,,,Buying,,framenet,,,
+Lee bought a textbook from Abby.,buy,,,,,Buying,,framenet,,,
+She gleefully bought the rock.,buy,,,,,Buying,,framenet,,,
+Will they allow you to purchase by check?,purchase,,,,,Buying,,framenet,,,
+"Sam bought the car for $12,000.",buy,,,,,Buying,,framenet,,,
+Jon bought some expensive apples at five dollars a pound!,buy,,,,,Buying,,framenet,,,
+"Most of my audio equipment, I purchased from a department store near my apartment.",purchase,,,,,Buying,,framenet,,,
+Lee buys potatoes by the pound.,buy,,,,,Buying,,framenet,,,
+I purchased the calculator for easier calculation of my debts.,purchase,,,,,Buying,,framenet,,,
+I have been buying from him for over 10 years.,buy,,,,,Buying,,framenet,,,
+You bought me three pairs already!,buy,,,,,Buying,,framenet,,,
+I just bought the cutest little pumpkin yesterday.,buy,,,,,Buying,,COCA via Croft et al 2021,,,
+I bought an angle grinder for 25 bucks.,buy,,,,,Buying,,COCA via Croft et al 2021,,,
+I know this because I bought one from Sears.,buy,,,,,Buying,,COCA via Croft et al 2021,,,
+I've booked a table at the fanciest restaurant in town!,book,2,,,,Buying,,ontonotes,,,False
+Seats and meals must be booked directly from Vintage Trains.,book,5,,,,Buying,,ontonotes,,,False
+He booked a flight to Chicago.,book,1,,,,Buying,,ontonotes,,,False
+The travel agent booked him on a flight to Chicago.,book,3,,,,Buying,,ontonotes,,,False
+"My son was coming in late, so I booked a hotel for him in the area.",book,9,,,,Buying,,ontonotes,,,False
+They booked up the entire hotel.,book,1,,,,Buying,,ontonotes,,,False
+"Germania, a charter airline, ordered three 737-300s, doubling its fleet.",order,5,,,,Buying,,ontonotes,,,False
+I just ordered pizza from panhandle pizza.,order,2,,,,Buying,,ontonotes,,,False
+You can order flowers online 24 hours a day.,order,2,,,,Buying,,ontonotes,,,False
+And I have ordered a massage therapist to give you a special rub down with sun screen.,order,3,,,,Buying,,ontonotes,,,False
+We chartered an apartment on a quiet street.,charter,1,,,,Buying,,ontonotes,,,False
+Let's charter a car.,charter,2,,,,Buying,,ontonotes,,,False
+Shall we charter a guide in Rome?,charter,2,,,,Buying,,ontonotes,,,False
+Businessmen opposed to the Vietnam war tried to buy time for anti-war spots on a radio station.,buy,,,,,Buying,,ontonotes,,,
+She ordered a dress from the catalog.,order,1,,,,Buying,synthetic,,,,False
+He ordered supplies from three vendors.,order,1,,,,Buying,synthetic,,,,False
+The government purchased the land for the highway.,purchase,2,,,,Buying,synthetic,,,,False
+They chartered a bus for the field trip.,charter,1,,,,Buying,synthetic,,,,False
+She booked a suite at the hotel downtown.,book,1,,,,Buying,synthetic,,,,False
+He purchased insurance before the trip.,purchase,1,,,,Buying,synthetic,,,,False
+She purchased her first car at nineteen.,purchase,1,,,,Buying,synthetic,,,,False
+They chartered a helicopter to the island.,charter,1,,,,Buying,synthetic,,,,False
+The nurse hired the furniture.,hire,2,,,,Buying,synthetic,,,,False
+The driver hired the letter.,hire,2,,,,Buying,synthetic,,,,False
+The children hired the package.,hire,2,,,,Buying,synthetic,,,,False

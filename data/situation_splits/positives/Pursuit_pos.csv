@@ -1,0 +1,51 @@
+sentence,verb_lemma,verb_token_idx,on_sense,wn_synsets,vn_class,situation,match_path,source_file,sentence_idx,situation_count,needs_review
+"Finally, of course, the boss gives in, but he 's still yelling: ""I find myself explaining anything to Teddy Kennedy, you 'll be chasing stolen cars in Anchorage.""",chase,29,1,chase.v.01,chase-51.6,Pursuit,VN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/nw/wsj/13/wsj_1397.sense,38,1,False
+"The authorities have steered foreign reporters to her office to see an example of ""the new way of thinking.""",steer,3,1,steer.v.01;steer.v.03,accompany-51.7,Pursuit,VN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/nw/wsj/16/wsj_1603.sense,75,1,False
+"But allow me to say: you did not ask about this, but what gave us the ability to pursue the terrorists, and specifically those who are foreigners or from neighboring countries, is the feeling and awareness among many Iraqis who, uh, apparently out of well - meaning and good intentions, joined these organizations -- or out of carelessness.",pursue,20,2,pursue.v.02,chase-51.6,Pursuit,WN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/bc/p2.5_a2e/00/p2.5_a2e_0025.sense,6,1,False
+"If there was a hunter around, misdirect to the tank.",misdirect,7,2,misdirect.v.02;misdirect.v.03,accompany-51.7,Pursuit,VN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/wb/sel/70/sel_7070.sense,0,1,False
+"Although the outdoor temperature in Beijing has fallen to minus 3 degrees, the traffic police deployed additional manpower on the roads to direct traffic, ah, and guide drivers in making detours.",guide,29,1,guide.v.01;guide.v.02;guide.v.04;guide.v.05,accompany-51.7,Pursuit,VN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/bc/cctv/00/cctv_0005.sense,201,1,False
+"See, the other rule of thumb about ballooning is that you ca n't steer.",steer,14,1,steer.v.01;steer.v.03,accompany-51.7,Pursuit,VN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/nw/wsj/02/wsj_0239.sense,34,1,False
+"Its leader, al - Ahnaf ibn Qays ( may Allah be pleased with him ), chased their king until he was killed, exiled and homeless.",chase,17,1,chase.v.01,chase-51.6,Pursuit,VN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/wb/a2e/00/a2e_0002.sense,5,1,False
+I led Chen Long/Zhou Wenlong in practice.,lead,1,5,lead.v.01,accompany-51.7,Pursuit,VN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/wb/p2.5_c2e/00/p2.5_c2e_0043.sense,2,1,False
+"He and his little friends went fishing, raised dogs, hunted sparrows, chased ducks, and many years later these supremely happy memories are all preserved in his movies and plays.",chase,14,1,chase.v.01,chase-51.6,Pursuit,VN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/bc/phoenix/00/phoenix_0000.sense,28,1,False
+"Prince William is chasing a polo ball, such of what has become of the British monarchy over time.",chase,3,1,chase.v.01,chase-51.6,Pursuit,VN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/bn/cnn/04/cnn_0423.sense,5,1,False
+"This is their car number; if you want them, chase them.",chase,11,1,chase.v.01,chase-51.6,Pursuit,VN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/wb/a2e/00/a2e_0005.sense,14,1,False
+Tommy Lee Jones may start chasing after an accused criminal once more.,chase,5,1,chase.v.01,chase-51.6,Pursuit,VN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/bn/cnn/00/cnn_0086.sense,0,1,False
+"Was chasing him with a stick, and the horse was ducking.",chase,1,1,chase.v.01,chase-51.6,Pursuit,VN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/bn/cnn/04/cnn_0423.sense,22,1,False
+"We were stabbed twice, first when we watched an Arab leader being led to the gallows in accordance with sectarian justice which is spiteful and vengeful. And the second time when we did not see anyone among the club of leaders to which he belonged for more than 30 years object to his execution.",lead,13,5,lead.v.01,accompany-51.7,Pursuit,VN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/wb/a2e/00/a2e_0020.sense,25,1,False
+"The lowly agent, Abel Lamb, who as you might guess, is being led to the slaughter, is ordered to take over the studio.",lead,15,5,lead.v.01,accompany-51.7,Pursuit,VN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/nw/wsj/19/wsj_1984.sense,15,1,False
+Just as the last light faded we made it to the place where a trail left the water and led back to the car now a couple hundred meters above us.,lead,19,5,lead.v.01,accompany-51.7,Pursuit,VN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/wb/eng/00/eng_0017.sense,50,1,False
+first up on the docket tonight we got an interview with the witness who led investigators to a landfill in the search for Natalee Holloway /.,lead,14,5,lead.v.01,accompany-51.7,Pursuit,VN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/bc/msnbc/00/msnbc_0000.sense,1,1,False
+A Russian cargo ship is heading for the doomed Mir space station to guide it back to Earth.,guide,13,1,guide.v.01;guide.v.02;guide.v.04;guide.v.05,accompany-51.7,Pursuit,VN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/bn/cnn/01/cnn_0191.sense,0,1,False
+"That 's the hardest part, but if you have another trick to do next, you can take the time to work them out of the deck if you can misdirect them, and think it",misdirect,31,2,misdirect.v.02;misdirect.v.03,accompany-51.7,Pursuit,VN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/wb/sel/70/sel_7073.sense,0,1,False
+"A man on a motorcycle was killed while being chased about I police, the violence broke out.",chase,9,1,chase.v.01,chase-51.6,Pursuit,VN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/bn/cnn/04/cnn_0412.sense,1,1,False
+The first time he was shot in the hand as he chased the robbers outside.,chase,11,1,chase.v.01,chase-51.6,Pursuit,VN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/nw/wsj/14/wsj_1450.sense,6,1,False
+"Pushing small luggage carts, they lead customers to the buses.",lead,6,5,lead.v.01,accompany-51.7,Pursuit,VN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/mz/sinorama/10/ectb_1009.sense,136,1,False
+"Amidst a festive atmosphere, the athletes entered the stadium by categories - one group in wheelchairs, another on crutches, another led by guide dogs.",lead,23,5,lead.v.01,accompany-51.7,Pursuit,VN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/mz/sinorama/10/ectb_1040.sense,9,1,False
+"And this even resulted in the international media closely chasing Hu in his footsteps as he made this trip on his subsequent trips to Laos, India, and Pakistan.",chase,9,1,chase.v.01,chase-51.6,Pursuit,VN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/wb/p2.5_c2e/00/p2.5_c2e_0064.sense,9,1,False
+He was n't protecting the Freedom Marchers; he was tailing them as subversives.,tail,10,1,tail.v.01,chase-51.6,Pursuit,VN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/nw/wsj/13/wsj_1397.sense,20,1,False
+"Unreformed, uninformed commanders, uninstructed beyond brief battles, led their charges into Iraq relying on their generals.",lead,10,5,lead.v.01,accompany-51.7,Pursuit,VN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/wb/eng/00/eng_0016.sense,170,1,False
+Jackie chased the thief.,chase,,,,,Pursuit,,"Croft et al 2021, p. 71f",,,
+Jackie chased after the thief.,chase,,,,,Pursuit,,"Croft et al 2021, p. 71f",,,
+Jackie accompanied Rose to the store.,accompany,,,,,Pursuit,,"Croft et al 2021, p. 71f",,,
+The police chased the suspect down the street.,chase,,,,,Pursuit,,"Croft et al 2021, p. 71f",,,
+She accompanied her friend to the hospital.,accompany,,,,,Pursuit,,"Croft et al 2021, p. 71f",,,
+The guide led the tourists through the museum.,lead,,,,,Pursuit,,"Croft et al 2021, p. 71f",,,
+The detective shadowed the suspect all day.,shadow,,,,,Pursuit,,"Croft et al 2021, p. 71f",,,
+A sheepdog steered the flock into the pen.,steer,,,,,Pursuit,,"Croft et al 2021, p. 71f",,,
+The nurse steered the documents.,steer,2,,,,Pursuit,synthetic,,,,False
+The detective chased the suspect through the alley.,chase,2,,,,Pursuit,synthetic,,,,False
+She led the hikers along the ridge.,lead,1,,,,Pursuit,synthetic,,,,False
+He steered the flock toward the barn.,steer,1,,,,Pursuit,synthetic,,,,False
+The hound chased the rabbit across the field.,chase,2,,,,Pursuit,synthetic,,,,False
+She guided the visitors through the gallery.,guide,1,,,,Pursuit,synthetic,,,,False
+He pursued the thief on foot.,pursue,1,,,,Pursuit,synthetic,,,,False
+The patrol accompanied the convoy to the border.,accompany,2,,,,Pursuit,synthetic,,,,False
+She tailed the suspect for three blocks.,tail,1,,,,Pursuit,synthetic,,,,False
+He chased the ball down the hill.,chase,1,,,,Pursuit,synthetic,,,,False
+She led the march down the avenue.,lead,1,,,,Pursuit,synthetic,,,,False
+He guided the raft through the rapids.,guide,1,,,,Pursuit,synthetic,,,,False
+The police pursued the stolen vehicle.,pursue,2,,,,Pursuit,synthetic,,,,False
+He steered the tourists away from the construction.,steer,1,,,,Pursuit,synthetic,,,,False
+She misdirected the investigators deliberately.,misdirect,1,,,,Pursuit,synthetic,,,,False
+He accompanied the diplomat to the summit.,accompany,1,,,,Pursuit,synthetic,,,,False

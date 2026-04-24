@@ -1,0 +1,51 @@
+sentence,verb_lemma,verb_token_idx,on_sense,wn_synsets,vn_class,situation,match_path,source_file,sentence_idx,situation_count,needs_review
+He charged 500 pounds.,charge,,,,,Charge,,"Kalm 2022, p. 152ff",,,
+He charged 500 pounds for the car.,charge,,,,,Charge,,"Kalm 2022, p. 152ff",,,
+He charged me 500 pounds for the car.,charge,,,,,Charge,,"Kalm 2022, p. 152ff",,,
+The phone company billed me $10 for that phone call.,bill,,,,,Charge,,"Levin 1993, Bill 54.5",,,
+The phone company billed me $10.,bill,,,,,Charge,,"Levin 1993, Bill 54.5",,,
+Will I get charged for a second cup of coffee?,charge,,,,,Charge,,ontonotes (charge-v sense 1),,,
+He charged them $30 for the rental.,charge,,,,,Charge,,ontonotes (charge-v sense 1),,,
+I'll charge this to my Visa.,charge,,,,,Charge,,ontonotes (charge-v sense 1),,,
+She charges $90 for an office visit.,charge,,,,,Charge,,ontonotes (charge-v sense 1),,,
+They will charge the deceased's estate with the debts.,charge,,,,,Charge,,ontonotes (charge-v sense 1),,,
+She billed the client for thirty hours.,bill,1,,,,Charge,synthetic,,,,False
+The contractor billed monthly for labor.,bill,2,,,,Charge,synthetic,,,,False
+He billed the estate for legal services.,bill,1,,,,Charge,synthetic,,,,False
+The doctor billed the insurer directly.,bill,2,,,,Charge,synthetic,,,,False
+She billed the letter.,bill,1,,,,Charge,synthetic,,,,False
+The plumber charged a hundred for the call.,charge,2,,,,Charge,synthetic,,,,False
+The hotel charged guests a resort fee.,charge,2,,,,Charge,synthetic,,,,False
+The broker charged a commission on each trade.,charge,2,,,,Charge,synthetic,,,,False
+The school charged tuition by the credit hour.,charge,2,,,,Charge,synthetic,,,,False
+The airline charged for every checked bag.,charge,2,,,,Charge,synthetic,,,,False
+The notary charged ten dollars per document.,charge,2,,,,Charge,synthetic,,,,False
+The hospital billed the insurer for the procedure.,bill,2,,,,Charge,synthetic,,,,False
+The workshop charged an enrollment fee.,charge,2,,,,Charge,synthetic,,,,False
+The caterer charged per plate.,charge,2,,,,Charge,synthetic,,,,False
+The landlord charged a penalty for late rent.,charge,2,,,,Charge,synthetic,,,,False
+The shop charged double for rush orders.,charge,2,,,,Charge,synthetic,,,,False
+The gym charged a monthly membership fee.,charge,2,,,,Charge,synthetic,,,,False
+The consultant charged by the hour.,charge,2,,,,Charge,synthetic,,,,False
+The ferry charged twelve dollars per car.,charge,2,,,,Charge,synthetic,,,,False
+The clinic charged a copay at the door.,charge,2,,,,Charge,synthetic,,,,False
+The tailor charged extra for alterations.,charge,2,,,,Charge,synthetic,,,,False
+She billed the client for fifteen hours of work.,bill,1,,,,Charge,synthetic,,,,False
+The salon charged forty dollars for a haircut.,charge,2,,,,Charge,synthetic,,,,False
+The lawyer billed the firm for her expenses.,bill,2,,,,Charge,synthetic,,,,False
+The restaurant charged a corkage fee.,charge,2,,,,Charge,synthetic,,,,False
+The moving company charged by the mile.,charge,3,,,,Charge,synthetic,,,,False
+The accountant billed quarterly.,bill,2,,,,Charge,synthetic,,,,False
+He charged a flat rate regardless of hours.,charge,1,,,,Charge,synthetic,,,,False
+They billed the foundation for the full amount.,bill,1,,,,Charge,synthetic,,,,False
+The kennel charged for boarding and grooming.,charge,2,,,,Charge,synthetic,,,,False
+The locksmith charged a service call fee.,charge,2,,,,Charge,synthetic,,,,False
+The lab charged per sample analyzed.,charge,2,,,,Charge,synthetic,,,,False
+The studio charged admission at the door.,charge,2,,,,Charge,synthetic,,,,False
+The electrician charged a diagnostic fee.,charge,2,,,,Charge,synthetic,,,,False
+She billed the estate for legal representation.,bill,1,,,,Charge,synthetic,,,,False
+The tow company charged a flat fee.,charge,3,,,,Charge,synthetic,,,,False
+The repair shop charged for parts and labor.,charge,3,,,,Charge,synthetic,,,,False
+The editor billed per word.,bill,2,,,,Charge,synthetic,,,,False
+The parking lot charged by the hour.,charge,3,,,,Charge,synthetic,,,,False
+The tutor charged for cancellations.,charge,2,,,,Charge,synthetic,,,,False

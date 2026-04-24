@@ -1,0 +1,51 @@
+sentence,verb_lemma,verb_token_idx,on_sense,wn_synsets,vn_class,situation,match_path,source_file,sentence_idx,situation_count,needs_review
+"""I think -LCB- Mr. Phillips -RCB- is going to need some help.",need,10,1,need.v.01;need.v.02;need.v.03,want-32.1,Desire,WN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/nw/wsj/13/wsj_1317.sense,50,1,False
+"Xiamen needs modernization, but wants to avoid "" modern malaise. """,need,1,1,need.v.01;need.v.02;need.v.03,want-32.1,Desire,WN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/nw/p2.5_c2e/00/p2.5_c2e_0053.sense,5,1,False
+"Oh! But I felt, the peasants, they need this kind of service.",need,10,1,need.v.01;need.v.02;need.v.03,want-32.1,Desire,WN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/bc/phoenix/00/phoenix_0001.sense,147,1,False
+"To rebuild Yugoslavia, Kostunica will need the help of the United States in securing international loans.",need,6,1,need.v.01;need.v.02;need.v.03,want-32.1,Desire,WN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/bn/pri/00/pri_0026.sense,30,1,False
+"By pressuring taxi and bus drivers who needed licenses, he gained a ready cache of information.",need,7,1,need.v.01;need.v.02;need.v.03,want-32.1,Desire,WN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/nw/wsj/20/wsj_2013.sense,54,1,False
+"Stated alternatively, one does not have an absolute right to use his / her property as desired.",desire,17,1,desire.v.01;desire.v.02,want-32.1,Desire,VN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/wb/eng/00/eng_0007.sense,96,1,False
+"She needs a strong man of the times, a revolutionary and politician, who works wholeheartedly for the benefit and happiness of the entire nation and all of the people, she neither needs nor accepts those who only flaunt the banner of seeking benefit and happiness for the entire nation and all of the people, but in reality are vulgar villains and political liars who seek benefit and happiness only for themselves, for their family clan, and for their own small clique and small social stratum.",need,34,1,need.v.01;need.v.02;need.v.03,want-32.1,Desire,WN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/wb/c2e/00/c2e_0017.sense,10,1,False
+We can not stay there the way the secretary of state Rice said we 'll stay there as long as they need us /.,need,21,1,need.v.01;need.v.02;need.v.03,want-32.1,Desire,WN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/bc/cnn/00/cnn_0005.sense,329,1,False
+"My money got finished and then my child comes, who needs a book, needs this.",need,11,1,need.v.01;need.v.02;need.v.03,want-32.1,Desire,WN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/bn/pri/01/pri_0103.sense,23,1,False
+But the handlers mistakenly stuck with silicon chips; they needed kryptonite.,need,10,1,need.v.01;need.v.02;need.v.03,want-32.1,Desire,WN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/nw/wsj/12/wsj_1272.sense,16,1,False
+All we need is enough speculators to make it work.,need,2,1,need.v.01;need.v.02;need.v.03,want-32.1,Desire,WN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/wb/eng/00/eng_0006.sense,30,1,False
+"Well, as Russia should be said to badly need Japanese funds, as well as badly needing Japanese economic cooperation, well, how urgent do you think Russia 's need is?",need,9,1,need.v.01;need.v.02;need.v.03,want-32.1,Desire,WN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/bc/cctv/00/cctv_0003.sense,203,1,False
+"Thus at the recent governors ' conference on education, Gov. Bill Clinton of Arkansas announced that ""this country needs a comprehensive child - development policy for children under five.""",need,20,1,need.v.01;need.v.02;need.v.03,want-32.1,Desire,WN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/nw/wsj/12/wsj_1286.sense,45,1,False
+"""We need research that convinces us that magazines are a real value in reader 's lives, that readers are really involved.""",need,2,1,need.v.01;need.v.02;need.v.03,want-32.1,Desire,WN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/nw/wsj/11/wsj_1123.sense,8,1,False
+"The Prophet eagerly desired that his final deed would be to say "" there is no God but Allah, "" but Almighty God guides whoever He wishes.",desire,3,1,desire.v.01;desire.v.02,want-32.1,Desire,VN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/wb/a2e/00/a2e_0014.sense,29,1,False
+"So, there is a kind of states ' rights issue there, but they need, or at least they once thought they needed the Supreme Court to endorse it.",need,24,1,need.v.01;need.v.02;need.v.03,want-32.1,Desire,WN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/bn/voa/01/voa_0131.sense,16,1,False
+"In fact, Ms. Volokh was n't just a rich lady who needed a hobby.",need,12,1,need.v.01;need.v.02;need.v.03,want-32.1,Desire,WN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/nw/wsj/13/wsj_1367.sense,49,1,False
+"She gives before - school tutoring to students who need extra help learning to read, and volunteers on school committees after hours.",need,9,1,need.v.01;need.v.02;need.v.03,want-32.1,Desire,WN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/bn/cnn/03/cnn_0324.sense,31,1,False
+"Palestinian leaders said their people no longer want a cease - fire, they want their own country.",want,14,2,want.v.02;want.v.05,want-32.1,Desire,VN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/bn/abc/00/abc_0019.sense,18,1,False
+"She needs a son who is absolutely loyal to her, yet she neither needs nor accepts those who are only loyal on the surface, or in speech, toward the entire nation and all of the people, but in reality are political and economic parasites who are only loyal to themselves, loyal to their own family clan, loyal to their own small clique and small social stratum.",need,14,1,need.v.01;need.v.02;need.v.03,want-32.1,Desire,WN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/wb/c2e/00/c2e_0017.sense,9,1,False
+But the peasants need lots of services.,need,3,1,need.v.01;need.v.02;need.v.03,want-32.1,Desire,WN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/bc/phoenix/00/phoenix_0001.sense,96,1,False
+If one would so desire.,desire,4,1,desire.v.01;desire.v.02,want-32.1,Desire,VN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/bn/pri/00/pri_0094.sense,17,1,False
+Where 's Homer Simpson when you need him?,need,6,1,need.v.01;need.v.02;need.v.03,want-32.1,Desire,WN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/wb/eng/00/eng_0003.sense,12,1,False
+"So, there is a kind of states ' rights issue there, but they need, or at least they once thought they needed the Supreme Court to endorse it.",need,15,1,need.v.01;need.v.02;need.v.03,want-32.1,Desire,WN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/bn/voa/01/voa_0131.sense,16,1,False
+"After five years in New York, Chiu felt she had developed a great deal, and had enough strength to help people who needed help.",need,24,1,need.v.01;need.v.02;need.v.03,want-32.1,Desire,WN,../../Linguistic data/ontonotes-release-5.0/data/files/data/english/annotations/mz/sinorama/10/ectb_1068.sense,209,1,False
+I don't need all this hassle.,need,,,,,Desire,,synthetic,,,
+I really need a rest from all this.,need,,,,,Desire,,synthetic,,,
+I need my hair cut short.,need,,,,,Desire,,synthetic,,,
+What you need is a hot bowl of soup.,need,,,,,Desire,,synthetic,,,
+He wants to marry her.,want,,,,,Desire,,synthetic,,,
+The company doesn't want another scandal.,want,,,,,Desire,,synthetic,,,
+I want you all to be quiet!,want,,,,,Desire,,synthetic,,,
+The nurse desired the letter.,desire,2,,,,Desire,synthetic,,,,False
+The driver desired the furniture.,desire,2,,,,Desire,synthetic,,,,False
+The children desired the cargo.,desire,2,,,,Desire,synthetic,,,,False
+My neighbor desired the equipment.,desire,2,,,,Desire,synthetic,,,,False
+She needs a new pair of shoes.,need,1,,,,Desire,synthetic,,,,False
+He wants to finish the project by Friday.,want,1,,,,Desire,synthetic,,,,False
+The patient needs surgery.,need,2,,,,Desire,synthetic,,,,False
+They need more volunteers for the event.,need,1,,,,Desire,synthetic,,,,False
+She desires a simpler life.,desire,1,,,,Desire,synthetic,,,,False
+He wants a raise.,want,1,,,,Desire,synthetic,,,,False
+The garden needs water.,need,2,,,,Desire,synthetic,,,,False
+She needs time to recover.,need,1,,,,Desire,synthetic,,,,False
+He wants to learn French.,want,1,,,,Desire,synthetic,,,,False
+The children need a larger classroom.,need,2,,,,Desire,synthetic,,,,False
+She needs help with the move.,need,1,,,,Desire,synthetic,,,,False
+He desired nothing but peace.,desire,1,,,,Desire,synthetic,,,,False
+She wanted the old house back.,want,1,,,,Desire,synthetic,,,,False
+He needs the car repaired by tomorrow.,need,1,,,,Desire,synthetic,,,,False
