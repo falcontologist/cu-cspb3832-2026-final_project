@@ -4,13 +4,13 @@ Final project for CSPB 3832 Natural Language Processing, Spring 2026 (Prof. Curr
 
 > This project fine-tunes a DeBERTa-v3-base cross-encoder to classify verbal clauses by their argument structure construction, identifying which of 62 event structures best captures a sentence's meaning. The 62 constructions derive from Croft's force-dynamic event model and Kalm's extension to social verbs, each corresponding to a distinct causal chain configuration. The training dataset of 13,186 labeled sentence-definition pairs was built from manually curated examples drawn from OntoNotes, VerbNet, and FrameNet, supplemented by synthetic generation, and grounded in inductively defined scope maps. Both positive and negative examples were tiered by difficulty, with half targeting the hardest boundary cases between neighboring constructions. The classifier achieves 94.4% macro F1 and 96.7% constrained accuracy under pipeline-realistic conditions. The tiered training data design proved to be the decisive factor in discriminating among closely related constructions.
 
-**Research question.** Can a fine-tuned cross-encoder reliably learn to disambiguate between closely related verbal clause constructions?
+**Research question:** Can a fine-tuned cross-encoder reliably learn to disambiguate between closely related verbal clause constructions?
 
-**Headline results.** Macro F1 94.4%, accuracy 95.3%, and constrained accuracy 96.7% (+5.9 percentage points over the random baseline). Per-tier accuracy: T1 (same-cluster hard) 94.4%, T2 (same-realm) 97.4%, T3 (cross-realm) 93.0%. The full per-construction breakdown is in [results/evaluation_report.md](results/evaluation_report.md).
+**Primary document:** [Final Project Report.pdf](Final%20Project%20Report.pdf) is the submitted write-up. This README is a navigation and reproduction guide for the code and data behind it.
 
-**Primary document.** [Final Project Report.pdf](Final%20Project%20Report.pdf) is the submitted write-up. This README is a navigation and reproduction guide for the code and data behind it.
+**Video walkthrough:** [presentation/Final Project Presentation Video.mp4](presentation/Final%20Project%20Presentation%20Video.mp4) (117 MB MP4, tracked via Git LFS). Click to play on GitHub, or view inline at the top of the [presentation/](presentation/) directory.
 
-**Video walkthrough.** [Final Project Presentation Video.mp4](https://github.com/falcontologist/cu-cspb3832-2026-final_project/releases/download/v1.0/Final.Project.Presentation.Video.mp4) is attached to the [v1.0 release](https://github.com/falcontologist/cu-cspb3832-2026-final_project/releases/tag/v1.0) (117 MB MP4).
+**Headline results:** Macro F1 94.4%, accuracy 95.3%, and constrained accuracy 96.7% (+5.9 percentage points over the random baseline). Per-tier accuracy: T1 (same-cluster hard) 94.4%, T2 (same-realm) 97.4%, T3 (cross-realm) 93.0%. The full per-construction breakdown is in [results/evaluation_report.md](results/evaluation_report.md).
 
 ---
 
@@ -56,9 +56,10 @@ Final project for CSPB 3832 Natural Language Processing, Spring 2026 (Prof. Curr
 │   ├── cv_summary.json                      Per-fold dev F1 and training arguments.
 │   └── checkpoints/                         Trained model weights (not tracked). See LARGE_FILES.md.
 │
-└── presentation/                            Final deck.
+└── presentation/                            Final deck and video.
     ├── Final Project Presentation Slides.pdf
-    └── Final Project Presentation Slides.html   Reveal.js source.
+    ├── Final Project Presentation Slides.html   Reveal.js source.
+    └── Final Project Presentation Video.mp4     117 MB MP4, tracked via Git LFS.
 ```
 
 ## How the report maps onto this repository
@@ -166,7 +167,7 @@ Then open http://localhost:8000/ in a browser.
 ## Where to start reading
 
 1. [Final Project Report.pdf](Final%20Project%20Report.pdf). The 9-page submitted report.
-2. [Final Project Presentation Video.mp4](https://github.com/falcontologist/cu-cspb3832-2026-final_project/releases/download/v1.0/Final.Project.Presentation.Video.mp4). The spoken walkthrough of the deck, attached to the v1.0 release.
+2. [presentation/Final Project Presentation Video.mp4](presentation/Final%20Project%20Presentation%20Video.mp4). The spoken walkthrough of the deck; plays inline on GitHub.
 3. [docs/DATASET_BUILD_JOURNEY.md](docs/DATASET_BUILD_JOURNEY.md). The full build narrative, including what went wrong, what got pivoted, and what the final artifacts are.
 4. [docs/situation_scope_map_inductive.md](docs/situation_scope_map_inductive.md). The 62 construction definitions and the boundary rules that govern the training data.
 5. [results/evaluation_report.md](results/evaluation_report.md). Headline numbers and per-construction F1.
