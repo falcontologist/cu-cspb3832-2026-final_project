@@ -165,54 +165,52 @@ def bg(c, dark: bool = False):
     c.rect(0, 0, PAGE_W, PAGE_H, stroke=0, fill=1)
 
 # ---------------------------------------------------------------------------
-# Standardized arrow — "→" and "↓" drawn as vector strokes for crispness
+# Standardized arrow — uniform size, subtle gray, very thick stroke.
 # ---------------------------------------------------------------------------
-# Arrow visual scale set to roughly match 2.2em size (arrow size × 2.2 in HTML).
-ARROW_SCALE = 2.2
-ARROW_SIZE  = S_BODY * ARROW_SCALE   # ~61
+ARROW_SCALE  = 2.2
+ARROW_SIZE   = S_BODY * ARROW_SCALE   # ~61
+ARROW_WEIGHT = 7.0                    # very thick
+ARROW_HEAD_RATIO = 0.32               # head length as fraction of size
 
-def arrow_right(c, cx, cy_top, color=CAPTION, size=ARROW_SIZE, weight=2.0):
-    """Draw a centered right-pointing arrow ~size wide."""
-    half = size / 2
-    y = ytop(cy_top)
+def _draw_arrow(c, x1, y1, x2, y2, color, weight):
+    """Draw shaft from (x1,y1) to (x2,y2), then a head at (x2,y2) aligned with the shaft."""
+    import math as _m
     c.setStrokeColor(color)
     c.setLineWidth(weight)
     c.setLineCap(1)
     c.setLineJoin(1)
     # shaft
-    c.line(cx - half, y, cx + half, y)
-    # head
-    head = size * 0.28
-    c.line(cx + half, y, cx + half - head, y + head * 0.8)
-    c.line(cx + half, y, cx + half - head, y - head * 0.8)
+    c.line(x1, y1, x2, y2)
+    # head: two lines forming a V, symmetric around the shaft direction
+    length = _m.hypot(x2 - x1, y2 - y1)
+    head = length * ARROW_HEAD_RATIO
+    ang = _m.atan2(y2 - y1, x2 - x1)
+    # Back along shaft, then +/- perpendicular offset
+    spread = _m.radians(28)  # half-angle of the arrow head V
+    hx1 = x2 - head * _m.cos(ang - spread)
+    hy1 = y2 - head * _m.sin(ang - spread)
+    hx2 = x2 - head * _m.cos(ang + spread)
+    hy2 = y2 - head * _m.sin(ang + spread)
+    c.line(x2, y2, hx1, hy1)
+    c.line(x2, y2, hx2, hy2)
 
-def arrow_down(c, cx, cy_top, color=CAPTION, size=ARROW_SIZE, weight=2.0):
+def arrow_right(c, cx, cy_top, color=CAPTION, size=ARROW_SIZE, weight=ARROW_WEIGHT):
+    """Right-pointing arrow centered at (cx, cy_top)."""
     half = size / 2
-    x = cx
+    y = ytop(cy_top)
+    _draw_arrow(c, cx - half, y, cx + half, y, color, weight)
+
+def arrow_down(c, cx, cy_top, color=CAPTION, size=ARROW_SIZE, weight=ARROW_WEIGHT):
+    half = size / 2
     y_top_abs = ytop(cy_top - half)
     y_bot_abs = ytop(cy_top + half)
-    c.setStrokeColor(color)
-    c.setLineWidth(weight)
-    c.setLineCap(1)
-    c.setLineJoin(1)
-    c.line(x, y_top_abs, x, y_bot_abs)
-    head = size * 0.28
-    c.line(x, y_bot_abs, x - head * 0.8, y_bot_abs + head)
-    c.line(x, y_bot_abs, x + head * 0.8, y_bot_abs + head)
+    _draw_arrow(c, cx, y_top_abs, cx, y_bot_abs, color, weight)
 
-def arrow_up(c, cx, cy_top, color=CAPTION, size=ARROW_SIZE, weight=2.0):
+def arrow_up(c, cx, cy_top, color=CAPTION, size=ARROW_SIZE, weight=ARROW_WEIGHT):
     half = size / 2
-    x = cx
     y_top_abs = ytop(cy_top - half)
     y_bot_abs = ytop(cy_top + half)
-    c.setStrokeColor(color)
-    c.setLineWidth(weight)
-    c.setLineCap(1)
-    c.setLineJoin(1)
-    c.line(x, y_bot_abs, x, y_top_abs)
-    head = size * 0.28
-    c.line(x, y_top_abs, x - head * 0.8, y_top_abs - head)
-    c.line(x, y_top_abs, x + head * 0.8, y_top_abs - head)
+    _draw_arrow(c, cx, y_bot_abs, cx, y_top_abs, color, weight)
 
 # ---------------------------------------------------------------------------
 # Slide header
@@ -384,35 +382,62 @@ def slide_3_motivation(c):
         c.setStrokeColor(HexColor("#D8D8D8"))
         c.rect(lx, ytop(ly + 5), lw_px, 5, stroke=0, fill=1)
 
-    # Icon 2: two solid gray gears
-    def gear(cx, cy_top, outer_r, teeth, tooth_len, tooth_w, hole_r):
+    # Icon 2: two interlocking solid gray gears.
+    # Geometry: pitch radii sum equals the center-to-center distance, and the
+    # small gear is rotated by half a tooth-step so its teeth land in the gaps
+    # of the big gear at the meshing point.
+    def gear(cx, cy_top, pitch_r, teeth, tooth_len, tooth_w, hole_r, phase_deg=0.0):
         cy = ytop(cy_top)
-        # body disc
         c.setFillColor(CAPTION)
         c.setStrokeColor(CAPTION)
-        c.circle(cx, cy, outer_r, stroke=0, fill=1)
-        # teeth as rotated rectangles around center
+        c.circle(cx, cy, pitch_r, stroke=0, fill=1)
         for k in range(teeth):
-            angle = (2 * math.pi * k) / teeth
-            # tooth "root" at outer_r, extends outward by tooth_len
-            # draw as rectangle centered along that radial
+            angle_rad = (2 * math.pi * k) / teeth + math.radians(phase_deg)
             c.saveState()
             c.translate(cx, cy)
-            c.rotate(math.degrees(angle))
-            # rect: x=-w/2, y=outer_r - 1, w=tooth_w, h=tooth_len + 1
-            c.rect(-tooth_w / 2, outer_r - 1, tooth_w, tooth_len + 1, stroke=0, fill=1)
+            c.rotate(math.degrees(angle_rad))
+            # Tooth rectangle extending outward from pitch radius. Overlap 1pt
+            # into the disc so there's no seam, and round the outer corners
+            # very slightly (ReportLab doesn't do rounded rects on rect(), so
+            # a simple rectangle is fine at this size).
+            c.rect(-tooth_w / 2, pitch_r - 1, tooth_w, tooth_len + 1, stroke=0, fill=1)
             c.restoreState()
-        # hole in center — overdraw with page bg
+        # Center hole (punched out with the page background).
         c.setFillColor(BG)
         c.setStrokeColor(BG)
         c.circle(cx, cy, hole_r, stroke=0, fill=1)
 
-    # Big gear on upper-left of icon 2 area; small gear lower-right.
-    gear_center_x = cx2
-    gear(gear_center_x - 32, icon_center_y - 22, outer_r=44, teeth=8,
-         tooth_len=14, tooth_w=16, hole_r=14)
-    gear(gear_center_x + 38, icon_center_y + 30, outer_r=28, teeth=6,
-         tooth_len=10, tooth_w=12, hole_r=9)
+    # Big gear: pitch 34, 8 teeth (tooth step 45°).
+    # Small gear: pitch 22, 6 teeth (tooth step 60°).
+    # Center distance = 34 + 22 = 56. Place centers along a 30°-below-horizontal
+    # line so the small gear sits to the lower-right of the big gear.
+    big_pitch, small_pitch = 34, 22
+    center_dist = big_pitch + small_pitch
+    link_angle = math.radians(30)  # 30° below horizontal in top-down coords
+    big_cx = cx2 - 20
+    big_cy_top = icon_center_y - 14
+    small_cx = big_cx + center_dist * math.cos(link_angle)
+    small_cy_top = big_cy_top + center_dist * math.sin(link_angle)
+
+    # Phase the big gear so one tooth points along the link direction
+    # (toward the small gear). Then offset the small gear by a half-tooth
+    # of its own step so its gap is at the meshing point.
+    #   In gear(), a tooth at phase 0 points "up" (+y in screen) after the
+    #   translate/rotate, meaning its local +y corresponds to cy - r in the
+    #   ReportLab canvas (y grows upward there). "Up" on screen = math angle
+    #   +90°, so to aim a tooth at math angle M we rotate by (M - 90°).
+    # Link direction from big to small (math angle, y-up): we're in top-down
+    # drawing; link_angle is measured "below horizontal" in top-down, which
+    # means math angle = -link_angle.
+    link_math_deg = -math.degrees(link_angle)
+    big_phase = link_math_deg - 90.0                     # point tooth along link
+    half_step_small = 360.0 / 6 / 2                      # 30°
+    small_phase = (link_math_deg + 180.0) - 90.0 + half_step_small  # gap along link
+
+    gear(big_cx,   big_cy_top,   pitch_r=big_pitch,   teeth=8,
+         tooth_len=9, tooth_w=12, hole_r=10, phase_deg=big_phase)
+    gear(small_cx, small_cy_top, pitch_r=small_pitch, teeth=6,
+         tooth_len=7, tooth_w=10, hole_r=7,  phase_deg=small_phase)
 
     # Icon 3: knowledge graph
     # Nodes roughly at corners + center
@@ -440,7 +465,7 @@ def slide_3_motivation(c):
     # Labels below icons
     label_y = icon_center_y + 120
     draw_text(c, cx1, label_y, "Unstructured text", "Sans-Bold", S_BODY, HEADING, align="center")
-    draw_text(c, cx2, label_y, "ASC Parser",        "Sans-Bold", S_BODY, HEADING, align="center")
+    draw_text(c, cx2, label_y, "Verbal Clause Classifier", "Sans-Bold", S_BODY, HEADING, align="center")
     draw_text(c, cx3, label_y, "Knowledge graph",   "Sans-Bold", S_BODY, HEADING, align="center")
 
     # Arrows between columns
@@ -448,14 +473,12 @@ def slide_3_motivation(c):
     arrow_right(c, (cx1 + cx2) / 2, ay)
     arrow_right(c, (cx2 + cx3) / 2, ay)
 
-    # Question paragraph — centered, at bottom
+    # Question paragraph: exactly two lines, break only after the first comma.
     lines = [
-        "Can a fine-tuned encoder reliably disambiguate",
-        "between closely related verbal clause constructions,",
+        "Can a fine-tuned encoder reliably learn to disambiguate between closely related verbal clause constructions,",
         "as a first step toward automated parsing of argument structure for knowledge graph construction?",
     ]
-    # Draw centered, starting well below icons
-    p_y = 750
+    p_y = 780
     for ln in lines:
         p_y = draw_text(c, PAGE_W / 2, p_y, ln, "Sans", S_BODY, BODY, align="center")
 
@@ -688,11 +711,11 @@ def slide_7_pipeline(c):
     y = draw_h2(c, "Pipeline")
 
     stages = [
-        ("Dependency Parse",    ["spaCy", "en_core_web_sm"]),
-        ("Verb Lemma",          ["NLTK", "WordNet"]),
-        ("Candidate Retrieval", ["curated", "pos files"]),
+        ("Dependency Parse",      ["spaCy", "en_core_web_sm"]),
+        ("Verb Lemma",            ["spaCy", "token.lemma_"]),
+        ("Candidate Retrieval",   ["curated", "pos files"]),
         ("Cross-Encoder Scoring", ["DeBERTa-v3-base", "HuggingFace", "PyTorch \u00B7 MPS"]),
-        ("Situation",           ["Croft et al. (2021)", "Kalm (2022)", "+ my extensions"]),
+        ("Situation",             ["Croft et al. (2021)", "Kalm (2022)", "+ my extensions"]),
     ]
     pad = 60
     usable_w = PAGE_W - 2 * pad
@@ -744,41 +767,41 @@ def slide_8_experiments(c):
     bg(c)
     y = draw_h2(c, "Experiments & Analysis")
 
+    # Three stages: no sub-lines, equal size.
     stages = [
-        ("Stage 1", "Automated extraction",  "OntoNotes via VerbNet class mapping", None, "Polysemy contamination",    ACCENT),
-        ("Stage 2", "Pivot",                 "Inductive scope maps from curated examples", "All 62 scopes defined before any data changes", "Clean boundary definitions", GOLD),
-        ("Stage 3", "Synthetic generation",  "Pattern-based, tiered, scope-map-validated", None, "95.9% audit pass rate", GREEN),
+        ("Stage 1", "Automated extraction", "OntoNotes via VerbNet class mapping",        "Polysemy contamination",      ACCENT),
+        ("Stage 2", "Pivot",                "Inductive scope maps from curated examples", "Clean boundary definitions",  GOLD),
+        ("Stage 3", "Synthetic generation", "Pattern-based, tiered, scope-map-validated", "95.9% audit pass rate",       GREEN),
     ]
     gap = 30
     col_w = (CONTENT_W - gap * 2) / 3
     top_y = y + 40
 
-    for i, (num, label, brief, sub, result, color) in enumerate(stages):
+    # Compute a single uniform height driven by the widest brief across stages.
+    wrapped_briefs = [wrap_text(s[2], "Sans", S_BODY, col_w - 48) for s in stages]
+    max_brief_lines = max(len(b) for b in wrapped_briefs)
+    uniform_h = (
+        24 + line_h(S_BODY)                 # stage num
+        + line_h(S_BODY)                    # label
+        + 10 + line_h(S_BODY) * max_brief_lines
+        + 20 + line_h(S_BODY)               # result
+        + 24
+    )
+
+    for i, (num, label, brief, result, color) in enumerate(stages):
         sx = CONTENT_X + i * (col_w + gap)
-        # Compute needed height
-        brief_lines = wrap_text(brief, "Sans", S_BODY, col_w - 48)
-        sub_lines = wrap_text(sub, "Sans-Light", S_CAPTION, col_w - 48) if sub else []
-        h = (
-            24 + line_h(S_BODY)       # stage num
-            + line_h(S_BODY)          # label
-            + 10 + line_h(S_BODY) * len(brief_lines)
-            + (14 + line_h(S_CAPTION) * len(sub_lines) if sub_lines else 0)
-            + 20 + line_h(S_BODY)
-            + 24
-        )
-        fill_rect(c, sx, top_y, col_w, h, ROW_ALT)
+        brief_lines = wrapped_briefs[i]
+        fill_rect(c, sx, top_y, col_w, uniform_h, ROW_ALT)
         iy = top_y + 24
         iy = draw_text(c, sx + 24, iy, num,   "Serif-Bold", S_BODY, HEADING)
         iy = draw_text(c, sx + 24, iy, label, "Sans-Bold",  S_BODY, HEADING)
         iy += 6
         for ln in brief_lines:
             iy = draw_text(c, sx + 24, iy, ln, "Sans", S_BODY, BODY)
-        if sub_lines:
-            iy += 8
-            for ln in sub_lines:
-                iy = draw_text(c, sx + 24, iy, ln, "Sans-Light", S_CAPTION, CAPTION)
-        iy += 14
-        draw_text(c, sx + 24, iy, result, "Sans-Bold", S_BODY, color)
+        # Anchor result to a fixed vertical offset from the top of the box so
+        # all three results align even if the brief is shorter than max.
+        result_y = top_y + uniform_h - 24 - line_h(S_BODY)
+        draw_text(c, sx + 24, result_y, result, "Sans-Bold", S_BODY, color)
 
     # Footer caption
     cap = "Methodology: Claude (prompt design) \u2192 Claude Code (execution) \u2192 human validation \u2192 iterate"
@@ -1024,10 +1047,10 @@ def slide_14_conclusion(c):
     body_size = int(S_BODY * 1.3)
     lines = [
         "A fine-tuned cross-encoder can learn how to distinguish",
-        "among verbal clause constructions,",
-        "but only when the training data is built with sufficient",
-        "quantity, quality, and balanced difficulty tiers across",
-        "the full set of constructions simultaneously.",
+        "among verbal clause constructions, but only when",
+        "the training data is built with sufficient quantity, quality,",
+        "and balanced difficulty tiers across the full set",
+        "of constructions simultaneously.",
     ]
     total_h = line_h(header_size) + 30 + body_size * 1.5 * len(lines)
     start = (PAGE_H - total_h) / 2
@@ -1050,15 +1073,13 @@ def slide_15_future(c):
     header_size = S_TITLE
     body_size = int(S_BODY * 1.3)
     para1 = [
-        "Document understanding broken down",
-        "into classification tasks",
-        "by divide and conquer approach:",
+        "Document understanding broken down into manageable",
+        "classification tasks by the divide and conquer approach:",
     ]
     arrow_line = "discourse \u2192 predication \u2192 reference \u2192 modification"
     para3 = [
-        "Classify each functional and formal parameter",
-        "as fully interpretable features,",
-        "one dimension at a time.",
+        "Classify each functional and formal parameter as",
+        "fully interpretable features, one dimension at a time.",
     ]
     block_spacing = body_size * 1.5
     total_h = (line_h(header_size) + 30

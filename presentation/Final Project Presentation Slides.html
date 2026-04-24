@@ -59,6 +59,22 @@
   .gold { color: var(--color-gold); }
   .gold-bold { color: var(--color-gold); font-weight: 700; }
 
+  /* Thick, uniform, subtle-gray flow arrows. Used on slides 2, 3, 4a, 5, 7. */
+  .flow-arrow {
+    width: 70px;
+    height: 30px;
+    stroke: var(--color-caption);
+    fill: none;
+    stroke-width: 6;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    flex-shrink: 0;
+  }
+  .flow-arrow-v {
+    width: 30px;
+    height: 70px;
+  }
+
   .source-dot-gold {
     width: 8px;
     height: 8px;
@@ -745,13 +761,13 @@
         <div class="problem-grid">
           <div class="example">
             <p class="sentence">&ldquo;Unilever is <span class="green-bold">looking</span> for sustainable palm oil suppliers in Southeast Asia.&rdquo;</p>
-            <p class="arrow">&darr;</p>
+            <p class="arrow"><svg class="flow-arrow flow-arrow-v" viewBox="0 0 30 70" aria-hidden="true"><line x1="15" y1="6" x2="15" y2="64"/><polyline points="3,48 15,64 27,48"/></svg></p>
             <p class="situation">Intention</p>
             <p class="gloss caption">intender attends to a future, as yet unrealized outcome</p>
           </div>
           <div class="example">
             <p class="sentence">&ldquo;Traders are <span class="green-bold">looking</span> at unusual options activity ahead of earnings reports.&rdquo;</p>
-            <p class="arrow">&darr;</p>
+            <p class="arrow"><svg class="flow-arrow flow-arrow-v" viewBox="0 0 30 70" aria-hidden="true"><line x1="15" y1="6" x2="15" y2="64"/><polyline points="3,48 15,64 27,48"/></svg></p>
             <p class="situation">Perception (exp. subj.)</p>
             <p class="gloss caption">perceiver directs attention to a stimulus</p>
           </div>
@@ -775,43 +791,41 @@
             </div>
             <div class="stage-label">Unstructured text</div>
           </div>
-          <div class="arrow">&rarr;</div>
+          <div class="arrow"><svg class="flow-arrow" viewBox="0 0 70 30" aria-hidden="true"><line x1="6" y1="15" x2="64" y2="15"/><polyline points="48,3 64,15 48,27"/></svg></div>
           <div>
             <div class="icon-box">
               <svg class="parser-svg" viewBox="0 0 150 120">
-                <!-- Big gear centered at (52, 52), outer r=32, inner hole r=10 -->
+                <!-- Big gear: center (60, 50), pitch 34, 8 teeth phased to 120° + 45°k -->
                 <g fill="#888888" fill-rule="evenodd">
-                  <!-- teeth as rotated rectangles -->
-                  <g transform="translate(52 52)">
-                    <rect x="-5" y="-36" width="10" height="10"/>
-                    <rect x="-5" y="-36" width="10" height="10" transform="rotate(45)"/>
-                    <rect x="-5" y="-36" width="10" height="10" transform="rotate(90)"/>
-                    <rect x="-5" y="-36" width="10" height="10" transform="rotate(135)"/>
-                    <rect x="-5" y="-36" width="10" height="10" transform="rotate(180)"/>
-                    <rect x="-5" y="-36" width="10" height="10" transform="rotate(225)"/>
-                    <rect x="-5" y="-36" width="10" height="10" transform="rotate(270)"/>
-                    <rect x="-5" y="-36" width="10" height="10" transform="rotate(315)"/>
+                  <g transform="translate(60 50)">
+                    <rect x="-6" y="-43" width="12" height="9" transform="rotate(120)"/>
+                    <rect x="-6" y="-43" width="12" height="9" transform="rotate(165)"/>
+                    <rect x="-6" y="-43" width="12" height="9" transform="rotate(210)"/>
+                    <rect x="-6" y="-43" width="12" height="9" transform="rotate(255)"/>
+                    <rect x="-6" y="-43" width="12" height="9" transform="rotate(300)"/>
+                    <rect x="-6" y="-43" width="12" height="9" transform="rotate(345)"/>
+                    <rect x="-6" y="-43" width="12" height="9" transform="rotate(30)"/>
+                    <rect x="-6" y="-43" width="12" height="9" transform="rotate(75)"/>
                   </g>
-                  <!-- body with center hole -->
-                  <path d="M 52 22 a 30 30 0 1 0 0.001 0 Z M 52 42 a 10 10 0 1 1 -0.001 0 Z"/>
+                  <path d="M 60 16 a 34 34 0 1 0 0.001 0 Z M 60 40 a 10 10 0 1 1 -0.001 0 Z"/>
                 </g>
-                <!-- Small gear centered at (108, 82), outer r=19, inner hole r=5 -->
+                <!-- Small gear: center (108, 78), pitch 22, 6 teeth phased to 330° + 60°k (half-step offset so teeth mesh with big gear) -->
                 <g fill="#888888" fill-rule="evenodd">
-                  <g transform="translate(108 82)">
-                    <rect x="-4" y="-22" width="8" height="8"/>
-                    <rect x="-4" y="-22" width="8" height="8" transform="rotate(60)"/>
-                    <rect x="-4" y="-22" width="8" height="8" transform="rotate(120)"/>
-                    <rect x="-4" y="-22" width="8" height="8" transform="rotate(180)"/>
-                    <rect x="-4" y="-22" width="8" height="8" transform="rotate(240)"/>
-                    <rect x="-4" y="-22" width="8" height="8" transform="rotate(300)"/>
+                  <g transform="translate(108 78)">
+                    <rect x="-5" y="-29" width="10" height="7" transform="rotate(330)"/>
+                    <rect x="-5" y="-29" width="10" height="7" transform="rotate(30)"/>
+                    <rect x="-5" y="-29" width="10" height="7" transform="rotate(90)"/>
+                    <rect x="-5" y="-29" width="10" height="7" transform="rotate(150)"/>
+                    <rect x="-5" y="-29" width="10" height="7" transform="rotate(210)"/>
+                    <rect x="-5" y="-29" width="10" height="7" transform="rotate(270)"/>
                   </g>
-                  <path d="M 108 64 a 18 18 0 1 0 0.001 0 Z M 108 77 a 5 5 0 1 1 -0.001 0 Z"/>
+                  <path d="M 108 56 a 22 22 0 1 0 0.001 0 Z M 108 71 a 7 7 0 1 1 -0.001 0 Z"/>
                 </g>
               </svg>
             </div>
-            <div class="stage-label">ASC Parser</div>
+            <div class="stage-label">Verbal Clause Classifier</div>
           </div>
-          <div class="arrow">&rarr;</div>
+          <div class="arrow"><svg class="flow-arrow" viewBox="0 0 70 30" aria-hidden="true"><line x1="6" y1="15" x2="64" y2="15"/><polyline points="48,3 64,15 48,27"/></svg></div>
           <div>
             <div class="icon-box">
               <svg class="kg-svg" viewBox="0 0 180 120">
@@ -830,7 +844,7 @@
           </div>
         </div>
 
-        <p style="text-align:center;">Can a fine-tuned encoder reliably disambiguate between closely related verbal clause constructions,<br>
+        <p style="text-align:center;">Can a fine-tuned encoder reliably learn to disambiguate between closely related verbal clause constructions,<br>
 as a first step toward automated parsing of argument structure for knowledge graph construction?</p>
       </div>
     </section>
@@ -849,12 +863,12 @@ as a first step toward automated parsing of argument structure for knowledge gra
             <div class="source-item"><span class="source-dot-gold"></span>Croft et al. (2021)</div>
             <div class="source-item"><span class="source-dot-gold"></span>Kalm (2022)</div>
           </div>
-          <div class="arrow">&rarr;</div>
+          <div class="arrow"><svg class="flow-arrow" viewBox="0 0 70 30" aria-hidden="true"><line x1="6" y1="15" x2="64" y2="15"/><polyline points="48,3 64,15 48,27"/></svg></div>
           <div class="funnel-box">
             <div class="count-line"><span class="count-num">11,672</span> <span class="count-label">curated examples</span></div>
             <div class="count-line"><span class="count-num">1,514</span> <span class="count-label">synthetic examples</span></div>
           </div>
-          <div class="arrow">&rarr;</div>
+          <div class="arrow"><svg class="flow-arrow" viewBox="0 0 70 30" aria-hidden="true"><line x1="6" y1="15" x2="64" y2="15"/><polyline points="48,3 64,15 48,27"/></svg></div>
           <div>
             <table>
               <tbody>
@@ -903,7 +917,7 @@ a syntactic form with a force-dynamic event structure,<br>
 grounded in decades of cross-linguistic typological analysis.</p>
         </div>
 
-        <div class="theory-up-arrow">&uarr;</div>
+        <div class="theory-up-arrow"><svg class="flow-arrow flow-arrow-v" viewBox="0 0 30 70" aria-hidden="true"><line x1="15" y1="64" x2="15" y2="6"/><polyline points="3,22 15,6 27,22"/></svg></div>
 
         <div class="citation-box">
           <div class="citation"><span class="cite">Kalm (2022)</span> <span class="desc"><em>Social Verbs: A Force-Dynamic Analysis</em></span></div>
@@ -950,22 +964,22 @@ grounded in decades of cross-linguistic typological analysis.</p>
             <div class="name">Dependency<br>Parse</div>
             <div class="tool">spaCy<br>en_core_web_sm</div>
           </div>
-          <div class="stage-arrow">&rarr;</div>
+          <div class="stage-arrow"><svg class="flow-arrow" viewBox="0 0 70 30" aria-hidden="true"><line x1="6" y1="15" x2="64" y2="15"/><polyline points="48,3 64,15 48,27"/></svg></div>
           <div class="stage">
             <div class="name">Verb<br>Lemma</div>
-            <div class="tool">NLTK<br>WordNet</div>
+            <div class="tool">spaCy<br>token.lemma_</div>
           </div>
-          <div class="stage-arrow">&rarr;</div>
+          <div class="stage-arrow"><svg class="flow-arrow" viewBox="0 0 70 30" aria-hidden="true"><line x1="6" y1="15" x2="64" y2="15"/><polyline points="48,3 64,15 48,27"/></svg></div>
           <div class="stage">
             <div class="name">Candidate<br>Retrieval</div>
             <div class="tool">curated<br>pos files</div>
           </div>
-          <div class="stage-arrow">&rarr;</div>
+          <div class="stage-arrow"><svg class="flow-arrow" viewBox="0 0 70 30" aria-hidden="true"><line x1="6" y1="15" x2="64" y2="15"/><polyline points="48,3 64,15 48,27"/></svg></div>
           <div class="stage">
             <div class="name">Cross-Encoder<br>Scoring</div>
             <div class="tool">DeBERTa-v3-base<br>HuggingFace<br>PyTorch &middot; MPS</div>
           </div>
-          <div class="stage-arrow">&rarr;</div>
+          <div class="stage-arrow"><svg class="flow-arrow" viewBox="0 0 70 30" aria-hidden="true"><line x1="6" y1="15" x2="64" y2="15"/><polyline points="48,3 64,15 48,27"/></svg></div>
           <div class="stage">
             <div class="name">Situation<br>&nbsp;</div>
             <div class="tool">Croft et al. (2021)<br>Kalm (2022)<br>+ my extensions</div>
@@ -1175,8 +1189,10 @@ extraction, generation, and validation.</p>
       <div class="conclusion">
         <div class="closing-header">Conclusion</div>
         <p class="closing-body">A fine-tuned cross-encoder can learn how to distinguish<br>
-among verbal clause constructions, but only when <br>the training data is built with sufficient
-quantity, quality,<br>and balanced difficulty tiers across the full set<br>of constructions simultaneously.</p>
+among verbal clause constructions, but only when<br>
+the training data is built with sufficient quantity, quality,<br>
+and balanced difficulty tiers across the full set<br>
+of constructions simultaneously.</p>
       </div>
     </section>
 
@@ -1185,12 +1201,13 @@ quantity, quality,<br>and balanced difficulty tiers across the full set<br>of co
       <div class="conclusion">
         <div class="closing-header">Future Work</div>
         <div class="closing-body">
-          <p>Document understanding broken down
-into manageable<br>classification tasks by the divide and conquer approach:</p>
+          <p>Document understanding broken down into manageable<br>
+classification tasks by the divide and conquer approach:</p>
 
           <p style="margin: 1.5em 0;">discourse <span class="inline-arrow">&rarr;</span> predication <span class="inline-arrow">&rarr;</span> reference <span class="inline-arrow">&rarr;</span> modification</p>
 
-          <p>Classify each functional and formal parameter as<br>fully interpretable features, one dimension at a time.</p>
+          <p>Classify each functional and formal parameter as<br>
+fully interpretable features, one dimension at a time.</p>
         </div>
       </div>
     </section>
