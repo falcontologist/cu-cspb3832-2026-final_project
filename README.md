@@ -10,6 +10,8 @@ Final project for CSPB 3832 Natural Language Processing, Spring 2026 (Prof. Curr
 
 **Primary document.** [Final Project Report.pdf](Final%20Project%20Report.pdf) is the submitted write-up. This README is a navigation and reproduction guide for the code and data behind it.
 
+**Video walkthrough.** [Final Project Presentation Video.mp4](https://github.com/falcontologist/cu-cspb3832-2026-final_project/releases/download/v1.0/Final.Project.Presentation.Video.mp4) is attached to the [v1.0 release](https://github.com/falcontologist/cu-cspb3832-2026-final_project/releases/tag/v1.0) (117 MB MP4).
+
 ---
 
 ## Repository layout
@@ -174,10 +176,11 @@ This writes `presentation/Final Project Presentation Slides.pdf`, 16 pages at 19
 ## Where to start reading
 
 1. [Final Project Report.pdf](Final%20Project%20Report.pdf). The 9-page submitted report.
-2. [docs/DATASET_BUILD_JOURNEY.md](docs/DATASET_BUILD_JOURNEY.md). The full build narrative, including what went wrong, what got pivoted, and what the final artifacts are.
-3. [docs/situation_scope_map_inductive.md](docs/situation_scope_map_inductive.md). The 62 construction definitions and the boundary rules that govern the training data.
-4. [results/evaluation_report.md](results/evaluation_report.md). Headline numbers and per-construction F1.
-5. [presentation/Final Project Presentation Slides.pdf](presentation/Final%20Project%20Presentation%20Slides.pdf). The submitted deck.
+2. [Final Project Presentation Video.mp4](https://github.com/falcontologist/cu-cspb3832-2026-final_project/releases/download/v1.0/Final.Project.Presentation.Video.mp4). The spoken walkthrough of the deck, attached to the v1.0 release.
+3. [docs/DATASET_BUILD_JOURNEY.md](docs/DATASET_BUILD_JOURNEY.md). The full build narrative, including what went wrong, what got pivoted, and what the final artifacts are.
+4. [docs/situation_scope_map_inductive.md](docs/situation_scope_map_inductive.md). The 62 construction definitions and the boundary rules that govern the training data.
+5. [results/evaluation_report.md](results/evaluation_report.md). Headline numbers and per-construction F1.
+6. [presentation/Final Project Presentation Slides.pdf](presentation/Final%20Project%20Presentation%20Slides.pdf). The submitted deck.
 
 ## Primary citations
 
