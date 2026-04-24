@@ -1,6 +1,6 @@
 # Fine-Tuning a Bidirectional Cross-Encoder for Verbal Clause Construction Classification
 
-Final project for CSPB 3832 Natural Language Processing, Spring 2026 (Prof. Curry Guinn). Josh Falconer.
+Final project for CSPB 3832 Natural Language Processing, Spring 2026 (Prof. Curry Guinn), by Josh Falconer.
 
 > This project fine-tunes a DeBERTa-v3-base cross-encoder to classify verbal clauses by their argument structure construction, identifying which of 62 event structures best captures a sentence's meaning. The 62 constructions derive from Croft's force-dynamic event model and Kalm's extension to social verbs, each corresponding to a distinct causal chain configuration. The training dataset of 13,186 labeled sentence-definition pairs was built from manually curated examples drawn from OntoNotes, VerbNet, and FrameNet, supplemented by synthetic generation, and grounded in inductively defined scope maps. Both positive and negative examples were tiered by difficulty, with half targeting the hardest boundary cases between neighboring constructions. The classifier achieves 94.4% macro F1 and 96.7% constrained accuracy under pipeline-realistic conditions. The tiered training data design proved to be the decisive factor in discriminating among closely related constructions.
 
