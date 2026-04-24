@@ -56,11 +56,9 @@ Final project for CSPB 3832 Natural Language Processing, Spring 2026 (Prof. Curr
 │   ├── cv_summary.json                      Per-fold dev F1 and training arguments.
 │   └── checkpoints/                         Trained model weights (not tracked). See LARGE_FILES.md.
 │
-└── presentation/                            Final deck and PDF builder.
+└── presentation/                            Final deck.
     ├── Final Project Presentation Slides.pdf
-    ├── Final Project Presentation Slides.html   Reveal.js source.
-    ├── build_pdf.py                             Native-PDF generator (ReportLab).
-    └── fonts/                                   Source Serif 4 and Source Sans 3 for build_pdf.py.
+    └── Final Project Presentation Slides.html   Reveal.js source.
 ```
 
 ## How the report maps onto this repository
@@ -121,7 +119,7 @@ This writes `results/checkpoints/fold_0/` through `fold_4/` and `results/cv_summ
 
 Or download a hosted copy. A link will be added to [LARGE_FILES.md](LARGE_FILES.md) once the weights are uploaded. Until then, training from scratch is the only path.
 
-Without checkpoints, only `prepare_splits.py` and `presentation/build_pdf.py` can run.
+Without checkpoints, only `prepare_splits.py` can run.
 
 ### 4. OntoNotes 5.0
 
@@ -162,14 +160,6 @@ python src/demo_server.py
 ```
 
 Then open http://localhost:8000/ in a browser.
-
-## Rebuilding the presentation PDF
-
-```bash
-python presentation/build_pdf.py
-```
-
-This writes `presentation/Final Project Presentation Slides.pdf`, 16 pages at 1920×1080.
 
 ---
 
