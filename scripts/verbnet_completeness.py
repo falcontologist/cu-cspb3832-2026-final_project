@@ -1,24 +1,37 @@
 """VerbNet completeness check for the verb-to-construction workbook.
 
-Compares the workbook's verb-class assignments against NLTK's VerbNet 3.x to
-identify:
+Compares the workbook's verb-class assignments against a VerbNet reference
+(NLTK's bundled VerbNet 3.x by default, or a local VerbNet XML directory
+via --vn-dir) and identifies:
+
 - VerbNet classes absent from the workbook
 - VerbNet verbs absent from the workbook (per class and overall)
-- Workbook classes/verbs that don't exist in NLTK VerbNet (data hygiene check)
+- Workbook classes/verbs that don't exist in the reference (data hygiene check)
 
 Usage:
-    python verbnet_completeness.py [--csv PATH] [--verb-col COL] [--class-col COL] [--out PATH]
+    python verbnet_completeness.py [--csv PATH] [--vn-dir PATH] [--out PATH]
 
-Defaults to auditing the Situation Shapes Workbook in ~/Downloads.
+Defaults to auditing the Situation Shapes Workbook in ~/Downloads against
+NLTK's bundled VerbNet. Pass --vn-dir to use a local VerbNet release such
+as VerbNet 3.4.
 """
 
 import argparse
 import csv
+import unicodedata
+import xml.etree.ElementTree as ET
 from collections import defaultdict
 from pathlib import Path
 
 import nltk
 from nltk.corpus import verbnet
+
+
+def norm(s: str) -> str:
+    """NFKC-normalize a string. Folds Unicode ligatures like 'ﬁ' (U+FB01) to
+    their canonical 'fi' form so that workbook IDs containing ligatures match
+    their canonical VerbNet counterparts."""
+    return unicodedata.normalize("NFKC", s)
 
 # --- Settings ---
 REPO        = Path(__file__).resolve().parents[1]
@@ -33,15 +46,14 @@ parser.add_argument("--verb-col", default="verb",
                     help="Verb column name (default: 'verb')")
 parser.add_argument("--class-col", default="verbnet_class",
                     help="VerbNet class column name (default: 'verbnet_class')")
+parser.add_argument("--vn-dir", type=Path, default=None,
+                    help="Optional local VerbNet XML directory (e.g., a "
+                         "verbnet3.4/ release). If set, classes and members "
+                         "are read from these XML files; otherwise NLTK's "
+                         "bundled VerbNet is used.")
 parser.add_argument("--out", type=Path, default=DEFAULT_OUT,
                     help=f"Output Markdown report (default: {DEFAULT_OUT})")
 args = parser.parse_args()
-
-# --- Ensure VerbNet is downloaded ---
-try:
-    nltk.data.find("corpora/verbnet")
-except LookupError:
-    nltk.download("verbnet", quiet=True)
 
 
 def top_level(class_id: str) -> str:
@@ -56,24 +68,75 @@ def top_level(class_id: str) -> str:
     return class_id
 
 
-# --- 1. Load workbook ---
+def load_local_verbnet(vn_dir: Path) -> dict[str, set[str]]:
+    """Parse a directory of VerbNet XML files. Returns {top_level_class: {lemmas}}.
+
+    Reads the canonical VNCLASS ID from each XML (not the filename), so
+    duplicate-but-mistitled files like the U+FB01-ligature `conﬁne-92.xml`
+    fold cleanly into their canonical class. Class IDs and member names are
+    NFKC-normalized.
+    """
+    out: dict[str, set[str]] = defaultdict(set)
+    files = list(vn_dir.glob("*.xml"))
+    if not files:
+        raise SystemExit(f"No XML files found under {vn_dir}")
+    for xml_file in files:
+        try:
+            tree = ET.parse(xml_file)
+        except ET.ParseError as e:
+            print(f"  warn: could not parse {xml_file.name}: {e}")
+            continue
+        root = tree.getroot()
+        top = norm(top_level(root.get("ID", "")))
+        if not top:
+            continue
+        for member in root.iter("MEMBER"):
+            name = norm((member.get("name") or "").strip().lower())
+            if name:
+                out[top].add(name)
+    return out
+
+
+def load_nltk_verbnet() -> dict[str, set[str]]:
+    """Aggregate NLTK's bundled VerbNet by top-level class."""
+    try:
+        nltk.data.find("corpora/verbnet")
+    except LookupError:
+        nltk.download("verbnet", quiet=True)
+    out: dict[str, set[str]] = defaultdict(set)
+    for class_id in verbnet.classids():
+        top = top_level(class_id)
+        for lemma in verbnet.lemmas(class_id):
+            out[top].add(lemma.lower())
+    return out
+
+
+# --- 1. Load workbook (NFKC-normalize verbs and class IDs) ---
 workbook_class_to_verbs: dict[str, set[str]] = defaultdict(set)
 all_workbook_verbs: set[str] = set()
+ligature_fixes: list[tuple[str, str]] = []
 with open(args.csv) as f:
     for row in csv.DictReader(f):
-        v = (row.get(args.verb_col) or "").strip().lower()
-        c = (row.get(args.class_col) or "").strip()
+        v_raw = (row.get(args.verb_col) or "").strip().lower()
+        c_raw = (row.get(args.class_col) or "").strip()
+        v = norm(v_raw)
+        c = norm(c_raw)
+        if c_raw and c != c_raw:
+            ligature_fixes.append((c_raw, c))
         if v and c:
             workbook_class_to_verbs[c].add(v)
             all_workbook_verbs.add(v)
 workbook_classes = set(workbook_class_to_verbs.keys())
 
-# --- 2. Load NLTK VerbNet, aggregating subclass lemmas under top-level keys ---
-nltk_class_to_verbs: dict[str, set[str]] = defaultdict(set)
-for class_id in verbnet.classids():
-    top = top_level(class_id)
-    for lemma in verbnet.lemmas(class_id):
-        nltk_class_to_verbs[top].add(lemma.lower())
+# --- 2. Load reference VerbNet (local XMLs if --vn-dir, else NLTK) ---
+if args.vn_dir is not None:
+    print(f"Reading VerbNet from {args.vn_dir}")
+    nltk_class_to_verbs = load_local_verbnet(args.vn_dir)
+    REFERENCE_LABEL = f"local VerbNet at `{args.vn_dir}`"
+else:
+    print("Reading VerbNet from NLTK's bundled corpus")
+    nltk_class_to_verbs = load_nltk_verbnet()
+    REFERENCE_LABEL = "NLTK's bundled VerbNet 3.x"
 nltk_top_classes = set(nltk_class_to_verbs.keys())
 all_nltk_verbs: set[str] = set()
 for verbs in nltk_class_to_verbs.values():
@@ -114,7 +177,14 @@ args.out.parent.mkdir(parents=True, exist_ok=True)
 with open(args.out, "w") as f:
     f.write("# VerbNet Completeness Audit\n\n")
     f.write(f"Workbook: `{args.csv.name}`  \n")
-    f.write("Reference: NLTK VerbNet 3.x.\n\n")
+    f.write(f"Reference: {REFERENCE_LABEL}.\n\n")
+    if ligature_fixes:
+        f.write(
+            f"NFKC normalization folded {len(ligature_fixes)} workbook class IDs "
+            f"that contained Unicode ligatures (`ﬁ`, `ﬀ`, `ﬂ`) into their "
+            f"canonical forms. Examples: "
+            f"{', '.join(f'`{a}`→`{b}`' for a, b in ligature_fixes[:3])}.\n\n"
+        )
     f.write("## Summary\n\n")
     f.write("### Class-level coverage\n\n")
     f.write(f"- NLTK VerbNet top-level classes: **{len(nltk_top_classes):,}**\n")
