@@ -1,4 +1,4 @@
-"""Audit mappings_final_clean.csv coverage against frequency-ranked English verbs.
+"""Audit a verb-to-construction lexicon against frequency-ranked English verbs.
 
 Two-corpus methodology:
 1. Use the Brown corpus (POS-tagged, ~1M words) to identify lemmas that are
@@ -12,9 +12,14 @@ A lemma enters the verb-frequency-ranked pool only if it passes both checks:
 - Brown gives it >= MIN_BROWN_VERB_HITS verb-tagged tokens.
 - wordfreq returns a non-zero frequency.
 
-Output: results/verb_coverage_audit.md
+Usage:
+  python verb_coverage_audit.py [--csv PATH] [--column NAME] [--out PATH]
+
+Defaults audit data/mappings_final_clean.csv; pass --csv to audit any other
+file (e.g., the VN Verb Mappings workbook).
 """
 
+import argparse
 import csv
 from collections import Counter
 from pathlib import Path
@@ -29,8 +34,22 @@ MIN_BROWN_VERB_HITS = 10            # require this many verb-tagged tokens in Br
 WORDFREQ_TOP_N      = 100_000       # surface forms to consult from wordfreq
 
 REPO         = Path(__file__).resolve().parents[1]
-MAPPINGS_CSV = REPO / "data" / "mappings_final_clean.csv"
-OUT          = REPO / "results" / "verb_coverage_audit.md"
+DEFAULT_CSV  = REPO / "data" / "mappings_final_clean.csv"
+DEFAULT_OUT  = REPO / "results" / "verb_coverage_audit.md"
+
+parser = argparse.ArgumentParser(description=__doc__)
+parser.add_argument("--csv", type=Path, default=DEFAULT_CSV,
+                    help=f"CSV with verb lemmas to audit (default: {DEFAULT_CSV})")
+parser.add_argument("--column", default="Verb",
+                    help="Name of the verb column in the CSV (default: 'Verb')")
+parser.add_argument("--out", type=Path, default=DEFAULT_OUT,
+                    help=f"Output Markdown report path (default: {DEFAULT_OUT})")
+parser.add_argument("--label", default=None,
+                    help="Label for this lexicon in the report header")
+args = parser.parse_args()
+MAPPINGS_CSV = args.csv
+OUT          = args.out
+LABEL        = args.label or MAPPINGS_CSV.name
 
 # --- Ensure NLTK data ---
 for resource, path in [
@@ -48,7 +67,9 @@ for resource, path in [
 mapped = set()
 with open(MAPPINGS_CSV) as f:
     for row in csv.DictReader(f):
-        mapped.add(row["Verb"].strip().lower())
+        v = (row.get(args.column) or "").strip().lower()
+        if v:
+            mapped.add(v)
 
 # --- 2. Build the Brown verb-frequency table ---
 lem = WordNetLemmatizer()
