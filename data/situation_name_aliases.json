@@ -1,0 +1,253 @@
+{
+  "schema_version": "2.1",
+  "purpose": "Maps the workbook's 66 Situation labels (data/situation_shapes_workbook.csv) to the canonical v1.0 Situation labels (the 62 names in data/asc_definitions.json and data/situation_splits/ filenames). v1.0 labels are authoritative; the workbook is folded INTO that namespace.",
+  "direction": "workbook_situation -> v1_situation",
+  "method": "Each mapping was checked against the actual member-verb lists on both sides. Sense and Look are lumped into Perception_(exp._subj.) per editorial decision (2026-04-25). Workbook Situations with no clean v1.0 home are either folded by per-row decision, or set aside as pending in zz-Revisit until the next editorial pass.",
+
+  "summary": {
+    "v1_inventory_size": 62,
+    "v2_workbook_inventory_size": 66,
+    "workbook_exact_matches": 30,
+    "workbook_renames": 22,
+    "workbook_lumped_to_one_v1": 2,
+    "workbook_verb_split_merges": 2,
+    "workbook_folded_into_v1": 3,
+    "workbook_pending_revisit": 5,
+    "v1_preserved_no_workbook_equivalent": 1
+  },
+
+  "naming_options_under_review": {
+    "Intention": {
+      "alternative_name": "Searching",
+      "rationale": "Per Levin (1993), the broader class for verbs of directed mental search/intention is sometimes labelled 'Search.' v2.0 keeps the v1.0 label 'Intention' for backward compatibility, but a future editorial pass may rename it to 'Searching' to align with Levin's typology."
+    }
+  },
+
+  "exact_matches": {
+    "Capacity": "Capacity",
+    "Cause and Effect": "Cause_and_Effect",
+    "Cause Membership": "Cause_Membership",
+    "Collective": "Collective",
+    "Communicate": "Communicate",
+    "Concealment": "Concealment",
+    "Constrain": "Constrain",
+    "Counting": "Counting",
+    "Desire": "Desire",
+    "Dynamic Possession": "Dynamic_Possession",
+    "Emission": "Emission",
+    "Existence": "Existence",
+    "Feeding": "Feeding",
+    "Form": "Form",
+    "Future Having": "Future_Having",
+    "Hurt": "Hurt",
+    "Image Creation": "Image_Creation",
+    "Ingestion": "Ingestion",
+    "Joint Statement": "Joint_Statement",
+    "Location": "Location",
+    "Measurement": "Measurement",
+    "Membership": "Membership",
+    "Pick Up and Drop Off": "Pick_Up_and_Drop_Off",
+    "Pursuit": "Pursuit",
+    "Reciprocal": "Reciprocal",
+    "Request": "Request",
+    "Response": "Response",
+    "Statement": "Statement",
+    "Transfer of Possession": "Transfer_of_Possession",
+    "Vehicular Motion": "Vehicular_Motion"
+  },
+
+  "renames": {
+    "Affect": {
+      "v1": "Emotion_(stim. subj.)",
+      "evidence": "Workbook Affect (300 stim-subj affect verbs: bother, worry, concern) matches v1.0 Emotion_(stim. subj.) members (bother, worry, concern, demoralize)."
+    },
+    "Attack": {
+      "v1": "Aggression",
+      "evidence": "Naming convention difference; both contain attack/aggression verbs."
+    },
+    "Attend": {
+      "v1": "Emotion_(exp. subj.)",
+      "evidence": "Workbook Attend (61 verbs: admire, adore, despise, dread, enjoy, fear, hate) matches v1.0 Emotion_(exp. subj.) members (like, support, enjoy, fear, worry, care)."
+    },
+    "Basic Change of State": {
+      "v1": "Change_of_State",
+      "evidence": "Workbook 'Basic' qualifier; same concept."
+    },
+    "Basic Force": {
+      "v1": "Contact",
+      "evidence": "v1.0 Contact verbs (punch, touch, slap, beat) sit in workbook Basic Force's 196-verb member list."
+    },
+    "Basic Incremental": {
+      "v1": "Incremental",
+      "evidence": "Workbook 'Basic' qualifier."
+    },
+    "Basic Motion": {
+      "v1": "Motion",
+      "evidence": "Workbook 'Basic' qualifier."
+    },
+    "Carry": {
+      "v1": "Carrying",
+      "evidence": "Inflection rename."
+    },
+    "Causative Change of State": {
+      "v1": "Cause_Change_of_State",
+      "evidence": "Naming convention difference."
+    },
+    "Causative Creation": {
+      "v1": "Cause_Creation",
+      "evidence": "Naming convention difference."
+    },
+    "Causative Incremental": {
+      "v1": "Cause_Incremental",
+      "evidence": "Naming convention difference."
+    },
+    "Cause Role": {
+      "v1": "Cause_Participation",
+      "evidence": "v1.0 Cause_Participation verbs (elect, appoint, nominate, recruit, designate) all sit in workbook Cause Role's member list."
+    },
+    "Defend": {
+      "v1": "Protection",
+      "evidence": "Naming convention difference."
+    },
+    "Inducive": {
+      "v1": "Induction",
+      "evidence": "Inflection rename."
+    },
+    "Intend": {
+      "v1": "Intention",
+      "evidence": "Inflection rename. Note: the v1.0 label 'Intention' is under review as a candidate for renaming to 'Searching' per Levin 1993; not changed in this round."
+    },
+    "Judge": {
+      "v1": "Evaluation",
+      "evidence": "Workbook Judge (192 verbs) covers v1.0 Evaluation members (consider, evaluate, analyze, judge, rate, weigh, grade, assess)."
+    },
+    "Know": {
+      "v1": "Discovery",
+      "evidence": "Workbook Know (find, discover, ascertain, realize, figure_out, deduce) matches v1.0 Discovery's coming-to-know sense (find, discover, ascertain, detect, recognize)."
+    },
+    "Learn": {
+      "v1": "Learning",
+      "evidence": "Inflection rename. Workbook Learn (learn, study, memorize, cram, read) covers deliberate-acquisition sense."
+    },
+    "Manipulate": {
+      "v1": "Manipulation",
+      "evidence": "Inflection rename."
+    },
+    "Replace": {
+      "v1": "Replacement",
+      "evidence": "Inflection rename."
+    },
+    "Role": {
+      "v1": "Participation",
+      "evidence": "v1.0 Participation verbs (serve, act, host, behave, star, volunteer) all sit in workbook Role's member list (act, behave, host)."
+    },
+    "Send": {
+      "v1": "Sending",
+      "evidence": "Inflection rename."
+    },
+    "Static Possession": {
+      "v1": "Possession",
+      "evidence": "Workbook 'Static' qualifier."
+    },
+    "Throw": {
+      "v1": "Throwing",
+      "evidence": "Inflection rename."
+    }
+  },
+
+  "lumped_to_one_v1": {
+    "Sense": {
+      "v1": "Perception_(exp._subj.)",
+      "evidence": "Per editorial decision (2026-04-25): both workbook Sense and Look are lumped into v1.0's Perception_(exp._subj.). v1.0's positive set already contains the active/passive perception verbs together (see, look, hear, notice, peer, listen)."
+    },
+    "Look": {
+      "v1": "Perception_(exp._subj.)",
+      "evidence": "Same lump."
+    }
+  },
+
+  "workbook_folded_into_v1": {
+    "Feel": {
+      "v1": "Evaluation",
+      "workbook_members": ["approximate", "assess", "estimate", "gauge", "guess", "guesstimate", "judge", "overestimate", "project", "put", "quantize"],
+      "rationale": "Workbook 'Feel' is the cognitive-estimation sense (estimate, gauge, guess, project), not emotion. Folds into v1.0 Evaluation alongside Judge."
+    },
+    "Long": {
+      "v1": "Intention",
+      "workbook_members": ["ferret_out", "nose", "tease"],
+      "rationale": "Despite the misleading workbook label, these are search-out verbs; folded into v1.0 Intention per editorial decision (2026-04-25)."
+    },
+    "Search": {
+      "v1": "Intention",
+      "workbook_members_sample": ["aim", "canvass", "check", "comb", "delve", "examine", "explore", "fish", "forage", "frisk", "fumble", "hunt", "inspect", "investigate", "search"],
+      "rationale": "Agentive seeking verbs. Folded into v1.0 Intention per editorial decision (2026-04-25). This is the largest workbook-only fold (91 verbs) and substantially expands Intention's coverage."
+    }
+  },
+
+  "verb_split_merges": {
+    "Buy and Sell": {
+      "v1_default": "Buying",
+      "rationale": "v1.0 splits buyer-side (Buying) and seller-side (Selling). Workbook merges. Each row needs verb-level disambiguation; the loader picks Buying or Selling based on the verb's directional sense.",
+      "v1_overrides_by_verb_lemma": {
+        "Selling": ["sell", "hawk", "lease", "lend", "let", "loan", "auction", "give", "give-back", "rent_out", "retail", "vend", "wholesale", "market", "peddle", "pawn", "trade_in"],
+        "Buying": ["buy", "purchase", "attain", "acquire", "obtain", "secure", "procure", "earn", "fetch", "gain", "gather", "get", "find", "rent", "hire", "lease_in", "shop_for", "book", "cash", "catch", "choose", "order"]
+      },
+      "decision_needed": "Confirm the verb partition above. Some verbs (lease, hire, rent) are bidirectional; the partition reflects the dominant directional sense and may need overrides per dataset row."
+    },
+    "Pay and Charge": {
+      "v1_default": "Payment",
+      "rationale": "v1.0 splits payer-side (Payment) and charger-side (Charge). Workbook merges.",
+      "v1_overrides_by_verb_lemma": {
+        "Charge": ["charge", "bill", "invoice", "fine", "amerce", "mulct", "overcharge", "undercharge", "tax", "tithe", "wager"],
+        "Payment": ["pay", "repay", "spend", "squander", "save", "serve", "spare", "tip", "bet", "waste"]
+      },
+      "decision_needed": "Confirm the verb partition; some are tricky (e.g., wager/bet might fit Payment as 'wager money' rather than Charge)."
+    }
+  },
+
+  "workbook_pending_revisit": {
+    "_status": "These workbook Situations are SET ASIDE for the next editorial pass. Their rows are skipped by the v2.0 loader. Verbs unique to these Situations will be absent from v2.0's coverage until they get destinations in a later round; verbs that also appear in other workbook Situations come in via those alternate paths.",
+    "_zz_revisit_path": "Drafts may exist at /Users/joshfalconer/Documents/Verbs_to_Situations/data/situation_splits/zz-Revisit/. Caveat from the user: 'much of this is messy and unusable.' Salvage selectively when revisiting.",
+    "Absorb": {
+      "workbook_members": ["absorb", "ingest", "take"],
+      "zz_revisit_draft": "Absorb.csv (62 lines) exists; partial OntoNotes-derived content.",
+      "next_step": "Decide whether to fold into Ingestion (likely) or keep as a separate Transformation-domain Situation."
+    },
+    "Base and Deduce": {
+      "workbook_members": ["base", "build", "conceive", "conclude", "construe", "deduce", "deduct", "derive", "disprove", "establish", "found", "gather", "ground", "infer", "prove", "rationalize", "reason", "reason_out"],
+      "zz_revisit_draft": "Base_and_Deduce.csv (76 lines) exists.",
+      "next_step": "Likely splits into multiple sub-Situations (e.g., reasoning-from-evidence vs. logical-derivation vs. founding/establishment)."
+    },
+    "Correlate and Differ": {
+      "workbook_members": ["alternate", "branch", "co-occur", "cohere", "coincide", "correlate", "couple", "deviate", "differ", "diverge", "dovetail", "flip-flop", "go", "harmonize", "jibe", "match", "pair", "rhyme", "square", "vary"],
+      "next_step": "Likely splits into co-occurrence/correlation vs. divergence/variance."
+    },
+    "Liken and Differentiate": {
+      "workbook_members": ["differentiate", "distinguish", "tell_apart"],
+      "next_step": "Small set; may merge with whatever shape Base and Deduce takes (judgment-of-similarity)."
+    },
+    "Require and Satisfy": {
+      "workbook_members": ["advertise", "affirm", "anticipate", "be", "bear_on", "better", "concern", "confirm", "corroborate", "demand", "demonstrate", "denote", "disclose", "establish", "exceed", "explain", "expose", "forebode", "fulfill", "imply", "indicate", "involve", "lap", "mean", "meet"],
+      "zz_revisit_draft": "Require_and_Satisfy_pos.csv (74 lines) exists.",
+      "next_step": "Heterogeneous (66 verbs spanning necessity, sufficiency, implication, demonstration). Likely splits into multiple Situations."
+    }
+  },
+
+  "v1_preserved_no_workbook_equivalent": [
+    {
+      "v1": "Perception_(stim._subj.)",
+      "v1_members_top_verbs": ["sound (13)", "look (11)", "taste (11)", "feel (10)", "smell (5)"],
+      "rationale": "Predicative stim-subj perception ('she sounds happy', 'it tastes sweet'). Workbook has no Situation that captures this — Sense is exp-subj, Affect is stim-subj affective, Look is active. Preserved as a v1.0 Situation."
+    }
+  ],
+
+  "v2_inventory_size_after_aliasing": {
+    "v1_canonical": 62,
+    "added_from_workbook_only_decisions_this_round": 0,
+    "deferred_to_zz_revisit": 5,
+    "v1_inventory_after_this_round": 62,
+    "plus_vn_class_additions_from_task_1_2": 81,
+    "estimated_total_v2_inventory": 143,
+    "note": "The plan currently says 147. With the 5 workbook-only Situations parked in zz-Revisit, v2.0's inventory is 143 instead. The plan should be updated to 143 and Workstream 2's positive-balance target adjusted (143 × 150 = 21,450 positives instead of 22,050)."
+  }
+}
