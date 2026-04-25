@@ -1,0 +1,1930 @@
+{
+  "Abide_By": {
+    "definition": "Agent acts upon Theme (abide_by, follow, heed, keep_to, adhere_to). The grammatical subject is the agent. Example: \"He followed the tenets of Buddhism.\".",
+    "domain_evidence": "by-adjacency to confine-92 (num 92.0)",
+    "example": "He followed the tenets of Buddhism.",
+    "members": [
+      "abide_by",
+      "follow",
+      "heed",
+      "keep_to",
+      "adhere_to",
+      "observe",
+      "obey"
+    ],
+    "situation_domain": "Affiliation",
+    "themroles": [
+      "Agent",
+      "Theme"
+    ],
+    "vn_class": "abide_by-93.2"
+  },
+  "Accept": {
+    "definition": "Agent acts upon Theme (accept, buy, understand, encourage). The grammatical subject is the agent. Example: \"I accepted how you did it.\".",
+    "domain_evidence": "by-adjacency to reject-77.2 (num 77.2)",
+    "example": "I accepted how you did it.",
+    "members": [
+      "accept",
+      "buy",
+      "understand",
+      "encourage"
+    ],
+    "situation_domain": "Communication",
+    "themroles": [
+      "Agent",
+      "Theme"
+    ],
+    "vn_class": "accept-77.1"
+  },
+  "Acquiesce": {
+    "definition": "Agent acts upon Pivot, Theme (defer, accede, bow, capitulate, fall). The grammatical subject is the agent. Example: \"The enemy soldiers yielded.\".",
+    "domain_evidence": "by-adjacency to supervision-95.2.2 (num 95.2)",
+    "example": "The enemy soldiers yielded.",
+    "members": [
+      "defer",
+      "accede",
+      "bow",
+      "capitulate",
+      "fall",
+      "give_way",
+      "give_in",
+      "succumb",
+      "yield",
+      "acquiesce",
+      "consent",
+      "submit"
+    ],
+    "situation_domain": "Affiliation",
+    "themroles": [
+      "Agent",
+      "Pivot",
+      "Theme"
+    ],
+    "vn_class": "acquiesce-95.1"
+  },
+  "Act": {
+    "definition": "Agent acts upon Eventuality (action, carry_out, carry_through, conduct, execute). The grammatical subject is the agent. Example: \"They carried out the deed.\".",
+    "domain_evidence": "by-adjacency to respond-113 (num 113.0)",
+    "example": "They carried out the deed.",
+    "members": [
+      "action",
+      "carry_out",
+      "carry_through",
+      "conduct",
+      "execute",
+      "fulfill",
+      "make",
+      "cause",
+      "engage_in",
+      "do",
+      "perform",
+      "act",
+      "move"
+    ],
+    "situation_domain": "Communication",
+    "themroles": [
+      "Agent",
+      "Eventuality"
+    ],
+    "vn_class": "act-114"
+  },
+  "Addict": {
+    "definition": "Agent acts upon Patient, Theme (addict, bias, dispose, incline, predispose). The grammatical subject is the agent. Example: \"I addicted him to Douglas Adams.\".",
+    "domain_evidence": "by-adjacency to employment-95.3 (num 95.3)",
+    "example": "I addicted him to Douglas Adams.",
+    "members": [
+      "addict",
+      "bias",
+      "dispose",
+      "incline",
+      "predispose",
+      "slant"
+    ],
+    "situation_domain": "Affiliation",
+    "themroles": [
+      "Agent",
+      "Patient",
+      "Theme"
+    ],
+    "vn_class": "addict-96"
+  },
+  "Adjust": {
+    "definition": "Agent acts upon Patient, Goal, Source (adapt, accommodate, conform, adjust, gear). The grammatical subject is the agent. Example: \"He adapted himself.\".",
+    "domain_evidence": "by-adjacency to rehearse-26.8 (num 26.8)",
+    "example": "He adapted himself.",
+    "members": [
+      "adapt",
+      "accommodate",
+      "conform",
+      "adjust",
+      "gear",
+      "fit",
+      "readjust",
+      "readapt",
+      "assimilate"
+    ],
+    "situation_domain": "Creation",
+    "themroles": [
+      "Agent",
+      "Patient",
+      "Goal",
+      "Source"
+    ],
+    "vn_class": "adjust-26.9"
+  },
+  "Admit": {
+    "definition": "Agent acts upon Theme, Location (allow, let, hail, admit, include). The grammatical subject is the agent. Example: \"She admitted us.\".",
+    "domain_evidence": "by-adjacency to consume-66 (num 66.0)",
+    "example": "She admitted us.",
+    "members": [
+      "allow",
+      "let",
+      "hail",
+      "admit",
+      "include",
+      "permit",
+      "receive",
+      "welcome"
+    ],
+    "situation_domain": "Possession",
+    "themroles": [
+      "Agent",
+      "Theme",
+      "Location"
+    ],
+    "vn_class": "admit-64.3"
+  },
+  "Adopt": {
+    "definition": "Agent acts upon Theme (assume, adopt, take, take_on). The grammatical subject is the agent. Example: \"He assumed the position that dogs are people.\".",
+    "domain_evidence": "by-adjacency to confine-92 (num 92.0)",
+    "example": "He assumed the position that dogs are people.",
+    "members": [
+      "assume",
+      "adopt",
+      "take",
+      "take_on"
+    ],
+    "situation_domain": "Affiliation",
+    "themroles": [
+      "Agent",
+      "Theme"
+    ],
+    "vn_class": "adopt-93.1"
+  },
+  "Allow": {
+    "definition": "Causer acts upon Beneficiary, Eventuality (approve, authorize, endorse, okay, sanction). The grammatical subject is the causer. Example: \"They tolerated birds.\".",
+    "domain_evidence": "by-adjacency to consume-66 (num 66.0)",
+    "example": "They tolerated birds.",
+    "members": [
+      "approve",
+      "authorize",
+      "endorse",
+      "okay",
+      "sanction",
+      "tolerate",
+      "allow",
+      "permit"
+    ],
+    "situation_domain": "Possession",
+    "themroles": [
+      "Causer",
+      "Beneficiary",
+      "Eventuality"
+    ],
+    "vn_class": "allow-64.1"
+  },
+  "Amalgamate": {
+    "definition": "Agent acts upon Patient, Co-Patient (intermarry, couple, incorporate, integrate, match). The grammatical subject is the agent. Example: \"The folk songs alternated well with pop songs.\".",
+    "domain_evidence": "by-adjacency to mix-22.1 (num 22.1)",
+    "example": "The folk songs alternated well with pop songs.",
+    "members": [
+      "intermarry",
+      "couple",
+      "incorporate",
+      "integrate",
+      "match",
+      "overlap",
+      "amalgamate",
+      "coalesce",
+      "consolidate",
+      "intermingle",
+      "conjoin",
+      "entangle",
+      "muddle",
+      "pair",
+      "team",
+      "affiliate",
+      "associate",
+      "compare",
+      "confederate",
+      "confuse",
+      "total",
+      "identity",
+      "alternate",
+      "crisscross",
+      "entwine",
+      "interchange",
+      "interconnect",
+      "interlace",
+      "interlink",
+      "interlock",
+      "intersperse",
+      "intertwine",
+      "interweave",
+      "mate",
+      "unite",
+      "coincide",
+      "conflate",
+      "contrast",
+      "correlate",
+      "harmonize",
+      "interrelate",
+      "repackage",
+      "rhyme",
+      "unify",
+      "oppose",
+      "introduce",
+      "figure",
+      "marry",
+      "remarry",
+      "wed",
+      "engage"
+    ],
+    "situation_domain": "Incremental",
+    "themroles": [
+      "Agent",
+      "Patient",
+      "Co-Patient"
+    ],
+    "vn_class": "amalgamate-22.2"
+  },
+  "Avoid": {
+    "definition": "Agent acts upon Location, Theme (avoid, boycott, circumvent, dodge, duck). The grammatical subject is the agent. Example: \"We avoided the area.\".",
+    "domain_evidence": "by-adjacency to reach-51.8 (num 51.8)",
+    "example": "We avoided the area.",
+    "members": [
+      "avoid",
+      "boycott",
+      "circumvent",
+      "dodge",
+      "duck",
+      "elude",
+      "eschew",
+      "evade",
+      "forgo",
+      "shun",
+      "sidestep"
+    ],
+    "situation_domain": "Motion",
+    "themroles": [
+      "Agent",
+      "Location",
+      "Theme"
+    ],
+    "vn_class": "avoid-52"
+  },
+  "Become": {
+    "definition": "Patient acts upon Result (come_out, get, turn, turn_up, come). The grammatical subject is the patient. Example: \"The belt came undone.\".",
+    "domain_evidence": "by-adjacency to representation-110.1 (num 110.1)",
+    "example": "The belt came undone.",
+    "members": [
+      "come_out",
+      "get",
+      "turn",
+      "turn_up",
+      "come",
+      "fall",
+      "go",
+      "grow",
+      "become",
+      "end_up",
+      "leave"
+    ],
+    "situation_domain": "Association",
+    "themroles": [
+      "Patient",
+      "Result"
+    ],
+    "vn_class": "become-109.1"
+  },
+  "Begin": {
+    "definition": "Agent acts upon Eventuality, Subeventuality (go_on, proceed, set_out, set_about, begin). The grammatical subject is the agent. Example: \"He began to pack.\".",
+    "domain_evidence": "by-adjacency to earn-54.6 (num 54.6)",
+    "example": "He began to pack.",
+    "members": [
+      "go_on",
+      "proceed",
+      "set_out",
+      "set_about",
+      "begin",
+      "start",
+      "start_off",
+      "commence",
+      "recommence",
+      "repeat",
+      "resume",
+      "undertake"
+    ],
+    "situation_domain": "Possession",
+    "themroles": [
+      "Agent",
+      "Eventuality",
+      "Subeventuality"
+    ],
+    "vn_class": "begin-55.1"
+  },
+  "Benefit": {
+    "definition": "Causer acts upon Beneficiary (benefit, profit). The grammatical subject is the causer. Example: \"Sunlight benefited plants.\".",
+    "domain_evidence": "by-adjacency to defend-72.3 (num 72.3)",
+    "example": "Sunlight benefited plants.",
+    "members": [
+      "benefit",
+      "profit"
+    ],
+    "situation_domain": "Affiliation",
+    "themroles": [
+      "Causer",
+      "Beneficiary"
+    ],
+    "vn_class": "benefit-72.2"
+  },
+  "Berry": {
+    "definition": "Agent acts upon Location (antique, berry, birdnest, blackberry, clam). The grammatical subject is the agent. Example: \"The children berried in the summer.\".",
+    "domain_evidence": "by-adjacency to substitute-13.6.2 (num 13.6)",
+    "example": "The children berried in the summer.",
+    "members": [
+      "antique",
+      "berry",
+      "birdnest",
+      "blackberry",
+      "clam",
+      "crab",
+      "fish",
+      "fowl",
+      "grouse",
+      "hog",
+      "hay",
+      "log",
+      "mushroom",
+      "nest",
+      "nut",
+      "oyster",
+      "pearl",
+      "prawn",
+      "rabbit",
+      "scollop",
+      "seal",
+      "shark",
+      "shrimp",
+      "snail",
+      "snipe",
+      "sponge",
+      "whale",
+      "whelk",
+      "whore",
+      "hawk"
+    ],
+    "situation_domain": "Possession",
+    "themroles": [
+      "Agent",
+      "Location"
+    ],
+    "vn_class": "berry-13.7"
+  },
+  "Body_Motion": {
+    "definition": "Agent acts upon Theme, Goal, Path (hold, extend, reach, stretch). The grammatical subject is the agent. Example: \"She reached her hand out.\".",
+    "domain_evidence": "by-adjacency to body_internal_motion-49.1 (num 49.1)",
+    "example": "She reached her hand out.",
+    "members": [
+      "hold",
+      "extend",
+      "reach",
+      "stretch"
+    ],
+    "situation_domain": "Existence",
+    "themroles": [
+      "Agent",
+      "Theme",
+      "Goal",
+      "Path"
+    ],
+    "vn_class": "body_motion-49.2"
+  },
+  "Calibratable_Cos": {
+    "definition": "Patient acts upon Attribute, Extent, Initial_State (build, die, appreciate, climb, decline). The grammatical subject is the patient. Example: \"The price of oil soared.\".",
+    "domain_evidence": "by-adjacency to entity_specific_cos-45.5 (num 45.5)",
+    "example": "The price of oil soared.",
+    "members": [
+      "build",
+      "die",
+      "appreciate",
+      "climb",
+      "decline",
+      "dip",
+      "dive",
+      "depreciate",
+      "drop",
+      "dwindle",
+      "explode",
+      "fall",
+      "fall_away",
+      "fall-off",
+      "fluctuate",
+      "gain",
+      "go_down",
+      "go_up",
+      "grow",
+      "jump",
+      "mushroom",
+      "multiply",
+      "plummet",
+      "plump",
+      "plunge",
+      "retreat",
+      "rocket",
+      "rise",
+      "seesaw",
+      "skyrocket",
+      "slide",
+      "slip",
+      "soar",
+      "surge",
+      "swing",
+      "tumble",
+      "swell"
+    ],
+    "situation_domain": "Transformation",
+    "themroles": [
+      "Patient",
+      "Attribute",
+      "Extent",
+      "Initial_State",
+      "Result"
+    ],
+    "vn_class": "calibratable_cos-45.6.1"
+  },
+  "Care": {
+    "definition": "Experiencer acts upon Stimulus (mind, care, worry, wonder). The grammatical subject is the experiencer. Example: \"He didn't care.\".",
+    "domain_evidence": "by-adjacency to comprehend-87.2 (num 87.2)",
+    "example": "He didn't care.",
+    "members": [
+      "mind",
+      "care",
+      "worry",
+      "wonder"
+    ],
+    "situation_domain": "Cognition",
+    "themroles": [
+      "Experiencer",
+      "Stimulus"
+    ],
+    "vn_class": "care-88.1"
+  },
+  "Caring": {
+    "definition": "Agent acts upon Theme (babysit, look_after, manage, mind, wait_on). The grammatical subject is the agent. Example: \"Jared looked after the children.\".",
+    "domain_evidence": "by-adjacency to reject-77.2 (num 77.2)",
+    "example": "Jared looked after the children.",
+    "members": [
+      "babysit",
+      "look_after",
+      "manage",
+      "mind",
+      "wait_on",
+      "attend",
+      "tend",
+      "care",
+      "look_out"
+    ],
+    "situation_domain": "Communication",
+    "themroles": [
+      "Agent",
+      "Theme"
+    ],
+    "vn_class": "caring-75.2"
+  },
+  "Caused_Calibratable_Cos": {
+    "definition": "Causer acts upon Patient, Extent, Initial_State (commute, cut, raise, reduce, advance). The grammatical subject is the causer. Example: \"Lawmakers cut the budget by 10% from $1.46 million to $1.3 million.\".",
+    "domain_evidence": "by-adjacency to entity_specific_cos-45.5 (num 45.5)",
+    "example": "Lawmakers cut the budget by 10% from $1.46 million to $1.3 million.",
+    "members": [
+      "commute",
+      "cut",
+      "raise",
+      "reduce",
+      "advance",
+      "balloon",
+      "build-up",
+      "decrease",
+      "diminish",
+      "increase",
+      "move",
+      "shift",
+      "vary",
+      "lower"
+    ],
+    "situation_domain": "Transformation",
+    "themroles": [
+      "Causer",
+      "Patient",
+      "Extent",
+      "Initial_State",
+      "Result",
+      "Attribute"
+    ],
+    "vn_class": "caused_calibratable_cos-45.6.2"
+  },
+  "Complete": {
+    "definition": "Agent acts upon Eventuality (accomplish, achieve, bring-off, complete, pull-off). The grammatical subject is the agent. Example: \"Wilma completed the assignment.\".",
+    "domain_evidence": "by-adjacency to satisfy-55.7 (num 55.7)",
+    "example": "Wilma completed the assignment.",
+    "members": [
+      "accomplish",
+      "achieve",
+      "bring-off",
+      "complete",
+      "pull-off"
+    ],
+    "situation_domain": "Association",
+    "themroles": [
+      "Agent",
+      "Eventuality"
+    ],
+    "vn_class": "complete-55.2"
+  },
+  "Comprise": {
+    "definition": "Theme acts upon Pivot (comprise, compose, make, make_up, constitute). The grammatical subject is the theme. Example: \"Textiles make up the majority of exports.\".",
+    "domain_evidence": "by-adjacency to attend-107.4 (num 107.4)",
+    "example": "Textiles make up the majority of exports.",
+    "members": [
+      "comprise",
+      "compose",
+      "make",
+      "make_up",
+      "constitute",
+      "form",
+      "consist_of",
+      "encompass",
+      "contain"
+    ],
+    "situation_domain": "Affiliation",
+    "themroles": [
+      "Pivot",
+      "Theme"
+    ],
+    "vn_class": "comprise-107.2"
+  },
+  "Conduct": {
+    "definition": "Agent acts upon Theme, Beneficiary (conduct, give, head, hold, host). The grammatical subject is the agent. Example: \"The White House held a gala.\".",
+    "domain_evidence": "by-adjacency to reciprocate-112 (num 112.0)",
+    "example": "The White House held a gala.",
+    "members": [
+      "conduct",
+      "give",
+      "head",
+      "hold",
+      "host",
+      "run",
+      "spearhead",
+      "throw"
+    ],
+    "situation_domain": "Communication",
+    "themroles": [
+      "Agent",
+      "Theme",
+      "Beneficiary"
+    ],
+    "vn_class": "conduct-111.1"
+  },
+  "Conspire": {
+    "definition": "Agent acts upon Co-Agent, Theme, Maleficiary (ally, collaborate, collude, conspire, machinate). The grammatical subject is the agent. Example: \"John and Sarah conspired.\".",
+    "domain_evidence": "by-adjacency to defend-72.3 (num 72.3)",
+    "example": "John and Sarah conspired.",
+    "members": [
+      "ally",
+      "collaborate",
+      "collude",
+      "conspire",
+      "machinate",
+      "partner",
+      "scheme",
+      "team_up"
+    ],
+    "situation_domain": "Affiliation",
+    "themroles": [
+      "Agent",
+      "Co-Agent",
+      "Theme",
+      "Maleficiary"
+    ],
+    "vn_class": "conspire-71"
+  },
+  "Continue": {
+    "definition": "Agent acts upon Eventuality, Subeventuality (continue). The grammatical subject is the agent. Example: \"He continued to pack.\".",
+    "domain_evidence": "by-adjacency to satisfy-55.7 (num 55.7)",
+    "example": "He continued to pack.",
+    "members": [
+      "continue"
+    ],
+    "situation_domain": "Association",
+    "themroles": [
+      "Agent",
+      "Eventuality",
+      "Subeventuality"
+    ],
+    "vn_class": "continue-55.3"
+  },
+  "Convert": {
+    "definition": "Agent acts upon Patient, Initial_State, Result (advert, come_around, fall, get, get_around). The grammatical subject is the agent. Example: \"He converted to believing in Buddha.\".",
+    "domain_evidence": "by-adjacency to turn-26.6.1 (num 26.6)",
+    "example": "He converted to believing in Buddha.",
+    "members": [
+      "advert",
+      "come_around",
+      "fall",
+      "get",
+      "get_around",
+      "get_down",
+      "go_back",
+      "resort",
+      "return",
+      "revert",
+      "settle_down",
+      "take",
+      "turn",
+      "shift",
+      "change_over",
+      "convert",
+      "move_over",
+      "switch",
+      "switch_over"
+    ],
+    "situation_domain": "Transformation",
+    "themroles": [
+      "Patient",
+      "Initial_State",
+      "Result",
+      "Agent"
+    ],
+    "vn_class": "convert-26.6.2"
+  },
+  "Cope": {
+    "definition": "Agent acts upon Theme (deal, cope, manage, grapple, get_by). The grammatical subject is the agent. Example: \"He managed with climbing the slope.\".",
+    "domain_evidence": "by-adjacency to discover-84 (num 84.0)",
+    "example": "He managed with climbing the slope.",
+    "members": [
+      "deal",
+      "cope",
+      "manage",
+      "grapple",
+      "get_by",
+      "get_through"
+    ],
+    "situation_domain": "Cognition",
+    "themroles": [
+      "Agent",
+      "Theme"
+    ],
+    "vn_class": "cope-83"
+  },
+  "Dedicate": {
+    "definition": "Agent acts upon Theme, Goal (dedicate, devote, commit). The grammatical subject is the agent. Example: \"I dedicated myself to helping us.\".",
+    "domain_evidence": "by-adjacency to indicate-78 (num 78.0)",
+    "example": "I dedicated myself to helping us.",
+    "members": [
+      "dedicate",
+      "devote",
+      "commit"
+    ],
+    "situation_domain": "Association",
+    "themroles": [
+      "Agent",
+      "Theme",
+      "Goal"
+    ],
+    "vn_class": "dedicate-79"
+  },
+  "Delay": {
+    "definition": "Agent acts upon Eventuality (postpone, delay, defer, stall, procrastinate). The grammatical subject is the agent. Example: \"He delayed the watering.\".",
+    "domain_evidence": "by-adjacency to register-54.1 (num 54.1)",
+    "example": "He delayed the watering.",
+    "members": [
+      "postpone",
+      "delay",
+      "defer",
+      "stall",
+      "procrastinate"
+    ],
+    "situation_domain": "Quantification",
+    "themroles": [
+      "Agent",
+      "Eventuality"
+    ],
+    "vn_class": "delay-53.3"
+  },
+  "Discourage": {
+    "definition": "Causer acts upon Eventuality, Beneficiary (dissuade, deter, discourage, hamper, hinder). The grammatical subject is the causer. Example: \"The sign discouraged us from smoking.\".",
+    "domain_evidence": "by-adjacency to consume-66 (num 66.0)",
+    "example": "The sign discouraged us from smoking.",
+    "members": [
+      "dissuade",
+      "deter",
+      "discourage",
+      "hamper",
+      "hinder",
+      "impede",
+      "inhibit",
+      "obstruct",
+      "restrain"
+    ],
+    "situation_domain": "Possession",
+    "themroles": [
+      "Causer",
+      "Eventuality",
+      "Beneficiary"
+    ],
+    "vn_class": "discourage-64.5"
+  },
+  "Disfunction": {
+    "definition": "Theme engages in the named event (die, go_down, go_off, go_out, poop_out). The grammatical subject is the theme. Example: \"My phone died.\".",
+    "domain_evidence": "by-adjacency to use-105.1 (num 105.1)",
+    "example": "My phone died.",
+    "members": [
+      "die",
+      "go_down",
+      "go_off",
+      "go_out",
+      "poop_out"
+    ],
+    "situation_domain": "Force",
+    "themroles": [
+      "Theme"
+    ],
+    "vn_class": "disfunction-105.2.2"
+  },
+  "Empathize": {
+    "definition": "Experiencer acts upon Stimulus (empathize, sympathize, identify, commiserate). The grammatical subject is the experiencer. Example: \"I empathized.\".",
+    "domain_evidence": "by-adjacency to comprehend-87.2 (num 87.2)",
+    "example": "I empathized.",
+    "members": [
+      "empathize",
+      "sympathize",
+      "identify",
+      "commiserate"
+    ],
+    "situation_domain": "Cognition",
+    "themroles": [
+      "Experiencer",
+      "Stimulus"
+    ],
+    "vn_class": "empathize-88.2"
+  },
+  "Enforce": {
+    "definition": "Agent acts upon Theme (control, enforce, impose). The grammatical subject is the agent. Example: \"They enforced the rules.\".",
+    "domain_evidence": "by-adjacency to wish-62 (num 62.0)",
+    "example": "They enforced the rules.",
+    "members": [
+      "control",
+      "enforce",
+      "impose"
+    ],
+    "situation_domain": "Volition",
+    "themroles": [
+      "Agent",
+      "Theme"
+    ],
+    "vn_class": "enforce-63"
+  },
+  "Establish": {
+    "definition": "Agent acts upon Patient, Instrument (bring, constitute, constitutionalize, innovate, pioneer). The grammatical subject is the agent. Example: \"Zellig Harris established Penn's linguistics department.\".",
+    "domain_evidence": "by-adjacency to satisfy-55.7 (num 55.7)",
+    "example": "Zellig Harris established Penn's linguistics department.",
+    "members": [
+      "bring",
+      "constitute",
+      "constitutionalize",
+      "innovate",
+      "pioneer",
+      "stage",
+      "initiate",
+      "establish",
+      "fake",
+      "feign",
+      "format",
+      "found",
+      "plant",
+      "implement",
+      "instigate",
+      "institute",
+      "organize",
+      "originate",
+      "prepare",
+      "premise",
+      "devise",
+      "mount",
+      "bring_about",
+      "arrange",
+      "introduce",
+      "set",
+      "simulate",
+      "strike_up",
+      "synthesise",
+      "launch",
+      "open",
+      "open_up"
+    ],
+    "situation_domain": "Association",
+    "themroles": [
+      "Agent",
+      "Patient",
+      "Instrument"
+    ],
+    "vn_class": "establish-55.5"
+  },
+  "Exchange": {
+    "definition": "Agent acts upon Theme, Co-Theme, Co-Agent (barter, change, exchange, swap, trade). The grammatical subject is the agent. Example: \"Gwen exchanged the dress for a shirt.\".",
+    "domain_evidence": "by-adjacency to substitute-13.6.2 (num 13.6)",
+    "example": "Gwen exchanged the dress for a shirt.",
+    "members": [
+      "barter",
+      "change",
+      "exchange",
+      "swap",
+      "trade"
+    ],
+    "situation_domain": "Possession",
+    "themroles": [
+      "Agent",
+      "Theme",
+      "Co-Theme",
+      "Co-Agent"
+    ],
+    "vn_class": "exchange-13.6.1"
+  },
+  "Exclude": {
+    "definition": "Agent acts upon Theme, Goal (omit, exclude, preclude). The grammatical subject is the agent. Example: \"They excluded me from the meeting.\".",
+    "domain_evidence": "by-adjacency to attend-107.4 (num 107.4)",
+    "example": "They excluded me from the meeting.",
+    "members": [
+      "omit",
+      "exclude",
+      "preclude"
+    ],
+    "situation_domain": "Affiliation",
+    "themroles": [
+      "Agent",
+      "Theme",
+      "Goal"
+    ],
+    "vn_class": "exclude-107.3"
+  },
+  "Exhale": {
+    "definition": "Agent acts upon Theme (defecate, exhale, hemorrhage, perspire, expectorate). The grammatical subject is the agent. Example: \"Paul exhaled.\".",
+    "domain_evidence": "by-adjacency to breathe-40.1.2 (num 40.1)",
+    "example": "Paul exhaled.",
+    "members": [
+      "defecate",
+      "exhale",
+      "hemorrhage",
+      "perspire",
+      "expectorate",
+      "regurgitate",
+      "urinate",
+      "whiff",
+      "inhale"
+    ],
+    "situation_domain": "Creation",
+    "themroles": [
+      "Agent",
+      "Theme"
+    ],
+    "vn_class": "exhale-40.1.3"
+  },
+  "Flinch": {
+    "definition": "Experiencer acts upon Stimulus (balk, cower, cringe, flinch, quail). The grammatical subject is the experiencer. Example: \"Sharon flinched.\".",
+    "domain_evidence": "by-adjacency to snooze-40.4 (num 40.4)",
+    "example": "Sharon flinched.",
+    "members": [
+      "balk",
+      "cower",
+      "cringe",
+      "flinch",
+      "quail",
+      "recoil",
+      "shrink",
+      "wince"
+    ],
+    "situation_domain": "Existence",
+    "themroles": [
+      "Experiencer",
+      "Stimulus"
+    ],
+    "vn_class": "flinch-40.5"
+  },
+  "Focus": {
+    "definition": "Agent acts upon Topic (focus, focalize, center, concentrate, contemplate). The grammatical subject is the agent. Example: \"We focused on it.\".",
+    "domain_evidence": "by-adjacency to comprehend-87.2 (num 87.2)",
+    "example": "We focused on it.",
+    "members": [
+      "focus",
+      "focalize",
+      "center",
+      "concentrate",
+      "contemplate",
+      "converge",
+      "dwell",
+      "fixate",
+      "brood",
+      "deliberate",
+      "meditate",
+      "muse",
+      "ponder",
+      "reflect",
+      "ruminate",
+      "think",
+      "wonder"
+    ],
+    "situation_domain": "Cognition",
+    "themroles": [
+      "Agent",
+      "Topic"
+    ],
+    "vn_class": "focus-87.1"
+  },
+  "Forbid": {
+    "definition": "Causer acts upon Eventuality, Beneficiary (keep, ban, bar, block, exclude). The grammatical subject is the causer. Example: \"The rules forbade us from smoking.\".",
+    "domain_evidence": "by-adjacency to consume-66 (num 66.0)",
+    "example": "The rules forbade us from smoking.",
+    "members": [
+      "keep",
+      "ban",
+      "bar",
+      "block",
+      "exclude",
+      "forbid",
+      "preclude",
+      "prevent",
+      "prohibit",
+      "stop"
+    ],
+    "situation_domain": "Possession",
+    "themroles": [
+      "Causer",
+      "Eventuality",
+      "Beneficiary"
+    ],
+    "vn_class": "forbid-64.4"
+  },
+  "Free": {
+    "definition": "Causer acts upon Source, Theme (alleviate, liberate, discharge, exonerate, unburden). The grammatical subject is the causer. Example: \"It freed him of guilt.\".",
+    "domain_evidence": "by-adjacency to cheat-10.6.1 (num 10.6)",
+    "example": "It freed him of guilt.",
+    "members": [
+      "alleviate",
+      "liberate",
+      "discharge",
+      "exonerate",
+      "unburden",
+      "cleanse",
+      "disencumber",
+      "wean",
+      "ease",
+      "break",
+      "absolve",
+      "acquit",
+      "clear",
+      "free",
+      "emancipate",
+      "release",
+      "rerelease",
+      "cure",
+      "relieve",
+      "purge",
+      "purify"
+    ],
+    "situation_domain": "Possession",
+    "themroles": [
+      "Causer",
+      "Source",
+      "Theme"
+    ],
+    "vn_class": "free-10.6.3"
+  },
+  "Function": {
+    "definition": "Theme acts upon Attribute (go, go_on, run, perform, function). The grammatical subject is the theme. Example: \"The old dishwasher still functioned.\".",
+    "domain_evidence": "by-adjacency to use-105.1 (num 105.1)",
+    "example": "The old dishwasher still functioned.",
+    "members": [
+      "go",
+      "go_on",
+      "run",
+      "perform",
+      "function",
+      "operate",
+      "work"
+    ],
+    "situation_domain": "Force",
+    "themroles": [
+      "Theme",
+      "Attribute"
+    ],
+    "vn_class": "function-105.2.1"
+  },
+  "Help": {
+    "definition": "Agent acts upon Beneficiary, Theme (support, succor, aid, abet, assist). The grammatical subject is the agent. Example: \"I helped him.\".",
+    "domain_evidence": "by-adjacency to defend-72.3 (num 72.3)",
+    "example": "I helped him.",
+    "members": [
+      "support",
+      "succor",
+      "aid",
+      "abet",
+      "assist",
+      "help",
+      "go",
+      "pull"
+    ],
+    "situation_domain": "Affiliation",
+    "themroles": [
+      "Agent",
+      "Beneficiary",
+      "Theme"
+    ],
+    "vn_class": "help-72.1"
+  },
+  "Hold": {
+    "definition": "Agent acts upon Theme (wield, handle, clasp, clutch, grab). The grammatical subject is the agent. Example: \"She held the rail.\".",
+    "domain_evidence": "by-adjacency to support-15.3 (num 15.3)",
+    "example": "She held the rail.",
+    "members": [
+      "wield",
+      "handle",
+      "clasp",
+      "clutch",
+      "grab",
+      "grasp",
+      "grip",
+      "hold"
+    ],
+    "situation_domain": "Force",
+    "themroles": [
+      "Agent",
+      "Theme"
+    ],
+    "vn_class": "hold-15.1"
+  },
+  "Involve": {
+    "definition": "Agent acts upon Theme, Goal (involve, engage, relate, include, enroll). The grammatical subject is the agent. Example: \"They thoughtlessly involved me.\".",
+    "domain_evidence": "by-adjacency to attend-107.4 (num 107.4)",
+    "example": "They thoughtlessly involved me.",
+    "members": [
+      "involve",
+      "engage",
+      "relate",
+      "include",
+      "enroll"
+    ],
+    "situation_domain": "Affiliation",
+    "themroles": [
+      "Agent",
+      "Theme",
+      "Goal"
+    ],
+    "vn_class": "involve-107.1"
+  },
+  "Keep": {
+    "definition": "Agent acts upon Theme, Location (hoard, hold, keep, leave, store). The grammatical subject is the agent. Example: \"Michelle kept the papers in the desk.\".",
+    "domain_evidence": "by-adjacency to support-15.3 (num 15.3)",
+    "example": "Michelle kept the papers in the desk.",
+    "members": [
+      "hoard",
+      "hold",
+      "keep",
+      "leave",
+      "store",
+      "stock",
+      "stockpile"
+    ],
+    "situation_domain": "Force",
+    "themroles": [
+      "Agent",
+      "Theme",
+      "Location"
+    ],
+    "vn_class": "keep-15.2"
+  },
+  "Let": {
+    "definition": "Agent acts upon Beneficiary, Eventuality (let). The grammatical subject is the agent. Example: \"They let us smoke.\".",
+    "domain_evidence": "by-adjacency to consume-66 (num 66.0)",
+    "example": "They let us smoke.",
+    "members": [
+      "let"
+    ],
+    "situation_domain": "Possession",
+    "themroles": [
+      "Agent",
+      "Beneficiary",
+      "Eventuality"
+    ],
+    "vn_class": "let-64.2"
+  },
+  "Limit": {
+    "definition": "Causer acts upon Patient, Goal (confine, limit, reduce, restrict, restrain). The grammatical subject is the causer. Example: \"The lack of money limited the help.\".",
+    "domain_evidence": "by-adjacency to reject-77.2 (num 77.2)",
+    "example": "The lack of money limited the help.",
+    "members": [
+      "confine",
+      "limit",
+      "reduce",
+      "restrict",
+      "restrain",
+      "constrain"
+    ],
+    "situation_domain": "Communication",
+    "themroles": [
+      "Causer",
+      "Patient",
+      "Goal"
+    ],
+    "vn_class": "limit-76"
+  },
+  "Linger": {
+    "definition": "Agent acts upon Location, Eventuality (dally, dawdle, dither, equivocate, hesitate). The grammatical subject is the agent. Example: \"Sasha dawdled in the museum.\".",
+    "domain_evidence": "by-adjacency to register-54.1 (num 54.1)",
+    "example": "Sasha dawdled in the museum.",
+    "members": [
+      "dally",
+      "dawdle",
+      "dither",
+      "equivocate",
+      "hesitate",
+      "linger",
+      "loaf",
+      "loiter",
+      "pause",
+      "potter",
+      "putter",
+      "tarry"
+    ],
+    "situation_domain": "Quantification",
+    "themroles": [
+      "Agent",
+      "Location",
+      "Eventuality"
+    ],
+    "vn_class": "linger-53.1"
+  },
+  "Matter": {
+    "definition": "Experiencer acts upon Stimulus (matter, count). The grammatical subject is the experiencer. Example: \"It matters.\".",
+    "domain_evidence": "by-adjacency to exceed-90 (num 90.0)",
+    "example": "It matters.",
+    "members": [
+      "matter",
+      "count"
+    ],
+    "situation_domain": "Association",
+    "themroles": [
+      "Experiencer",
+      "Stimulus"
+    ],
+    "vn_class": "matter-91"
+  },
+  "Neglect": {
+    "definition": "Agent acts upon Theme (disregard, forgo, forego, ignore, leave_out). The grammatical subject is the agent. Example: \"I disregarded the message.\".",
+    "domain_evidence": "by-adjacency to cooperate-73.1 (num 73.1)",
+    "example": "I disregarded the message.",
+    "members": [
+      "disregard",
+      "forgo",
+      "forego",
+      "ignore",
+      "leave_out",
+      "overleap",
+      "overlook",
+      "fail",
+      "neglect",
+      "omit"
+    ],
+    "situation_domain": "Affiliation",
+    "themroles": [
+      "Agent",
+      "Theme"
+    ],
+    "vn_class": "neglect-75.1"
+  },
+  "Orbit": {
+    "definition": "Theme acts upon Axis (orbit, revolve, rotate, twirl). The grammatical subject is the theme. Example: \"The Earth revolved around the Sun.\".",
+    "domain_evidence": "by-adjacency to reach-51.8 (num 51.8)",
+    "example": "The Earth revolved around the Sun.",
+    "members": [
+      "orbit",
+      "revolve",
+      "rotate",
+      "twirl"
+    ],
+    "situation_domain": "Motion",
+    "themroles": [
+      "Theme",
+      "Axis"
+    ],
+    "vn_class": "orbit-51.9.2"
+  },
+  "Pain": {
+    "definition": "Experiencer acts upon Patient, Stimulus (ail, bother, burn, hurt, itch). The grammatical subject is the experiencer. Example: \"My eyes were itching.\".",
+    "domain_evidence": "by-adjacency to change_bodily_state-40.8.4 (num 40.8)",
+    "example": "My eyes were itching.",
+    "members": [
+      "ail",
+      "bother",
+      "burn",
+      "hurt",
+      "itch",
+      "kill",
+      "pain"
+    ],
+    "situation_domain": "Transformation",
+    "themroles": [
+      "Experiencer",
+      "Patient",
+      "Stimulus"
+    ],
+    "vn_class": "pain-40.8.1"
+  },
+  "Patent": {
+    "definition": "Agent acts upon Theme, Result (copyright, patent, trademark, license, register). The grammatical subject is the agent. Example: \"I patented my idea.\".",
+    "domain_evidence": "by-adjacency to own-100.1 (num 100.1)",
+    "example": "I patented my idea.",
+    "members": [
+      "copyright",
+      "patent",
+      "trademark",
+      "license",
+      "register",
+      "certify",
+      "credential",
+      "accredit",
+      "verify",
+      "evidence",
+      "imitate",
+      "impersonate"
+    ],
+    "situation_domain": "Possession",
+    "themroles": [
+      "Agent",
+      "Theme",
+      "Result"
+    ],
+    "vn_class": "patent-101"
+  },
+  "Play": {
+    "definition": "Agent acts upon Co-Agent, Theme (frolic, recreate, play). The grammatical subject is the agent. Example: \"Mary played.\".",
+    "domain_evidence": "by-adjacency to respond-113 (num 113.0)",
+    "example": "Mary played.",
+    "members": [
+      "frolic",
+      "recreate",
+      "play"
+    ],
+    "situation_domain": "Communication",
+    "themroles": [
+      "Agent",
+      "Co-Agent",
+      "Theme"
+    ],
+    "vn_class": "play-114.2"
+  },
+  "Promote": {
+    "definition": "Agent acts upon Theme (promote, advance, boost, further, encourage). The grammatical subject is the agent. Example: \"We promoted the cause.\".",
+    "domain_evidence": "by-adjacency to require-103 (num 103.0)",
+    "example": "We promoted the cause.",
+    "members": [
+      "promote",
+      "advance",
+      "boost",
+      "further",
+      "encourage",
+      "invite",
+      "emphasize",
+      "underscore"
+    ],
+    "situation_domain": "Association",
+    "themroles": [
+      "Agent",
+      "Theme"
+    ],
+    "vn_class": "promote-102"
+  },
+  "Prosecute": {
+    "definition": "Agent acts upon Patient, Theme, Attribute (book, bust, collar, impeach, nab). The grammatical subject is the agent. Example: \"They collared the suspect.\".",
+    "domain_evidence": "by-adjacency to judgment-33.1 (num 33.1)",
+    "example": "They collared the suspect.",
+    "members": [
+      "book",
+      "bust",
+      "collar",
+      "impeach",
+      "nab",
+      "penalize",
+      "report",
+      "sanction",
+      "arrest",
+      "charge",
+      "indict",
+      "persecute",
+      "prosecute",
+      "punish",
+      "try"
+    ],
+    "situation_domain": "Cognition",
+    "themroles": [
+      "Agent",
+      "Patient",
+      "Theme",
+      "Attribute"
+    ],
+    "vn_class": "prosecute-33.2"
+  },
+  "Rebel": {
+    "definition": "Agent acts upon Maleficiary, Theme (discriminate, rebel, retaliate, sin, legislate). The grammatical subject is the agent. Example: \"John rebelled.\".",
+    "domain_evidence": "by-adjacency to defend-72.3 (num 72.3)",
+    "example": "John rebelled.",
+    "members": [
+      "discriminate",
+      "rebel",
+      "retaliate",
+      "sin",
+      "legislate",
+      "protest"
+    ],
+    "situation_domain": "Affiliation",
+    "themroles": [
+      "Agent",
+      "Maleficiary",
+      "Theme"
+    ],
+    "vn_class": "rebel-71.2"
+  },
+  "Refrain": {
+    "definition": "Agent acts upon Eventuality (refrain, abstain, desist, forbear). The grammatical subject is the agent. Example: \"He refrained.\".",
+    "domain_evidence": "by-adjacency to pay-68 (num 68.0)",
+    "example": "He refrained.",
+    "members": [
+      "refrain",
+      "abstain",
+      "desist",
+      "forbear"
+    ],
+    "situation_domain": "Possession",
+    "themroles": [
+      "Agent",
+      "Eventuality"
+    ],
+    "vn_class": "refrain-69"
+  },
+  "Rely": {
+    "definition": "Agent acts upon Theme (rely, depend, bank, bargain, count). The grammatical subject is the agent. Example: \"She relies on coming back in time.\".",
+    "domain_evidence": "by-adjacency to pay-68 (num 68.0)",
+    "example": "She relies on coming back in time.",
+    "members": [
+      "rely",
+      "depend",
+      "bank",
+      "bargain",
+      "count",
+      "figure",
+      "reckon",
+      "bet",
+      "gamble",
+      "take_a_chance",
+      "wager"
+    ],
+    "situation_domain": "Possession",
+    "themroles": [
+      "Agent",
+      "Theme"
+    ],
+    "vn_class": "rely-70"
+  },
+  "Resign": {
+    "definition": "Agent acts upon Source, Attribute (leave_office, step_down, walk_out, resign, retire). The grammatical subject is the agent. Example: \"He resigned.\".",
+    "domain_evidence": "by-adjacency to fire-10.10 (num 10.1)",
+    "example": "He resigned.",
+    "members": [
+      "leave_office",
+      "step_down",
+      "walk_out",
+      "resign",
+      "retire",
+      "walk",
+      "walk_away",
+      "withdraw",
+      "abdicate",
+      "depart",
+      "give_up",
+      "leave",
+      "renounce",
+      "quit",
+      "vacate",
+      "walk_off"
+    ],
+    "situation_domain": "Affiliation",
+    "themroles": [
+      "Agent",
+      "Source",
+      "Attribute"
+    ],
+    "vn_class": "resign-10.11"
+  },
+  "Risk": {
+    "definition": "Agent acts upon Pivot, Theme, Eventuality (bet, gamble, punt, venture, wager). The grammatical subject is the agent. Example: \"I risked my job.\".",
+    "domain_evidence": "by-adjacency to supervision-95.2.2 (num 95.2)",
+    "example": "I risked my job.",
+    "members": [
+      "bet",
+      "gamble",
+      "punt",
+      "venture",
+      "wager",
+      "chance",
+      "risk",
+      "hazard"
+    ],
+    "situation_domain": "Affiliation",
+    "themroles": [
+      "Agent",
+      "Pivot",
+      "Theme",
+      "Eventuality"
+    ],
+    "vn_class": "risk-94"
+  },
+  "Rotate": {
+    "definition": "Agent acts upon Theme, Extent, Trajectory (curl, coil, hook, rotate, spin). The grammatical subject is the agent. Example: \"The camera rotated 90 degrees.\".",
+    "domain_evidence": "by-adjacency to reach-51.8 (num 51.8)",
+    "example": "The camera rotated 90 degrees.",
+    "members": [
+      "curl",
+      "coil",
+      "hook",
+      "rotate",
+      "spin",
+      "swing",
+      "turn",
+      "twirl",
+      "twist",
+      "wind"
+    ],
+    "situation_domain": "Motion",
+    "themroles": [
+      "Theme",
+      "Extent",
+      "Trajectory",
+      "Agent"
+    ],
+    "vn_class": "rotate-51.9.1"
+  },
+  "Rush": {
+    "definition": "Agent acts upon Theme, Eventuality (hasten, hurry, rush). The grammatical subject is the agent. Example: \"Maggie hurried with her lunch.\".",
+    "domain_evidence": "by-adjacency to register-54.1 (num 54.1)",
+    "example": "Maggie hurried with her lunch.",
+    "members": [
+      "hasten",
+      "hurry",
+      "rush"
+    ],
+    "situation_domain": "Quantification",
+    "themroles": [
+      "Agent",
+      "Theme",
+      "Eventuality"
+    ],
+    "vn_class": "rush-53.2"
+  },
+  "Seem": {
+    "definition": "Theme acts upon Attribute (smell, sound, taste, keep, act). The grammatical subject is the theme. Example: \"He appeared crazy.\".",
+    "domain_evidence": "by-adjacency to multiply-108 (num 108.0)",
+    "example": "He appeared crazy.",
+    "members": [
+      "smell",
+      "sound",
+      "taste",
+      "keep",
+      "act",
+      "be",
+      "feel",
+      "look",
+      "remain",
+      "stay",
+      "seem",
+      "appear"
+    ],
+    "situation_domain": "Quantification",
+    "themroles": [
+      "Theme",
+      "Attribute"
+    ],
+    "vn_class": "seem-109"
+  },
+  "Shake": {
+    "definition": "Agent acts upon Patient, Co-Patient (lump, mass, beat, fuse, scramble). The grammatical subject is the agent. Example: \"The sticks bundled easily.\".",
+    "domain_evidence": "by-adjacency to tape-22.4 (num 22.4)",
+    "example": "The sticks bundled easily.",
+    "members": [
+      "lump",
+      "mass",
+      "beat",
+      "fuse",
+      "scramble",
+      "stir",
+      "swirl",
+      "whip",
+      "whisk",
+      "band",
+      "baste",
+      "cluster",
+      "collate",
+      "collect",
+      "fix",
+      "gather",
+      "glom",
+      "group",
+      "herd",
+      "pair",
+      "roll",
+      "sew",
+      "shake",
+      "shuffle",
+      "stick",
+      "attach",
+      "bind",
+      "bond",
+      "bundle",
+      "concatenate",
+      "fasten",
+      "graft",
+      "jumble",
+      "ligate",
+      "moor",
+      "package",
+      "secure",
+      "splice",
+      "toggle",
+      "weld",
+      "fixate",
+      "affix",
+      "agglutinate"
+    ],
+    "situation_domain": "Incremental",
+    "themroles": [
+      "Agent",
+      "Patient",
+      "Co-Patient"
+    ],
+    "vn_class": "shake-22.3"
+  },
+  "Spend_Time": {
+    "definition": "Agent acts upon Duration, Attribute (kill, lead, pass, serve, misspend). The grammatical subject is the agent. Example: \"I misspent 5 hours.\".",
+    "domain_evidence": "by-adjacency to require-103 (num 103.0)",
+    "example": "I misspent 5 hours.",
+    "members": [
+      "kill",
+      "lead",
+      "pass",
+      "serve",
+      "misspend",
+      "spend",
+      "use",
+      "waste"
+    ],
+    "situation_domain": "Association",
+    "themroles": [
+      "Agent",
+      "Duration",
+      "Attribute"
+    ],
+    "vn_class": "spend_time-104"
+  },
+  "Stop": {
+    "definition": "Affector acts upon Eventuality, Subeventuality (cut, discontinue, kill, close, cut_off). The grammatical subject is the affector. Example: \"John cut the engine.\".",
+    "domain_evidence": "by-adjacency to satisfy-55.7 (num 55.7)",
+    "example": "John cut the engine.",
+    "members": [
+      "cut",
+      "discontinue",
+      "kill",
+      "close",
+      "cut_off",
+      "cut_out",
+      "deactivate",
+      "halt",
+      "stall",
+      "terminate",
+      "cease",
+      "conclude",
+      "end",
+      "finish",
+      "stop",
+      "quit"
+    ],
+    "situation_domain": "Association",
+    "themroles": [
+      "Affector",
+      "Eventuality",
+      "Subeventuality"
+    ],
+    "vn_class": "stop-55.4"
+  },
+  "Subjugate": {
+    "definition": "Agent acts upon Patient, Instrument (disenfranchise, enslave, mob, nourish, suppress). The grammatical subject is the agent. Example: \"Winnie the Pooh subjugated the unfortunate Pixies.\".",
+    "domain_evidence": "by-adjacency to poison-42.2 (num 42.2)",
+    "example": "Winnie the Pooh subjugated the unfortunate Pixies.",
+    "members": [
+      "disenfranchise",
+      "enslave",
+      "mob",
+      "nourish",
+      "suppress",
+      "stamp_down",
+      "subdue",
+      "conquer",
+      "curb",
+      "crush",
+      "stifle",
+      "dampen",
+      "suffocate",
+      "choke",
+      "hush",
+      "silence",
+      "still",
+      "shut_up",
+      "hush_up",
+      "lull",
+      "calm_down",
+      "gag",
+      "muzzle",
+      "squelch",
+      "quell",
+      "quench",
+      "smother",
+      "muffle",
+      "repress",
+      "quash",
+      "keep_down",
+      "subjugate",
+      "reduce",
+      "slake",
+      "strangle",
+      "kill",
+      "walk_over"
+    ],
+    "situation_domain": "Transformation",
+    "themroles": [
+      "Agent",
+      "Patient",
+      "Instrument"
+    ],
+    "vn_class": "subjugate-42.3"
+  },
+  "Subordinate": {
+    "definition": "Agent acts upon Co-Agent (answer, report). The grammatical subject is the agent. Example: \"Kevin reported to Martha.\".",
+    "domain_evidence": "by-adjacency to supervision-95.2.2 (num 95.2)",
+    "example": "Kevin reported to Martha.",
+    "members": [
+      "answer",
+      "report"
+    ],
+    "situation_domain": "Affiliation",
+    "themroles": [
+      "Agent",
+      "Co-Agent"
+    ],
+    "vn_class": "subordinate-95.2.1"
+  },
+  "Succeed": {
+    "definition": "Agent acts upon Eventuality (succeed, excel, manage, win, fall). The grammatical subject is the agent. Example: \"I succeeded.\".",
+    "domain_evidence": "by-adjacency to cooperate-73.1 (num 73.1)",
+    "example": "I succeeded.",
+    "members": [
+      "succeed",
+      "excel",
+      "manage",
+      "win",
+      "fall",
+      "fall_off",
+      "fall_by_the_wayside",
+      "lose",
+      "flub",
+      "fail"
+    ],
+    "situation_domain": "Affiliation",
+    "themroles": [
+      "Agent",
+      "Eventuality"
+    ],
+    "vn_class": "succeed-74"
+  },
+  "Suspect": {
+    "definition": "Agent acts upon Theme, Attribute (suspect, accuse, condemn). The grammatical subject is the agent. Example: \"I suspected him of infidelity.\".",
+    "domain_evidence": "by-adjacency to indicate-78 (num 78.0)",
+    "example": "I suspected him of infidelity.",
+    "members": [
+      "suspect",
+      "accuse",
+      "condemn"
+    ],
+    "situation_domain": "Association",
+    "themroles": [
+      "Agent",
+      "Theme",
+      "Attribute"
+    ],
+    "vn_class": "suspect-81"
+  },
+  "Sustain": {
+    "definition": "Agent acts upon Theme, Instrument, Attribute (hold, maintain, sustain, prolong, protract). The grammatical subject is the agent. Example: \"I maintained a strong government through ruthless domination.\".",
+    "domain_evidence": "by-adjacency to satisfy-55.7 (num 55.7)",
+    "example": "I maintained a strong government through ruthless domination.",
+    "members": [
+      "hold",
+      "maintain",
+      "sustain",
+      "prolong",
+      "protract",
+      "keep_up",
+      "continue",
+      "carry_on",
+      "keep",
+      "leave"
+    ],
+    "situation_domain": "Association",
+    "themroles": [
+      "Agent",
+      "Theme",
+      "Instrument",
+      "Attribute"
+    ],
+    "vn_class": "sustain-55.6"
+  },
+  "Terminus": {
+    "definition": "Theme acts upon Location (begin, end, lead, start, stop). The grammatical subject is the theme. Example: \"His property begins at the fence.\".",
+    "domain_evidence": "by-adjacency to contiguous_location-47.8 (num 47.8)",
+    "example": "His property begins at the fence.",
+    "members": [
+      "begin",
+      "end",
+      "lead",
+      "start",
+      "stop",
+      "terminate"
+    ],
+    "situation_domain": "Location",
+    "themroles": [
+      "Theme",
+      "Location"
+    ],
+    "vn_class": "terminus-47.9"
+  },
+  "Trifle": {
+    "definition": "Agent acts upon Theme (dally, diddle, fiddle, play, toy). The grammatical subject is the agent. Example: \"She trifled with him.\".",
+    "domain_evidence": "by-adjacency to use-105.1 (num 105.1)",
+    "example": "She trifled with him.",
+    "members": [
+      "dally",
+      "diddle",
+      "fiddle",
+      "play",
+      "toy",
+      "trifle"
+    ],
+    "situation_domain": "Force",
+    "themroles": [
+      "Agent",
+      "Theme"
+    ],
+    "vn_class": "trifle-105.3"
+  },
+  "Try": {
+    "definition": "Agent acts upon Eventuality (try, attempt). The grammatical subject is the agent. Example: \"I tried apologizing.\".",
+    "domain_evidence": "by-adjacency to intend-61.2 (num 61.2)",
+    "example": "I tried apologizing.",
+    "members": [
+      "try",
+      "attempt"
+    ],
+    "situation_domain": "Volition",
+    "themroles": [
+      "Agent",
+      "Eventuality"
+    ],
+    "vn_class": "try-61.1"
+  },
+  "Void": {
+    "definition": "Agent acts upon Patient (annul, quash, void, avoid, invalidate). The grammatical subject is the agent. Example: \"I nullified their advantage.\".",
+    "domain_evidence": "by-adjacency to use-105.1 (num 105.1)",
+    "example": "I nullified their advantage.",
+    "members": [
+      "annul",
+      "quash",
+      "void",
+      "avoid",
+      "invalidate",
+      "nullify"
+    ],
+    "situation_domain": "Force",
+    "themroles": [
+      "Agent",
+      "Patient"
+    ],
+    "vn_class": "void-106"
+  },
+  "Volunteer": {
+    "definition": "Agent acts upon Pivot, Theme, Attribute (offer, enlist, hire_on, sign_on, sign_up). The grammatical subject is the agent. Example: \"John volunteered my sister for the task.\".",
+    "domain_evidence": "by-adjacency to employment-95.3 (num 95.3)",
+    "example": "John volunteered my sister for the task.",
+    "members": [
+      "offer",
+      "enlist",
+      "hire_on",
+      "sign_on",
+      "sign_up",
+      "volunteer"
+    ],
+    "situation_domain": "Affiliation",
+    "themroles": [
+      "Agent",
+      "Pivot",
+      "Theme",
+      "Attribute",
+      "Beneficiary"
+    ],
+    "vn_class": "volunteer-95.4"
+  },
+  "Weekend": {
+    "definition": "Theme acts upon Location (december, holiday, honeymoon, junket, overnight). The grammatical subject is the theme. Example: \"My family always summered at the seashore.\".",
+    "domain_evidence": "by-adjacency to satisfy-55.7 (num 55.7)",
+    "example": "My family always summered at the seashore.",
+    "members": [
+      "december",
+      "holiday",
+      "honeymoon",
+      "junket",
+      "overnight",
+      "sojourn",
+      "summer",
+      "vacation",
+      "weekend",
+      "winter"
+    ],
+    "situation_domain": "Association",
+    "themroles": [
+      "Theme",
+      "Location"
+    ],
+    "vn_class": "weekend-56"
+  },
+  "Withdraw": {
+    "definition": "Agent acts upon Source (back_out, chicken_out, get_out, wriggle_out, bow_out). The grammatical subject is the agent. Example: \"He withdrew.\".",
+    "domain_evidence": "by-adjacency to discover-84 (num 84.0)",
+    "example": "He withdrew.",
+    "members": [
+      "back_out",
+      "chicken_out",
+      "get_out",
+      "wriggle_out",
+      "bow_out",
+      "pull_out",
+      "back_down",
+      "back_off",
+      "get_away",
+      "pull_away",
+      "retire",
+      "retreat",
+      "withdraw"
+    ],
+    "situation_domain": "Cognition",
+    "themroles": [
+      "Agent",
+      "Source"
+    ],
+    "vn_class": "withdraw-82"
+  },
+  "Work": {
+    "definition": "Agent acts upon Co-Agent, Theme (bang_away, labor, labour, plug_away, slog_away). The grammatical subject is the agent. Example: \"Amanda worked.\".",
+    "domain_evidence": "by-adjacency to cooperate-73.1 (num 73.1)",
+    "example": "Amanda worked.",
+    "members": [
+      "bang_away",
+      "labor",
+      "labour",
+      "plug_away",
+      "slog_away",
+      "work"
+    ],
+    "situation_domain": "Affiliation",
+    "themroles": [
+      "Agent",
+      "Co-Agent",
+      "Theme"
+    ],
+    "vn_class": "work-73.2"
+  }
+}
