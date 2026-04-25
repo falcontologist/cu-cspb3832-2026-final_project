@@ -14,11 +14,6 @@ results/checkpoints/fold_*/
 *.pt
 *.ckpt
 
-# Legacy scratch directory (pre-reorganization); may still hold untracked
-# model checkpoints, intermediate CSVs, and unrelated prior-project files
-# on the author's machine. Not part of the submission.
-Scripts/
-
 # Auto-generated fold splits — regenerate via src/prepare_splits.py
 data/folds/
 
